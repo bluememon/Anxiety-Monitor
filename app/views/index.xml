@@ -1,0 +1,35 @@
+<Alloy>
+	<Window class="container">
+		<View class="pageNumber">
+			<Label id="pageNumber"></Label>
+		</View>
+		<View id="scrollContent">
+			<ScrollableView id="scrollableView" showPagingControl="true">
+	            <View id="view1" class="blankCard">
+	            	<Label class="labelQuestion">Cual es el pensamiento que me preocupa?</Label>
+	            	<TextField id="thought"></TextField>
+	            </View>
+	            <View id="view2" class="blankCard">
+	             	<Label class="labelQuestion">Cual es la probabilidad de que suceda?</Label>
+	             	<Slider id="probabilityHappens"></Slider>
+	             </View>
+	            <View id="view3" class="blankCard">
+					<Label class="labelQuestion">Cual es tu emocion al respecto?</Label>
+					<Slider id="emotionIntensity"></Slider>
+	            </View>
+	            <View id="view4" class="blankCard">
+					<Label class="labelQuestion">Con que evidencia cuento para mi prediccion?</Label>
+					<TextArea id="evidenciaFavor"></TextArea>
+	            </View>
+	            <View id="view5" class="blankCard">
+					<Label class="labelQuestion">Que evidencia en contra exsiste para mi prediccion?</Label>
+					<TextArea id="evidenciaContra"></TextArea>
+	            </View>
+	            <View id="view6" class="blankCard">
+					<Label class="labelQuestion">Que Tan probabilidad le das a que todo esto suceda?</Label>
+					<Slider id="probabilityGeneral"></Slider>
+	            </View>
+	        </ScrollableView>
+        </View>
+	</Window>
+</Alloy>

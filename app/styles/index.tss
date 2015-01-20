@@ -1,0 +1,83 @@
+".container": {
+	backgroundColor: "#E7E7E7"
+}
+
+"#pageNumber":{
+	backgroundColor: "#ffffff",
+	color: "#000000",
+	top: "5%",
+	right: "5%",
+	width: "55dp",
+	height: "55dp",
+	borderRadius: 8,
+	zIndex: 2
+}
+
+"#scrollContent": {
+	zIndex: 1,
+	left: "16dp",
+	right: "16dp",
+	top: "16dp",
+	bottom: "16dp"
+}
+
+".blankCard": {
+	backgroundColor: "#FFFFFF",
+	width: "80%",
+	height: "80%",
+	left: "10%"
+}
+
+"TextField":{
+	width: "90%",
+	height: Titanium.UI.SIZE,
+	color: "#000000",
+	font: {
+		fontSize: 12
+	},
+	top: "50%",
+	left: "5%",
+	align: "center"
+}
+
+"TextArea": {
+	color: "#000000",
+	backgroundColor: "#FFFFFF",
+	width: "90%",
+	height: "30%",
+	top: "50%",
+	left: "5%",
+	align: "center"
+}
+
+"#scrollableView": {}
+
+"#thought":{}
+
+"#emotionIntensity": {}
+
+"#evidenciaFavor": {}
+
+"#evidenciaContra": {}
+
+"#probabilityHappens": {}
+
+"#probabilityGeneral": {}
+
+".labelQuestion": {
+	color: "#000000",
+	font:{
+		fontSize: "46dp"
+	},
+	width: "90%",
+	height: Titanium.UI.SIZE,	
+	top: "10%",
+	textAlign: "center"
+}
+
+"#view1" : {}
+"#view2" : {}
+"#view3" : {}
+"#view4" : {}
+"#view5" : {}
+"#view6" : {}
