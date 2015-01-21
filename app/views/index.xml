@@ -1,6 +1,6 @@
 <Alloy>
 	<Window class="container">
-		<View class="pageNumber">
+		<View id="pageNumber">
 			<Label id="pageNumber"></Label>
 		</View>
 		<View id="scrollContent">
@@ -26,7 +26,7 @@
 					<TextArea id="evidenciaContra"></TextArea>
 	            </View>
 	            <View id="view6" class="blankCard">
-					<Label class="labelQuestion">Que Tan probabilidad le das a que todo esto suceda?</Label>
+					<Label class="labelQuestion">Que probabilidad das a que todo esto suceda?</Label>
 					<Slider id="probabilityGeneral"></Slider>
 	            </View>
 	        </ScrollableView>

@@ -1,0 +1,81 @@
+Programa principal
+	1. Validacion PIN
+		1.1.-Paciente
+			1.1.1 Administrador de Diario
+				1.1.1.1 Agregar Entrada al Diario
+				1.1.1.2 Ver Entrada del Diario
+				1.1.1.3 Borrar Entrada de Diario
+		1.2.-Terapeuta
+			1.2.1 Administracion de Pacientes
+				1.2.1.1 Agregar Paciente
+				1.2.1.2 Editar Paciente
+				1.2.1.3 Borrar Paciente
+				1.2.1.4 Listado de Pacientes
+				 1.2.1.4.1 Listado de Diarios
+				 	1.2.1.4.1.1 Entrada de diario
+				 1.2.1.4.2 Estadisticas Diario
+				 	1.2.1.4.2.1 - Ultima Entrada
+				 	1.2.1.4.2.2 - Grafica de ansiedad general basada en las ultimas entradas (grafica lineal contra tiempo)
+				 	1.2.1.4.2.3 - Grafica de categorias junto con la severidad de ansiedad por cada una de ellas (grafica de pie)
+
+
+1. Validacion PIN
+	1.1 Descripción: Pagina de Inicio Aplicacion en General
+	1.2 Features:
+		Mensaje de bienvenida
+		Campo para entrada de PIN
+		Boton de entrada
+
+
+	1.1.1- Paciente Landing Page (Administracion del Diario)
+		1.1 Descripcion: Pagina principal del paciente
+		1.2 Features:
+			Seccion de una grafica con estadisticas de los diarios
+			listado de las entradas del diario*
+			Boton para Agregar una Entrada*
+
+		1.1.1.1- Agregar Entrada al Diario
+			1.1 Descripcion: Agregar una entrada al diario
+			1.2 Features:
+				Entrada Items
+					Cual es el pensamiento que preocupa (texto)
+					Categoria (opcion para crear una categoria nueva por cada paciente) (texto)
+					Probabilidad que suceda (numerica)
+					Emocion al respecto (numerica)
+					Detalles sobre emocion - opcional (texto)
+					Evidencia con la que cuento para mi prediccion? (texto)
+					Que evidencia en contra exsiste para que no se cumpla mi prediccion? (texto)
+					Que probabilidad das a que todo esto suceda? (numerica)
+					Pensamientos o notas finales (texto)
+				Boton de Enviar
+
+		1.1.1.2 Ver Entrada del Diario
+			1.1 Descripcion: Pagina de detalle de alguna entrada anterior (no se puede editar)
+			1.2 Features:
+				Consulta de los Items
+				Boton de borrar (simplemente eliminar de las opciones que se muestren en la app por parte del paciente)
+
+
+	1.2.-Terapeuta Landing Page
+		1.2.1 Descripcion: Administracion de los pacientes
+		1.2.2 Features:
+			Listado de Pacientes
+			Boton de Agregar Paciente
+
+		1.2.1- Pagina de Resumen de paciente
+			1.2.1.1 Descripcion: Pagina de información de un paciente en especifico
+			1.2.1.2 Features:
+				Informacion del paciente
+					Informacion Personal
+					Medicamento que esta tomando
+				Notas acerca del paciente
+				Listado de Diarios
+				Estadisticas de los diarios
+					Ultima Entrada - fecha
+					Grafica de ansiedad general basada en las ultimas entradas (grafica lineal contra tiempo)
+					Grafica de categorias junto con la severidad de ansiedad por cada una de ellas (grafica de pie)
+
+			1.1.1.2 Ver Entrada del Diario
+			1.1 Descripcion: Pagina de detalle de alguna entrada anterior (no se puede editar)
+			1.2 Features:
+				Consulta de los Items
