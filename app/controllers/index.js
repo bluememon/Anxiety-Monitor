@@ -1,5 +1,7 @@
-$.scrollableView.addEventListener('scroll', function(e){
-	$.pageNumber.text = $.scrollableView.currentPage;
+$.entrarSistema.addEventListener("click", function(){
+	var win=Alloy.createController('listado').getView();
+ 	win.open();
 });
-
 $.index.open();
+
+

@@ -1,83 +1,41 @@
+"#generalNav":{}
+
 ".container": {
 	backgroundColor: "#E7E7E7"
 }
 
-"#pageNumber":{
-	backgroundColor: "#ffffff",
+"#wrapper": {
+	top: "5dp",
+	left: "5dp",
+	right: "5dp",
+	bottom: "5dp"
+}
+
+"#pinLabel": {
 	color: "#000000",
-	top: "5%",
-	right: "5%",
-	width: "55dp",
-	height: "55dp",
-	borderRadius: 8,
-	zIndex: 2
+	font: {
+		fontSize: "45sp"
+	},
+	top: "15sp"
 }
 
-"#scrollContent": {
-	zIndex: 1,
-	left: "16dp",
-	right: "16dp",
-	top: "16dp",
-	bottom: "16dp"
-}
-
-".blankCard": {
-	backgroundColor: "#FFFFFF",
-	width: "80%",
-	height: "80%",
-	left: "10%"
-}
-
-"TextField":{
-	width: "90%",
+"#pin": {
+	keyboardType: Titanium.UI.KEYBOARD_NUMBER_PAD,
+	passwordMask: true,
+	width: Titanium.UI.FILL,
 	height: Titanium.UI.SIZE,
 	color: "#000000",
 	font: {
-		fontSize: 12
+		fontSize: "45sp"
 	},
-	top: "50%",
-	left: "5%",
-	align: "center"
+	textAlign: "center",
+	maxLength: 4
 }
 
-"TextArea": {
-	color: "#000000",
-	backgroundColor: "#FFFFFF",
-	width: "90%",
-	height: "30%",
-	top: "50%",
-	left: "5%",
-	align: "center"
+"#entrarSistema" : {
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE,
+	bottom: "10%"
 }
 
-"#scrollableView": {}
-
-"#thought":{}
-
-"#emotionIntensity": {}
-
-"#evidenciaFavor": {}
-
-"#evidenciaContra": {}
-
-"#probabilityHappens": {}
-
-"#probabilityGeneral": {}
-
-".labelQuestion": {
-	color: "#000000",
-	font:{
-		fontSize: "46dp"
-	},
-	width: "90%",
-	height: Titanium.UI.SIZE,	
-	top: "10%",
-	textAlign: "center"
-}
-
-"#view1" : {}
-"#view2" : {}
-"#view3" : {}
-"#view4" : {}
-"#view5" : {}
-"#view6" : {}
+"#mainWindow": {}
