@@ -1,0 +1,15 @@
+<Alloy>
+	 <TabGroup>
+            <Tab id="tab1" title="Estadisticas">
+                <Window id="win1" title="Tab 1">
+                   <Label class="Tablabel" color="#999">Estadisticas</Label>
+                </Window>
+            </Tab>
+            <Tab id="tab2" title="Diario">
+                <Window id="win2" title="Tab 2">
+                    <Label class="Tablabel">Diario</Label>
+                </Window>
+            </Tab>
+            <!-- Use the Require tag to include external Ti.UI.Tab views -->
+        </TabGroup>
+</Alloy>

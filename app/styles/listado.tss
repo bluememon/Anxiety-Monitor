@@ -1,0 +1,52 @@
+"#actionbar": {
+	font:{
+		fontSize: "24sp"
+	},
+	color: "#FFFFFF",
+	backgroundColor: "#B4987D",
+	homeButtonEnabled: true,
+	title: "Mi Diario"
+}
+
+"MenuItem": {
+    showAsAction: Ti.Android.SHOW_AS_ACTION_ALWAYS
+}
+
+"#item1": {
+    icon: Ti.Android.R.drawable.ic_menu_preferences
+}
+
+"#item2": {
+    icon: Ti.Android.R.drawable.ic_menu_search
+}
+
+".tabView": {
+	backgroundColor: "#B4987D"
+}
+
+"#estadisticasBoton": {
+	top: 0,
+	left: 0,
+	width: "50%"
+}
+
+".Tablabel": {
+	color: "#402C15",
+	font: {
+		fontSize: "25sp"
+	},
+	textAlign: "center"
+}
+
+"#diarioBoton": {
+	top:0,
+	left: "50%",
+	width: "50%"
+}
+
+"#tab1": {}
+"#tab2": {}
+"#win1": {}
+"#win2": {}
+
+
