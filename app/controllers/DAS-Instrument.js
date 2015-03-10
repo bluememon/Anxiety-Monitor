@@ -1,5 +1,4 @@
         $.sendDASA.addEventListener("click", function(){
-        	alert("holaMiguel!");
         	insertData();
         });
         
@@ -291,7 +290,6 @@
                      	"question7": $.question7.value,
                      	"question8": $.question8.value,
                      	});  
-                   alert(params);
                   request.send(params); 
               } 
               else{ 

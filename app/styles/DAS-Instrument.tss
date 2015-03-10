@@ -76,3 +76,12 @@
 	},
 	textAlign: "center"
 }
+
+"#sendDASA": {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	font: {
+		fontSize: "12sp"
+	},
+	textAlign: "center"
+}

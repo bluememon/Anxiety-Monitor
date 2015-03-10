@@ -1,0 +1,14 @@
+
+".buttonSpace": {
+	bottom: 0,
+	right: 0,
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE
+}
+
+"#addDAS": {
+	font: {
+		color: "#ffffff"
+	},
+	backgroundColor: "#666666"
+}
