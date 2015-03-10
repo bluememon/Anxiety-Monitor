@@ -1,0 +1,79 @@
+<Alloy>
+        <ScrollView id="scrollView" class="instrumentWrapper" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="false" zIndex="1">
+           <View class="generalContainer">
+           		<Label class="QuestionLabel">Durante las últimas 24 horas, ¿cuánta ansiedad ha sentido en promedio?</Label>
+           		<Slider id="question1" class="QuestionSlider" />
+           		<View class="labelContainer">
+           			<Label class="leftLabel">Sin ansiedad</Label>
+           			<Label class="centerLabel">Ansiedad moderada</Label>
+           			<Label class="rightLabel">Ansiedad extrema</Label>
+           		</View>
+           </View>
+           <View class="generalContainer">
+           		<Label class="QuestionLabel">Durante las últimas 24 horas, ¿cuánta ansiedad ha sentido en su momento de mayor ansiedad?</Label>
+           		<Slider id="question2" class="QuestionSlider" />
+           		<View class="labelContainer">
+           			<Label class="leftLabel">Sin ansiedad</Label>
+           			<Label class="centerLabel">Ansiedad moderada</Label>
+           			<Label class="rightLabel">Ansiedad extrema</Label>
+           		</View>
+           </View>
+           <View class="generalContainer">
+           		<Label class="QuestionLabel">Durante las últimas 24 horas, ¿cuánta preocupación ha sentido en promedio?</Label>
+           		<Slider id="question3" class="QuestionSlider" />
+           		<View class="labelContainer">
+           			<Label class="leftLabel">Sin preocupación</Label>
+           			<Label class="centerLabel">Preocupación moderada</Label>
+           			<Label class="rightLabel">Preocupación extrema</Label>
+           		</View>
+           </View>
+            <View class="generalContainer">
+           		<Label class="QuestionLabel">Durante las últimas 24 horas, ¿con qué frecuencia se sintió tenso (cuando estaba despierto)?</Label>
+           		<Slider id="question4" class="QuestionSlider" />
+           		<View class="labelContainer">
+           			<Label class="leftLabel">Nunca</Label>
+           			<Label class="centerLabel">Como la mitad de las veces</Label>
+           			<Label class="rightLabel">Siempre</Label>
+           		</View>
+           </View>
+            <View class="generalContainer">
+           		<Label class="QuestionLabel">Durante las últimas 24 horas, ¿cuánta irritabilidad sintió en su momento de mayor irritabilidad?</Label>
+           		<Slider id="question5" class="QuestionSlider" />
+           		<View class="labelContainer">
+           			<Label class="leftLabel">Sin irritabilidad</Label>
+           			<Label class="centerLabel">Irritabilidad moderada</Label>
+           			<Label class="rightLabel">Irritabilidad extrema</Label>
+           		</View>
+           </View>
+            <View class="generalContainer">
+           		<Label class="QuestionLabel">Durante las últimas 24 horas, ¿con qué frecuencia se sintió tranquilo o relajado (cuando estaba despierto)?</Label>
+           		<Slider id="question6" class="QuestionSlider" />
+           		<View class="labelContainer">
+           			<Label class="leftLabel">Nunca</Label>
+           			<Label class="centerLabel">Como la mitad de las veces</Label>
+           			<Label class="rightLabel">Siempre</Label>
+           		</View>
+           </View>
+            <View class="generalContainer">
+           		<Label class="QuestionLabel">Durante las últimas 24 horas, ¿con qué frecuencia tuvo dificultades para concentrarse o enfocarse en lo que estaba haciendo (cuando estaba despierto)?</Label>
+           		<Slider id="question7" class="QuestionSlider" />
+           		<View class="labelContainer">
+           			<Label class="leftLabel">Nunca</Label>
+           			<Label class="centerLabel">Como la mitad de las veces</Label>
+           			<Label class="rightLabel">Siempre</Label>
+           		</View>
+           </View>
+            <View class="generalContainer">
+           		<Label class="QuestionLabel">¿Cuánta dificultad tuvo para quedarse dormido anoche?</Label>
+           		<Slider id="question8" class="QuestionSlider" />
+           		<View class="labelContainer">
+           			<Label class="leftLabel">Sin dificultad</Label>
+           			<Label class="centerLabel">Dificultad moderada</Label>
+           			<Label class="rightLabel">Dificultad extrema</Label>
+           		</View>
+           </View>
+           <View class="sendButton">
+           	<Button id="sendDASA">Enviar</Button>
+           </View>
+        </ScrollView>
+</Alloy>

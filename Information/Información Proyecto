@@ -71,7 +71,7 @@ Programa principal
 				Notas acerca del paciente
 				Listado de Diarios
 				Estadisticas de los diarios
-					Ultima Entrada - fecha
+					Ultima Entrada - fecha 
 					Grafica de ansiedad general basada en las ultimas entradas (grafica lineal contra tiempo)
 					Grafica de categorias junto con la severidad de ansiedad por cada una de ellas (grafica de pie)
 

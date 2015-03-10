@@ -2,12 +2,15 @@
 	 <TabGroup>
             <Tab id="tab1" title="Estadisticas">
                 <Window id="win1" title="Tab 1">
-                   <Label class="Tablabel" color="#999">Estadisticas</Label>
+                	<View class="pruebaaversijala">
+                   		<Label class="Tablabel" color="#999">Estadisticas</Label>
+                   		<View bottom="0%" zIndex="2">Prueba Externa al TabView De preferencia para el uso de un boton</View>
+                   	</View>
                 </Window>
             </Tab>
             <Tab id="tab2" title="Diario">
                 <Window id="win2" title="Tab 2">
-                    <Label class="Tablabel">Diario</Label>
+                    <Require src="DAS-Instrument"></Require>
                 </Window>
             </Tab>
             <!-- Use the Require tag to include external Ti.UI.Tab views -->
