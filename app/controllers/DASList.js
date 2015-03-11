@@ -1,12 +1,8 @@
  getTodoList();          
  
  $.addDAS.addEventListener("click", function(){
-	//var win2=Alloy.createController('DAS-List').getView();
- 	//win2.open();
- 	
- 	var temp = Ti.UI.currentWindow;
- 	
- 	require('views/DAS-Instrument');
+ 	var temp = Alloy.createController('DASInstrument').getView();
+	$.tab2.open(temp);	
 });
  
  

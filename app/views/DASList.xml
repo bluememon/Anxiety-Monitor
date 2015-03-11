@@ -1,0 +1,12 @@
+<Alloy>
+	<Tab id="tab2" title="Diario">
+		<Window id="tempnomames">
+			<ScrollView id="scrollViewDASList" class="DASListWrapper" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="false" zIndex="1">
+				<TableView id="DASList"></TableView>
+				<View class="buttonSpace">
+					<Button id="addDAS">+</Button>
+				</View>
+			</ScrollView>
+		</Window>
+	</Tab>
+</Alloy>

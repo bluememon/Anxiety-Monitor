@@ -267,10 +267,13 @@
 		});
         
         function insertData(){ 
-              //if there is something in the textbox 
-              if($.question1.value != "" && $.question1.value != null){ 
+        	//if there is something in the textbox 
+             if($.question1.value != "" && $.question1.value != null){ 
                      var request = Ti.Network.createHTTPClient({ 
-                  onload:alert("Your chore has been submitted"), 
+                  onload: function(){
+                  	alert("Gracias por llenar el Diario!");
+                  	$.tempaversijala.close();
+                  },
                   onerror: function(e){ 
                       Ti.API.debug(e.error); 
                       alert('There was an error during the conexion'); 
@@ -291,8 +294,5 @@
                      	"question8": $.question8.value,
                      	});  
                   request.send(params); 
-              } 
-              else{ 
-                     alert("Please write something in the textbox"); 
-              }               
+              }
        };   

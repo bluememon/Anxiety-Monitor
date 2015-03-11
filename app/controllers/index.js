@@ -1,7 +1,7 @@
 $.entrarSistema.addEventListener("click", function(){
-	var win=Alloy.createController('listado').getView();
- 	win.open();
+	Alloy.createController('listado').getView().open();
 });
 $.index.open();
+
 
 
