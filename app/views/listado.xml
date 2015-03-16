@@ -1,7 +1,7 @@
 <Alloy>
 	 <TabGroup>
             <Tab id="tab1" title="Estadisticas">
-                <Require src="DASInstrument"></Require>
+                <Require src="evalPaciente"></Require>
             </Tab>
             <Require src="DASList"></Require>
             <!-- Use the Require tag to include external Ti.UI.Tab views -->

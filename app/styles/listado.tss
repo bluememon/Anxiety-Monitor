@@ -1,17 +1,3 @@
 "MenuItem": {
     showAsAction: Ti.Android.SHOW_AS_ACTION_ALWAYS
 }
-
-".Tablabel": {
-	color: "#402C15",
-	font: {
-		fontSize: "25sp"
-	},
-	textAlign: "center"
-}
-
-"#tab1": {}
-"#tab2": {}
-"#win1": {}
-"#win2": {}
-

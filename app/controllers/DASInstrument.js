@@ -1,5 +1,7 @@
         $.sendDASA.addEventListener("click", function(){
-        	insertData();
+        	//insertData();
+        	$.tempaversijala.close();
+        	abrirEncuesta();
         });
         
         $.question1.addEventListener('stop', function(e) {
@@ -272,6 +274,7 @@
                      var request = Ti.Network.createHTTPClient({ 
                   onload: function(){
                   	alert("Gracias por llenar el Diario!");
+                  	abrirEncuesta();
                   	$.tempaversijala.close();
                   },
                   onerror: function(e){ 
@@ -295,4 +298,10 @@
                      	});  
                   request.send(params); 
               }
-       };   
+       };  
+       
+       function abrirEncuesta(){
+       		var temp = Alloy.createController('evalTerapeuta').getView();
+       		alert(persistentObjects[0].id);
+			persistentObjects[0].open(temp);
+       }; 

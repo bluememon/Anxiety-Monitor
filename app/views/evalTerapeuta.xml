@@ -1,0 +1,57 @@
+<Alloy>
+	<Window id="tempaversijala2">
+		<View class="InformationModal" id="InformationModal">
+			<View class="informationView">
+   				<Label class="InformationLabel">Lea atentamente cada pregunta y usando el slider, eliga el grado de facilidad o utilidad del uso de la aplicación móvil para usted.</Label>
+   				<Label class="InformationLabel">No hay respuestas correctas o incorrectas. Por favor, sea honesto(a) y responda a todas la preguntas.</Label>
+   				<Label class="InformationLabel">Para moverse entre las preguntas deslice su dedo en la pantalla hacia la derecha o izquierda</Label>
+   			</View>
+   			<View class="agreeButton">
+   				<Button id="closeModal">Aceptar</Button>
+   			</View>
+   			<View class="backgroundCover" />
+       </View>
+	    <ScrollableView id="scrollView" class="instrumentWrapper" showPagingControl="false" zIndex="1">
+	       <View class="generalContainerWrapper">
+	       		<View class="generalContainer">
+	       			<Label class="QuestionLabel">Para usted ¿el uso de la aplicación móvil ha sido?</Label>
+		       		<Slider id="question1" class="QuestionSlider" />
+		       		<View class="labelContainer">
+	    	   			<Label class="leftLabel">Muy Difícil</Label>
+	       				<Label class="rightLabel">Muy Fácil</Label>
+	       			</View>
+	       		</View>
+	       </View>
+	       <View class="generalContainerWrapper">
+		       <View class="generalContainer">
+		       		<Label class="QuestionLabel">Para usted ¿la información visual de las gráficas de severidad de la ansiedad y personas o lugares en que se produce la ansiedad ha sido?</Label>
+		       		<Slider id="question2" class="QuestionSlider" />
+		       		<View class="labelContainer">
+		       			<Label class="leftLabel">Poco útil</Label>
+		       			<Label class="rightLabel">Muy útil</Label>
+		       		</View>
+		       </View>
+		   </View>
+		   <View class="generalContainerWrapper">
+		       <View class="generalContainer">
+		       		<Label class="QuestionLabel">Para usted, en general ¿el uso de la aplicación ha sido para el desarrollo adecuado del tratamiento del paciente?</Label>
+		       		<Slider id="question3" class="QuestionSlider" />
+		       		<View class="labelContainer">
+		       			<Label class="leftLabel">Poco útil</Label>
+		       			<Label class="rightLabel">Muy útil</Label>
+		       		</View>
+		       </View>
+	       </View>
+	       <View class="generalContainerWrapper">
+	       		<View class="cierreLabels">
+	       			<Label class="labelTitle">¡Gracias!</Label>
+	       			<Label class="cierreLabel">Agradecemos mucho su participación, su retroalimentación significa mucho para nosotros</Label>
+	       			<Label class="cierreLabel">Presione el botón "Enviar" para cerrar el cuestionario</Label>
+	       		</View>
+		       <View class="sendButton">
+		       		<Button id="sendDASA">Enviar</Button>
+		       </View>
+	       </View>
+       </ScrollableView>
+   </Window>
+</Alloy>

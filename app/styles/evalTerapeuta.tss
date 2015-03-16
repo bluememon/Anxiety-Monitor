@@ -1,0 +1,162 @@
+"#scrollView": {
+	zIndex: 1
+}
+
+".InformationModal": {
+	layout: "composite",
+	height: Titanium.UI.FILL,
+	width: Titanium.UI.FILL,
+	zIndex: 2,
+	backgroundColor: "transparent"
+}
+
+".backgroundCover": {
+	height: Titanium.UI.FILL,
+	width: Titanium.UI.FILL,
+	backgroundColor: "#000000",
+	opacity: 0.9,
+	zIndex: 1,
+	top: "0sp"
+}
+
+".informationView": {
+	top: "0sp",
+	layout: "vertical",
+	zIndex: 2,
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE
+}
+
+".InformationLabel": {
+	top: "20sp",
+	left: "10sp",
+	right: "10sp",
+	color: "#ffffff",
+	font: {
+		fontSize: "18sp" 
+	},
+	height: Titanium.UI.SIZE	
+}
+
+".agreeButton": {
+	zIndex: 3,
+	bottom: "10sp",
+	right: "10sp",
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE
+	
+}
+
+".generalContainerWrapper": {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.FILL
+}
+
+".generalContainer": {
+	layout: 'vertical',
+	left: "10sp",
+	right: "10sp",
+	center: {
+		y: "50%"
+	},
+	height: Titanium.UI.SIZE,
+	borderWidth: 1,
+	borderColor: "#000000",
+	borderRadius: 5
+}
+".QuestionLabel": {
+	height: Titanium.UI.SIZE,
+	top: "30sp",
+	bottom: "10sp",
+	left: "10sp",
+	right: "10sp",
+	font: {
+		fontSize: "20sp"
+	},
+	textAlign: "left",
+	zIndex: 1
+}
+".QuestionSlider": {
+	left: "10sp",
+	right: "10sp",
+	bottom: "10sp",
+	min: 0,
+	max: 10,
+	value: "5",
+	zIndex: 2
+}
+
+".labelContainer": {
+	bottom: "20sp"
+}
+
+".leftLabel": {
+	left: "5sp",
+	width: "20%",
+	font: {
+		fontSize: "12sp"
+	},
+	textAlign: "center"
+}
+".centerLabel": {
+	width: "20%",
+	font: {
+		fontSize: "12sp"
+	},
+	textAlign: "center"
+}
+".rightLabel": {
+	right: "5sp",
+	width: "20%",
+	font: {
+		fontSize: "12sp"
+	},
+	textAlign: "center"
+}
+".sendButton": {
+	bottom: "30sp",
+	left: "10sp",
+	right: "10sp",
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	textAlign: "center"
+}
+
+".cierreLabels": {
+	layout: "vertical",
+	top: "10sp",
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE
+}
+
+".labelTitle": {
+	top: "20sp",
+	left: "10sp",
+	right: "10sp",
+	color: "#000000",
+	textAlign: "center",
+	font: {
+		fontSize: "45sp" 
+	},
+	height: Titanium.UI.SIZE	
+}
+
+".cierreLabel": {
+	top: "20sp",
+	left: "10sp",
+	right: "10sp",
+	color: "#000000",
+	font: {
+		fontSize: "18sp" 
+	},
+	height: Titanium.UI.SIZE	
+}
+
+"#sendDASA": {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	font: {
+		fontSize: "12sp"
+	},
+	textAlign: "center"	
+}

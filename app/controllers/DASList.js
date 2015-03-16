@@ -1,7 +1,7 @@
  getTodoList();          
  
  $.addDAS.addEventListener("click", function(){
- 	var temp = Alloy.createController('DASInstrument').getView();
+ 	var temp = Alloy.createController('evalTerapeuta').getView();
 	$.tab2.open(temp);	
 });
  
