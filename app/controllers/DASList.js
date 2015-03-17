@@ -2,8 +2,13 @@
 
 var buttonToggle = false;
 
-$.addShort.addEventListener("click", function(){
+$.addDAS.addEventListener("click", function(){
  	var temp = Alloy.createController('DASInstrument').getView();
+	$.tab2.open(temp);
+});
+
+$.addShort.addEventListener("click", function(){
+ 	var temp = Alloy.createController('moodInstrument').getView();
 	$.tab2.open(temp);
 });
 

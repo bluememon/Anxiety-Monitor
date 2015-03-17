@@ -1,0 +1,63 @@
+<Alloy>
+	<Window id="moodInstrument">
+		<View class="InformationModal" id="InformationModal">
+			<View class="informationView">
+				<Label class="InformationLabel">Lea atentamente cada pregunta y usando el slider, eliga el grado de facilidad o utilidad del uso de la aplicación móvil para usted.</Label>
+				<Label class="InformationLabel">No hay respuestas correctas o incorrectas. Por favor, sea honesto(a) y responda a todas la preguntas.</Label>
+				<Label class="InformationLabel">Para moverse entre las preguntas deslice su dedo en la pantalla hacia la derecha o izquierda</Label>
+			</View>
+			<View class="agreeButton">
+				<Button id="closeModal">Aceptar</Button>
+			</View>
+			<View class="backgroundCover" />
+		</View>
+		<ScrollableView id="scrollView" class="instrumentWrapper" showPagingControl="false" zIndex="1">
+			<View class="generalContainerWrapper">
+				<View class="generalContainer">
+					<View>
+						<Label class="QuestionLabel">Categoría que identifica mi ansiedad</Label>
+						<Picker id="picker" top="50" selectionIndicator="true" useSpinner="false">
+						</Picker>
+					</View>
+					<View>
+						<Button id="openAddCat">Agregar categoría</Button>
+					</View>
+				</View>
+				<AlertDialog id="dialogCategoria" onClick="agregarCatego" title="Agregar Categoria"  cancel="1">
+		            <!-- The ButtonNames tag sets the buttonNames property. -->
+		            <AndroidView><TextField></TextField></AndroidView>
+		            <ButtonNames>
+		                <ButtonName>Cancelar</ButtonName>
+		                <ButtonName>Agregar</ButtonName>
+		            </ButtonNames>
+		        </AlertDialog>
+			</View>
+			<View class="generalContainerWrapper">
+				<View class="generalContainer">
+					<Label class="QuestionLabel">¿Cuál es el grado de ansiedad que sientes?</Label>
+					<Slider id="question1" class="QuestionSlider" />
+					<View class="labelContainer">
+						<Label class="leftLabel">Muy sutil</Label>
+						<Label class="rightLabel">Como nunca</Label>
+					</View>
+				</View>
+			</View>
+			<View class="generalContainerWrapper">
+				<View class="generalContainer">
+					<Label class="QuestionLabel">¿Podrías describir un poco tu ansiedad?</Label>
+					<TextArea id="textArea" />
+				</View>
+			</View>
+			<View class="generalContainerWrapper">
+				<View class="cierreLabels">
+					<Label class="labelTitle">¡Gracias!</Label>
+					<Label class="cierreLabel">Agradecemos mucho su participación, su retroalimentación significa mucho para nosotros</Label>
+					<Label class="cierreLabel">Presione el botón "Enviar" para cerrar el cuestionario</Label>
+				</View>
+				<View class="sendButton">
+					<Button id="sendDASA">Enviar</Button>
+				</View>
+			</View>
+		</ScrollableView>
+	</Window>
+</Alloy>
