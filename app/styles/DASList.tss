@@ -1,14 +1,51 @@
-
-".buttonSpace": {
-	bottom: 0,
-	right: 0,
+"#buttonSpace": {
+	bottom: '20sp',
+	right: '20sp',
 	width: Titanium.UI.SIZE,
-	height: Titanium.UI.SIZE
+	height: Titanium.UI.SIZE,
 }
 
-"#addDAS": {
+'#expandButtons' : {
+	color: '#ffffff',
 	font: {
-		color: "#ffffff"
+		fontSize: '30sp'
 	},
-	backgroundColor: "#666666"
+	backgroundColor: "#009933",
+	borderWidth: 0,
+	borderColor: "#009933",
+	width: '60sp',
+	height: '60sp',
+	borderRadius: '30sp',
+	backgroundImage: 'none',
+	zIndex: 3,
+	bottom: 0
+}
+
+'#addDAS' : {
+	color: '#ffffff',
+	font: {
+		fontSize: '30sp'
+	},
+	backgroundColor: "#CC6600",
+	width: '60sp',
+	height: '60sp',
+	borderRadius: '30sp',
+	zIndex: 2,
+	bottom: 0,
+	opacity: 0
+	
+}
+
+'#addShort' : {
+	color: '#ffffff',
+	font: {
+		fontSize: '30sp'
+	},
+	backgroundColor: "#0066FF",
+	width: '60sp',
+	height: '60sp',
+	borderRadius: '30sp',
+	zIndex: 1,
+	bottom: 0,
+	opacity: 0
 }

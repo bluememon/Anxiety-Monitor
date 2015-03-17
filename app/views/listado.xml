@@ -1,9 +1,9 @@
 <Alloy>
-	 <TabGroup>
+	 <TabGroup class="grupodeTabs">
             <Tab id="tab1" title="Estadisticas">
                 <Require src="evalPaciente"></Require>
             </Tab>
             <Require src="DASList"></Require>
             <!-- Use the Require tag to include external Ti.UI.Tab views -->
-        </TabGroup>
+    </TabGroup>
 </Alloy>

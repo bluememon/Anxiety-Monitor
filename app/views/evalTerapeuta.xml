@@ -1,5 +1,5 @@
 <Alloy>
-	<Window id="tempaversijala2">
+	<Window id="evaluacionTerapeuta">
 		<View class="InformationModal" id="InformationModal">
 			<View class="informationView">
    				<Label class="InformationLabel">Lea atentamente cada pregunta y usando el slider, eliga el grado de facilidad o utilidad del uso de la aplicación móvil para usted.</Label>

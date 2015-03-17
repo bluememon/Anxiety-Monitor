@@ -1,9 +1,79 @@
  getTodoList();          
- 
- $.addDAS.addEventListener("click", function(){
- 	var temp = Alloy.createController('evalTerapeuta').getView();
-	$.tab2.open(temp);	
+
+var buttonToggle = false;
+
+$.addShort.addEventListener("click", function(){
+ 	var temp = Alloy.createController('DASInstrument').getView();
+	$.tab2.open(temp);
 });
+
+ $.expandButtons.addEventListener("click", function(){
+	
+	if (buttonToggle == false){	
+		var m = Ti.UI.create2DMatrix({ 
+    		rotate: 45 
+		});	
+		
+		var a1 = Ti.UI.createAnimation();
+  		a1.transform = m;
+  		a1.duration = 200;
+	  	
+	  	$.expandButtons.animate(a1);
+		
+		$.addShort.animate({
+			bottom: '80sp',
+			opacity: '1',
+			duration: 200
+		});
+		$.addDAS.animate({
+			bottom: '160sp',
+			opacity: '1',
+			duration: 200
+		}, function () {
+			buttonToggle = true;
+		});	
+	}
+	
+	else{	
+		var m = Ti.UI.create2DMatrix({ 
+    		rotate: 0
+		});	
+		
+		var a1 = Ti.UI.createAnimation();
+  		a1.transform = m;
+  		a1.duration = 200;
+	  	
+	  	$.expandButtons.animate(a1);
+			
+		$.addShort.animate({
+			bottom: '0',
+			opacity: '0',
+			duration: 200
+		});
+		
+		$.addDAS.animate({
+			bottom: '0',
+			opacity: '0',
+			duration: 200
+		}, function () {
+			buttonToggle = false;
+		});	
+	}
+});
+
+function agregarColor(resultado) {
+	if (resultado > 80){
+		return "#800000";
+	}
+	
+	if (resultado <= 80 && resultado > 50){
+		return "#FF6600";
+	}
+	
+	if (resultado <= 50){
+		return "#66CCFF";
+	}
+};
  
  
  function getTodoList () { 
@@ -30,10 +100,67 @@
                  dataArray = [];                      
                  //Insert the JSON data to the table view 
                  for( var i=0; i<json.length; i++){ 
-                       var row = Ti.UI.createTableViewRow({ 
-                            title: json[i].fechaEnvio, 
-                       		
-                       });        
+                 	
+                     var row = Ti.UI.createTableViewRow({
+                     		className: 'elementRow',
+                     		layout: 'horizontal',
+							horizontalWrap: false,
+							height: Titanium.UI.SIZE,
+							width: Titanium.UI.FILL
+             		 });                                     		
+                     
+                     var viewResult = Titanium.UI.createView({
+                     	className: 'rowResult',
+                     	height: Titanium.UI.SIZE,
+						width: Titanium.UI.SIZE,
+						left: '10sp',
+						right: '10sp',
+						bubbleParent: true
+                     });
+                     
+                     var viewResultColor = Titanium.UI.createView({
+                     	className: 'rowResult',
+                     	height: '60sp',
+						width: '60sp',
+						borderRadius: '30sp',
+						backgroundColor: agregarColor(json[i].total),
+						top: '10sp',
+						bottom: '10sp',
+						left: '10sp',
+						right: '10sp',
+						bubbleParent: true
+                     });
+                     
+                     var viewDate = Titanium.UI.createView({
+                     	className: 'rowDate',
+                     	height: Titanium.UI.SIZE,
+						width: Titanium.UI.SIZE,
+						left: "10sp",
+						bubbleParent: true
+                     });
+                     
+                     var resultLabel = Titanium.UI.createLabel({
+                     	text: json[i].total,
+                     	font: {
+                     		fontSize: '20sp'
+                     	},
+                     	color: '#999999'
+                     });
+                     
+                      var dateLabel = Titanium.UI.createLabel({
+                     	text: json[i].fechaEnvio,
+                     	font: {
+                     		fontSize: '20sp'
+                     	},
+                     	color: '#000000'
+                     });
+                     
+                     viewResult.add(resultLabel);
+                     viewDate.add(dateLabel);
+                     
+                     row.add(viewResultColor);
+                     row.add(viewDate);                     
+                               
                      dataArray.push(row);                 
                  };                      
                  $.DASList.setData(dataArray);                            

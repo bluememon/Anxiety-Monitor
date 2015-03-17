@@ -1,7 +1,7 @@
         $.sendDASA.addEventListener("click", function(){
-        	//insertData();
-        	$.tempaversijala.close();
-        	abrirEncuesta();
+        	insertData();
+        	//$.tempaversijala.close();
+        	//abrirEncuesta();
         });
         
         $.question1.addEventListener('stop', function(e) {
@@ -301,7 +301,8 @@
        };  
        
        function abrirEncuesta(){
-       		var temp = Alloy.createController('evalTerapeuta').getView();
-       		alert(persistentObjects[0].id);
-			persistentObjects[0].open(temp);
+       		var evaluacionTerapeuta = Alloy.createController('evalTerapeuta').getView();
+       		Ti.API.info(evaluacionTerapeuta);
+       		//alert(persistentObjects[0].id);
+			//persistentObjects[0].open(temp);
        }; 

@@ -1,4 +1,6 @@
 var args = arguments[0] || {};
+// Auto opening window
+$.evaluacionTerapeuta.open();
 
 $.closeModal.addEventListener("click", function(){
 		$.InformationModal.hide();
@@ -14,7 +16,7 @@ function insertData(){
                      var request = Ti.Network.createHTTPClient({ 
                   onload: function(){
                   	alert("Gracias por llenar la Evaluación!");
-                  	$.tempaversijala2.close();
+                  	$.evaluacionTerapeuta.close();
                   },
                   onerror: function(e){ 
                       Ti.API.debug(e.error); 
