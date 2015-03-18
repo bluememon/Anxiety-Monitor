@@ -65,4 +65,8 @@
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
     </plugins>
+    <property name="username" type="string"></property>
+    <property name="name" type="string"></property>
+    <property name="pinNumber" type="string"></property>
+    <property name="userType" type="string"></property>
 </ti:app>

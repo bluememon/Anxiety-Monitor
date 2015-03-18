@@ -1,9 +1,4 @@
 <Alloy>
 	<Window class="container">
-		<View id="wrapper">
-			<Label id="pinLabel">Teclee su PIN</Label>
-			<TextField id="pin"></TextField>
-			<Button id="entrarSistema">Revisar Clave</Button>
-		</View>
 	</Window>
 </Alloy>

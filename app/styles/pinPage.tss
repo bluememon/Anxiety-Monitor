@@ -1,0 +1,97 @@
+".container": {
+	backgroundColor: "#E7E7E7"
+}
+
+"#wrapper": {
+	top: "5dp",
+	left: "25dp",
+	right: "25dp",
+	bottom: "5dp",
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.FILL,
+	layout: 'composite'
+}
+
+"#pinLabel": {
+	color: "#000000",
+	font: {
+		fontSize: "45sp"
+	},
+	top: "15sp",
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	textAlign: "center"
+}
+
+".pinWrapper": {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	layout: 'vertical',
+	bottom: '20sp'
+}
+
+"#pin": {
+	keyboardType: 'none',
+	passwordMask: true,
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	color: "#000000",
+	font: {
+		fontSize: "45sp"
+	},
+	textAlign: "center",
+	maxLength: 4
+}
+
+".numberbuttons": {
+	layout: "vertical",
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	top: "10sp",
+	left: "20sp",
+	right: "20sp"
+}
+
+".rowButtons": {
+	layout: 'horizontal',
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE
+}
+
+".firstButton" : {
+	layout: 'horizontal',
+	width: '33%',
+	height: Titanium.UI.SIZE
+}
+
+".secondButton" : {
+	layout: 'horizontal',
+	width: '33%',
+	height: Titanium.UI.SIZE
+}
+
+".thirdButton" : {
+	layout: 'horizontal',
+	width: '33%',
+	height: Titanium.UI.SIZE
+}
+
+".number": {
+	color: "#000000",
+	font: {
+		fontSize: "45dp"
+	},
+	height: Titanium.UI.SIZE,
+	bottom: '-10sp',
+	top: '10sp'
+}
+
+".letters": {
+	color: "#000000",
+	font: {
+		fontSize: "20sp"
+	},
+	left: "5sp",
+	height: Titanium.UI.SIZE,
+	bottom: 0
+}

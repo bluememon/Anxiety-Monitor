@@ -1,0 +1,87 @@
+".InformationModal": {
+	layout: "composite",
+	height: Titanium.UI.FILL,
+	width: Titanium.UI.FILL,
+	zIndex: 2,
+	backgroundColor: "transparent"
+}
+
+".backgroundCover": {
+	height: Titanium.UI.FILL,
+	width: Titanium.UI.FILL,
+	backgroundColor: "#000000",
+	opacity: 0.9,
+	zIndex: 1,
+	top: "0sp"
+}
+
+".informationView": {
+	top: "0sp",
+	layout: "vertical",
+	zIndex: 2,
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE
+}
+
+".InformationLabel": {
+	top: "20sp",
+	left: "10sp",
+	right: "10sp",
+	color: "#ffffff",
+	font: {
+		fontSize: "18sp" 
+	},
+	height: Titanium.UI.SIZE	
+}
+
+".agreeButton": {
+	zIndex: 3,
+	bottom: "10sp",
+	right: "10sp",
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE
+	
+}
+
+'.userVerifier': {
+	layout: 'vertical',
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.FILL,
+	zIndex: 1
+}
+
+'.usernameContainer': {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	left: '10sp',
+	right: '10sp'
+}
+
+'#username': {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	hintText:'Nombre de usuario',
+	keyboardType:Titanium.UI.KEYBOARD_DEFAULT,
+    returnKeyType:Titanium.UI.RETURNKEY_DEFAULT
+}
+
+'.passwordContainer': {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	left: '10sp',
+	right: '10sp'
+}
+
+'#password': {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	hintText:'Contraseña',
+	passwordMask:true,
+	keyboardType:Titanium.UI.KEYBOARD_DEFAULT,
+    returnKeyType:Titanium.UI.RETURNKEY_DEFAULT
+}
+
+'.buttonEnviar': {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE
+}

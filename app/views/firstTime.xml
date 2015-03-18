@@ -1,0 +1,26 @@
+<Alloy>
+	<Window id="userNameVerifier">
+		<View class="InformationModal" id="InformationModal">
+			<View class="informationView">
+				<Label class="InformationLabel">Bienvenido!!</Label>
+				<Label class="InformationLabel">Te agradcecemos mucho que formes parte de nuestro estudio</Label>
+				<Label class="InformationLabel">A continuación se pedirá que ingreses el nombre de usuario y el password que te dio tu terapeuta</Label>
+			</View>
+			<View class="agreeButton">
+				<Button id="closeModal">Aceptar</Button>
+			</View>
+			<View class="backgroundCover" />
+		</View>
+		<View class="userVerifier">
+			<View class="usernameContainer">
+				<TextField id="username"></TextField>
+			</View>
+			<View class="passwordContainer">				
+				<TextField id="password"></TextField>
+			</View>
+			<View class="buttonEnviar">
+				<Button id="verificarButton">Verificar</Button>
+			</View>
+		</View>
+	</Window>
+</Alloy>
