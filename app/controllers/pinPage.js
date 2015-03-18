@@ -18,10 +18,6 @@ $.numeroUno.addEventListener("touchend", function(){
 	$.numeroUno.opacity = 1.0;
 });
 
-$.numeroUno.addEventListener("click", function(){
-	$.pin.value += 1;
-});
-
 $.numeroDos.addEventListener("click", function(){
 	$.pin.value += 2;
 });

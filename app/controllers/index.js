@@ -1,10 +1,11 @@
 $.index.open();
 
-var pinNumber = Ti.App.Properties.getString('pinNumber');
+var pinNumber = Ti.App.Properties.getInt('pinNumber', null);
 var startingPage = null;
 
 //Primero se revisa si exsiste un pin number registrado y pide  el pin number
-if (pinNumber != ''){
+if (pinNumber != null){
+	alert(pinNumber);
 	startingPage = Alloy.createController('pinPage').getView();
 }
 

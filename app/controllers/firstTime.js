@@ -33,7 +33,8 @@ function userVerify(user, pswd) {
 				    var response = JSON.parse(json);
 				    if (response.logged == true)
 				    {
-				        alert("Usuario Validado! " + response.firstName);
+				        Ti.App.Properties.setInt('pinNumber', '1337');
+				        alert("si entro!");
 				    }
 				    else
 				    {
