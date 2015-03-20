@@ -1,0 +1,35 @@
+<Alloy>
+	<Window id="pinCreator">
+		<View class="InformationModal" id="InformationModal">
+			<View class="informationView">
+				<Label class="InformationLabel" id="bienvenidoMessage" />
+				<Label class="InformationLabel">Tu nombre de usuario y contraseña son correctos!</Label>
+				<Label class="InformationLabel">A continuación se pedirá que generes un munero PIN</Label>
+				<Label class="InformationLabel">El numero PIN sirve para prevenir que alguien acceda a tus datos aqui guardados.</Label>
+				<Label class="InformationLabel">La clave consiste en 4 numeros</Label>
+			</View>
+			<View class="agreeButton">
+				<Button id="closeModal">Aceptar</Button>
+			</View>
+			<View class="backgroundCover" />
+		</View>
+		<View class="userVerifier">
+			<View class="usernameContainer">
+				<TextField id="pin"></TextField>
+			</View>
+			<View class="passwordContainer">				
+				<TextField id="pin2"></TextField>
+			</View>
+			<View class="buttonEnviar">
+				<Button id="verificarButton">Guardar PIN</Button>
+			</View>
+		</View>
+		<AlertDialog id="dialogPIN" onClick="finalizarSetup" title="Agregar Categoria"  cancel="1">
+            <!-- The ButtonNames tag sets the buttonNames property. -->
+            <Label>Los numeros PIN son correctos! usa Éste numero para acceder a la applicación</Label>            
+            <ButtonNames>
+                <ButtonName id="cerrarPagina">Aceptar</ButtonName>
+            </ButtonNames>
+        </AlertDialog>
+	</Window>
+</Alloy>

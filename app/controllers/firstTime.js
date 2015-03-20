@@ -33,8 +33,12 @@ function userVerify(user, pswd) {
 				    var response = JSON.parse(json);
 				    if (response.logged == true)
 				    {
-				        Ti.App.Properties.setInt('pinNumber', '1337');
-				        alert("si entro!");
+				        Ti.App.Properties.setString('name', response.firstName);
+				        Ti.App.Properties.setInt('userType', response.type);
+				        Ti.App.Properties.setInt('id', response.id);
+				        
+				        Alloy.createController('enterPIN').getView();
+				        
 				    }
 				    else
 				    {
