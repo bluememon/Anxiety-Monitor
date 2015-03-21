@@ -24,11 +24,10 @@
 				<Button id="verificarButton">Guardar PIN</Button>
 			</View>
 		</View>
-		<AlertDialog id="dialogPIN" onClick="finalizarSetup" title="Agregar Categoria"  cancel="1">
+		<AlertDialog id="dialogPIN" onClick="finalizarSetup" title="Bienvenido!"  message="Los numeros PIN son correctos! usa Éste numero para acceder a la applicación">
             <!-- The ButtonNames tag sets the buttonNames property. -->
-            <Label>Los numeros PIN son correctos! usa Éste numero para acceder a la applicación</Label>            
             <ButtonNames>
-                <ButtonName id="cerrarPagina">Aceptar</ButtonName>
+                <ButtonName>Aceptar</ButtonName>
             </ButtonNames>
         </AlertDialog>
 	</Window>

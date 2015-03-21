@@ -1,7 +1,28 @@
 var args = arguments[0] || {};
 
+$.pinWrapper.open();
+
 $.entrarSistema.addEventListener("click", function(){
-	Alloy.createController('listado').getView().open();
+	if ($.pin.value == Ti.App.Properties.getInt('pinNumber')){
+		switch (Ti.App.Properties.getInt('userType')){
+			//admin
+			case 1 :
+				Alloy.createController('terapistList').getView().open();
+			break;
+			//therapist
+			case 2 :
+				Alloy.createController('listado').getView().open();
+			break;
+			//patient
+			case 3 :
+				Alloy.createController('listado').getView().open();
+			break;
+		}
+	}
+	else
+	{
+		alert("lo sentimos! numero PIN incorrecto.")
+	}
 });
 
 $.numeroUno.addEventListener("click", function(){
@@ -25,8 +46,6 @@ $.numeroDos.addEventListener("click", function(){
 $.numeroTres.addEventListener("click", function(){
 	$.pin.value += 3;
 });
-
-$.pinWrapper.open();
 
 $.numeroCuatro.addEventListener("click", function(){
 	$.pin.value += 4;

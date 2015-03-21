@@ -86,3 +86,10 @@
 	width: Titanium.UI.FILL,
 	height: Titanium.UI.SIZE
 }
+
+".labelDialog": {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	left: "15sp",
+	right: "15sp"
+}

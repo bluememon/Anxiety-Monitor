@@ -1,0 +1,27 @@
+<Alloy>
+	<Window id="newTherapist">
+		<ScrollView class="therapitsAdding">
+			<View id="HeaderMessage">
+				<Label class="labelTerapeuta">Agregar Terapeuta</Label>
+			</View>
+			<View class="usernameContainer">
+				<TextField id="firstName"></TextField>
+			</View>
+			<View class="usernameContainer">
+				<TextField id="lastName"></TextField>
+			</View>
+			<View class="usernameContainer">
+				<TextField id="username"></TextField>
+			</View>
+			<View class="usernameContainer">				
+				<TextField id="password"></TextField>
+			</View>
+			<View class="usernameContainer">				
+				<TextField id="password2"></TextField>
+			</View>
+		</ScrollView>
+		<View class="buttonEnviar">
+			<Button id="agregarButton">Agregar Terapeuta</Button>
+		</View>
+	</Window>
+</Alloy>

@@ -5,7 +5,6 @@ var startingPage = null;
 
 //Primero se revisa si exsiste un pin number registrado y pide  el pin number
 if (pinNumber != null){
-	alert(pinNumber);
 	startingPage = Alloy.createController('pinPage').getView();
 }
 
