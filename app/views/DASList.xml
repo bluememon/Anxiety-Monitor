@@ -9,6 +9,9 @@
 					<Button id="addShort" class="roundedButton">+</Button>
 				</View>
 			</ScrollView>
+			<View id="noInfoView">
+				<Label>No exsisten registros</Label>
+			</View>
 		</Window>
 	</Tab>
 </Alloy>

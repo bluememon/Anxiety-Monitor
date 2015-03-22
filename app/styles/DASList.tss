@@ -49,3 +49,7 @@
 	bottom: 0,
 	opacity: 0
 }
+
+"#noInfoView" : {
+	visible: false
+}

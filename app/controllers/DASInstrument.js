@@ -1,7 +1,9 @@
+var args = arguments[0] || {};
+
+var idPaciente = arguments[0].idPatient;
+        
         $.sendDASA.addEventListener("click", function(){
-        	insertData();
-        	//$.tempaversijala.close();
-        	//abrirEncuesta();
+        	insertData(idPaciente);
         });
         
         $.question1.addEventListener('stop', function(e) {
@@ -268,25 +270,25 @@
 		    }
 		});
         
-        function insertData(){ 
+        function insertData(idPaciente){ 
         	//if there is something in the textbox 
              if($.question1.value != "" && $.question1.value != null){ 
                      var request = Ti.Network.createHTTPClient({ 
                   onload: function(){
                   	alert("Gracias por llenar el Diario!");
-                  	abrirEncuesta();
+                  	//abrirEncuesta();
                   	$.tempaversijala.close();
                   },
                   onerror: function(e){ 
                       Ti.API.debug(e.error); 
                       alert('There was an error during the conexion'); 
                   }, 
-                  timeout:1000, 
+                  timeout:3000, 
                      });    
 //Request the data from the web service, Here you have to change it for your local ip 
                      request.open("POST","http://app.bluecoreservices.com/webservices/addDAS-A.php"); 
                      var params = ({
-                     	"id": "1337",
+                     	"id": idPaciente,
                      	"question1": $.question1.value,
                      	"question2": $.question2.value,
                      	"question3": $.question3.value,

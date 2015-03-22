@@ -1,14 +1,18 @@
- getTodoList();          
+var args = arguments[0] || {};
+
+var idPaciente = arguments[0].idPatient;
+
+getTodoList(idPaciente);          
 
 var buttonToggle = false;
 
 $.addDAS.addEventListener("click", function(){
- 	var temp = Alloy.createController('DASInstrument').getView();
+ 	var temp = Alloy.createController('DASInstrument', { idPatient: idPaciente }).getView();
 	$.tab2.open(temp);
 });
 
 $.addShort.addEventListener("click", function(){
- 	var temp = Alloy.createController('moodInstrument').getView();
+ 	var temp = Alloy.createController('moodInstrument', { idPatient: idPaciente }).getView();
 	$.tab2.open(temp);
 });
 
@@ -81,25 +85,28 @@ function agregarColor(resultado) {
 };
  
  
- function getTodoList () { 
+ function getTodoList (idPatient) { 
    //function to use HTTP to connect to a web server and transfer the data. 
           var sendit = Ti.Network.createHTTPClient({ 
                  onerror: function(e){ 
                        Ti.API.debug(e.error); 
                        alert('There was an error during the connection'); 
                  }, 
-              timeout:1000, 
+              timeout:3000, 
           });                      
           //Here you have to change it for your local ip 
-          sendit.open('GET', 'http://app.bluecoreservices.com/webservices/ListDAS-A.php');  
-          sendit.send(); 
+          sendit.open('POST', 'http://app.bluecoreservices.com/webservices/ListDAS-A.php');
+          var params = ({
+          	"idPaciente": idPatient,
+          });
+          sendit.send(params); 
           //Function to be called upon a successful response 
           sendit.onload = function(){ 
                  var json = JSON.parse(this.responseText); 
                  var json = json.DasList; 
                  //if the database is empty show an alert 
                  if(json.length == 0){ 
-                        $.DASList.headerTitle = "The database row is empty"; 
+                 	$.noInfoView.show();       
                  }                      
                  //Emptying the data to refresh the view 
                  dataArray = [];                      
