@@ -1,14 +1,16 @@
 var args = arguments[0] || {};
 
-$.TherapistList.open();
-getTherapistList();
+var idTerapeuta = arguments[0].idTherapist;
 
-$.addTherapist.addEventListener("click", function(){
-	Alloy.createController('addTherapist').getView();
+$.patientList.open();
+getPatientList(idTerapeuta);
+
+$.addPatient.addEventListener("click", function(){
+	Alloy.createController('addPatient', {idTherapist: idTerapeuta}).getView();
 });
 
-function getTherapistList () { 
-   //function to use HTTP to connect to a web server and transfer the data. 
+function getPatientList (idTherapist) { 
+		  //function to use HTTP to connect to a web server and transfer the data. 
           var sendit = Ti.Network.createHTTPClient({ 
                  onerror: function(e){ 
                        Ti.API.debug(e.error); 
@@ -17,15 +19,18 @@ function getTherapistList () {
               timeout:3000, 
           });                      
           //Here you have to change it for your local ip 
-          sendit.open('GET', 'http://app.bluecoreservices.com/webservices/ListTherapist.php');  
-          sendit.send(); 
+          sendit.open('POST', 'http://app.bluecoreservices.com/webservices/listPatient.php');
+	      var params = ({
+	      	"idTerapeuta" : idTherapist,
+	      });
+          sendit.send(params); 
           //Function to be called upon a successful response 
           sendit.onload = function(){ 
                  var json = JSON.parse(this.responseText); 
-                 var json = json.TherapistList; 
+                 var json = json.patientsList; 
                  //if the database is empty show an alert 
                  if(json.length == 0){ 
-                        $.therapistList.headerTitle = "The database row is empty"; 
+                        $.noPatientView.show(); 
                  }                      
                  //Emptying the data to refresh the view 
                  dataArray = [];                      
@@ -61,16 +66,17 @@ function getTherapistList () {
                      });
                      
                      viewTherapist.add(therapistLabel);
-                     row.add(viewTherapist);
+                     row.add(viewTherapist);                     
                      
-                     row.idTerapeuta = json[i].id;
+                     row.idPaciente = json[i].id;
                      
                      row.addEventListener("click", function(){
-                     	Alloy.createController('patientList', {idTherapist: this.idTerapeuta}).getView();
-                     });                     
+                     	Alloy.createController('listado', {idPatient: this.idPaciente}).getView();
+                     }); 
+                     
                                
                      dataArray.push(row);                 
                  };                      
-                 $.therapistList.setData(dataArray);                            
+                 $.patientstList.setData(dataArray);                            
            }; 
    };

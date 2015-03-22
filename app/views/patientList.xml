@@ -1,0 +1,13 @@
+<Alloy>
+	<Window id="patientList">
+			<ScrollView id="scrollViewTherapists" class="DASListWrapper" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="false" zIndex="1">
+				<TableView id="patientstList"></TableView>
+				<View id="noPatientView">
+					<Label>No exsisten pacientes registrados</Label>
+				</View>
+				<View class="buttonSpace" id="buttonSpace">
+					<Button id="addPatient" class="roundedButton">+</Button>
+				</View>
+			</ScrollView>
+		</Window>
+</Alloy>

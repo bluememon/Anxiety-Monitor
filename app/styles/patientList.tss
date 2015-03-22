@@ -1,0 +1,26 @@
+"#buttonSpace": {
+	bottom: '20sp',
+	right: '20sp',
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE,
+}
+
+'#addPatient' : {
+	color: '#ffffff',
+	font: {
+		fontSize: '30sp'
+	},
+	backgroundColor: "#009933",
+	borderWidth: 0,
+	borderColor: "#009933",
+	width: '60sp',
+	height: '60sp',
+	borderRadius: '30sp',
+	backgroundImage: 'none',
+	zIndex: 3,
+	bottom: 0
+}
+
+"#noPatientView" : {
+	visible: false
+}

@@ -1,0 +1,109 @@
+"#newPatient": {
+	layout: 'composite',
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.FILL
+}
+
+".patientsAdding": {
+	layout: 'vertical',
+	width: Titanium.UI.FILL,
+	left: "10dp",
+	right: "10dp",
+	bottom: "60dp",
+	top: "0dp"
+}
+
+"#HeaderMessage": {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	top: "10dp"
+}
+
+".labelPaciente" : {
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	font: {
+		fontSize: "35dp"
+	},
+	color: "#000000"
+}
+
+".usernameContainer": {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	top: "30dp"
+}
+
+"#firstName": {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	font: {
+		fontSize: "20dp"
+	},
+	color: '#000000',
+	hintText:'Nombre',
+	top: "30dp"
+}
+
+"#lastName": {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	font: {
+		fontSize: "20dp"
+	},
+	color: '#000000',
+	hintText:'Apellido',
+	top: "30dp"
+}
+
+"#username": {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	font: {
+		fontSize: "20dp"
+	},
+	color: '#000000',
+	hintText:'Nombre de Usuario',
+	top: "30dp"
+}
+
+"#password": {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	font: {
+		fontSize: "20dp"
+	},
+	color: '#000000',
+	hintText:'Contraseña',
+	top: "30dp"
+}
+
+"#password2": {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	font: {
+		fontSize: "20dp"
+	},
+	color: '#000000',
+	hintText:'Repetir Contraseña',
+	top: "30dp"
+}
+
+".buttonEnviar": {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	bottom: 0
+}
+
+"#agregarButton": {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	font: {
+		fontSize: "20dp"
+	},
+	color: "#000000",
+	top: "10dp",
+	bottom: "10dp",
+	left: "10dp",
+	right: "10dp"
+}
+
