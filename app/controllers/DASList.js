@@ -8,12 +8,10 @@ var buttonToggle = false;
 
 $.addDAS.addEventListener("click", function(){
  	var temp = Alloy.createController('DASInstrument', { idPatient: idPaciente }).getView();
-	$.tab2.open(temp);
 });
 
 $.addShort.addEventListener("click", function(){
  	var temp = Alloy.createController('moodInstrument', { idPatient: idPaciente }).getView();
-	$.tab2.open(temp);
 });
 
  $.expandButtons.addEventListener("click", function(){

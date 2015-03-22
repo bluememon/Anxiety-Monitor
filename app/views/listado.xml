@@ -1,7 +1,3 @@
 <Alloy>
-	 <TabGroup class="grupodeTabs" id="grupodeTabs">
-	        <Tab id="tab1" title="Estadisticas">
-	            <Require src="evalPaciente"></Require>
-	        </Tab>
-	</TabGroup>
+	 <TabGroup class="grupodeTabs" id="grupodeTabs" />
 </Alloy>

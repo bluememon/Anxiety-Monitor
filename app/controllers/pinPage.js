@@ -4,6 +4,7 @@ $.pinWrapper.open();
 
 $.entrarSistema.addEventListener("click", function(){
 	if ($.pin.value == Ti.App.Properties.getInt('pinNumber')){
+		alert(Ti.App.Properties.getInt('userType'));
 		switch (Ti.App.Properties.getInt('userType')){
 			//admin
 			case 1 :
@@ -11,7 +12,7 @@ $.entrarSistema.addEventListener("click", function(){
 			break;
 			//therapist
 			case 2 :
-				Alloy.createController('listado').getView().open();
+				Alloy.createController('patientList').getView().open();
 			break;
 			//patient
 			case 3 :
@@ -21,7 +22,7 @@ $.entrarSistema.addEventListener("click", function(){
 	}
 	else
 	{
-		alert("lo sentimos! numero PIN incorrecto.")
+		alert("lo sentimos! numero PIN incorrecto.");
 	}
 });
 

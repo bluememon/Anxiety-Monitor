@@ -1,5 +1,7 @@
 var args = arguments[0] || {};
 
+$.tempaversijala.open();
+
 var idPaciente = arguments[0].idPatient;
         
         $.sendDASA.addEventListener("click", function(){

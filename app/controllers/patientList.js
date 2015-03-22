@@ -1,6 +1,16 @@
 var args = arguments[0] || {};
 
-var idTerapeuta = arguments[0].idTherapist;
+//checamos si es terapeuta
+if (Ti.App.Properties.getInt('id') != '' && Ti.App.Properties.getInt('userType') == 2){
+	var idTerapeuta = Ti.App.Properties.getInt('id'); 
+}
+
+else 
+{
+	if (arguments[0].idTherapist !== 'undefined'){
+		var idTerapeuta = arguments[0].idTherapist;	
+	}
+}
 
 $.patientList.open();
 getPatientList(idTerapeuta);
