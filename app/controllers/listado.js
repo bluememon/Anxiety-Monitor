@@ -1,6 +1,16 @@
 var args = arguments[0] || {};
 
-var idPaciente = arguments[0].idPatient;
+//checamos si es terapeuta
+if (Ti.App.Properties.getInt('id') != '' && Ti.App.Properties.getInt('userType') == 3){
+	var idPaciente = Ti.App.Properties.getInt('id'); 
+}
+
+else 
+{
+	if (arguments[0].idPatient !== 'undefined'){
+		var idPaciente = arguments[0].idPatient;	
+	}
+}
 
 $.grupodeTabs.open();
 

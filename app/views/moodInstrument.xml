@@ -16,19 +16,18 @@
 				<View class="generalContainer">
 					<View>
 						<Label class="QuestionLabel">Categoría que identifica mi ansiedad</Label>
-						<Picker id="picker" top="50" selectionIndicator="true" useSpinner="false">
-						</Picker>
+						<Picker id="picker" top="50" selectionIndicator="true" useSpinner="false" />
 					</View>
 					<View>
 						<Button id="openAddCat">Agregar categoría</Button>
 					</View>
 				</View>
-				<AlertDialog id="dialogCategoria" onClick="agregarCatego" title="Agregar Categoria"  cancel="1">
+				<AlertDialog id="dialogCategoria" title="Agregar Categoria"  cancel="1">
 		            <!-- The ButtonNames tag sets the buttonNames property. -->
-		            <AndroidView><TextField></TextField></AndroidView>
+		            <AndroidView><TextField id="nuevaCatego"></TextField></AndroidView>
 		            <ButtonNames>
+		                <ButtonName id="agregarCatego">Agregar</ButtonName>
 		                <ButtonName>Cancelar</ButtonName>
-		                <ButtonName>Agregar</ButtonName>
 		            </ButtonNames>
 		        </AlertDialog>
 			</View>

@@ -160,3 +160,11 @@
 	},
 	textAlign: "center"	
 }
+
+
+"#nuevaCatego" : {
+	width: Titanium.UI.FILL,
+	font: {
+		fontSize: "30dp"
+	}
+}
