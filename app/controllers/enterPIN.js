@@ -7,7 +7,19 @@ $.closeModal.addEventListener("click", function(){
 });
 
 function finalizarSetup() {
-		Alloy.createController('listado').getView().open();
+	//si el usuario es un terapeuta
+	if (Ti.App.Properties.getInt('id') != '' && Ti.App.Properties.getInt('userType') == 1){
+		Alloy.createController('terapistList').getView();	 
+	}
+	
+	//si el usuario es un terapeuta
+	if (Ti.App.Properties.getInt('id') != '' && Ti.App.Properties.getInt('userType') == 2){
+		Alloy.createController('patientList').getView();	 
+	}
+	//si el usuario es un paciente
+	if (Ti.App.Properties.getInt('id') != '' && Ti.App.Properties.getInt('userType') == 3){
+		Alloy.createController('listado').getView();	 
+	}
 };
 
 $.verificarButton.addEventListener("click", function(){

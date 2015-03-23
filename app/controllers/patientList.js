@@ -8,7 +8,7 @@ if (Ti.App.Properties.getInt('id') != '' && Ti.App.Properties.getInt('userType')
 else 
 {
 	if (arguments[0].idTherapist !== 'undefined'){
-		var idTerapeuta = arguments[0].idTherapist;	
+		var idTerapeuta = arguments[0].idTherapist;
 	}
 }
 

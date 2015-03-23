@@ -1,5 +1,6 @@
 var args = arguments[0] || {};
 var idPaciente = arguments[0].idPatient;
+var categoriaActiva = null;
 // Auto opening window
 $.moodInstrument.open();
 
@@ -9,7 +10,7 @@ $.closeModal.addEventListener("click", function(){
 	$.InformationModal.hide();
 });
 
-$.sendDASA.addEventListener("click", function(){
+$.sendMood.addEventListener("click", function(){
 	insertData();
 });
 
@@ -24,6 +25,10 @@ $.dialogCategoria.addEventListener("click", function(ev){
     } else if (ev.index == 1) { // clicked "No"
       // do nothing
     }
+});
+
+$.picker.addEventListener('change', function(e) {
+	categoriaActiva = e.row.value;
 });
 
 function agregarCatego(nombreCatego){
@@ -110,7 +115,7 @@ function insertData(){
              var request = Ti.Network.createHTTPClient({ 
           onload: function(){
           	alert("Gracias por llenar la Evaluación!");
-          	$.evaluacionTerapeuta.close();
+          	$.moodInstrument.close();
           },
           onerror: function(e){ 
               Ti.API.debug(e.error); 
@@ -119,12 +124,13 @@ function insertData(){
           timeout:3000, 
              });    
 //Request the data from the web service, Here you have to change it for your local ip 
-             request.open("POST","http://app.bluecoreservices.com/webservices/addEvalTerapeuta.php"); 
+             request.open("POST","http://app.bluecoreservices.com/webservices/addMood.php"); 
              var params = ({
-             	"question1": $.question1.value,
-             	"question2": $.question2.value,
-             	"question3": $.question3.value,
-                 	});  
-              request.send(params); 
+             	"idPaciente": idPaciente,
+             	"categoria": categoriaActiva,
+             	"severidad": $.question1.value,
+             	"informacion": $.textArea.value,
+         	 });
+             request.send(params); 
           }
    };

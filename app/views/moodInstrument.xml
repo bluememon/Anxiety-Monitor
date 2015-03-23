@@ -54,7 +54,7 @@
 					<Label class="cierreLabel">Presione el botón "Enviar" para cerrar el cuestionario</Label>
 				</View>
 				<View class="sendButton">
-					<Button id="sendDASA">Enviar</Button>
+					<Button id="sendMood">Enviar</Button>
 				</View>
 			</View>
 		</ScrollableView>

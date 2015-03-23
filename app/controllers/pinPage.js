@@ -4,7 +4,6 @@ $.pinWrapper.open();
 
 $.entrarSistema.addEventListener("click", function(){
 	if ($.pin.value == Ti.App.Properties.getInt('pinNumber')){
-		alert(Ti.App.Properties.getInt('userType'));
 		switch (Ti.App.Properties.getInt('userType')){
 			//admin
 			case 1 :

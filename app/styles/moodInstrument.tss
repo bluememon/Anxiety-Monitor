@@ -163,8 +163,13 @@
 
 
 "#nuevaCatego" : {
-	width: Titanium.UI.FILL,
-	font: {
-		fontSize: "30dp"
-	}
+	width: Titanium.UI.FILL
+}
+
+"#textArea" : {
+	width: Titanium.UI.FILL
+}
+
+"#picker": {
+	width: Titanium.UI.FILL
 }

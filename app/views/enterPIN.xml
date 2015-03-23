@@ -25,7 +25,6 @@
 			</View>
 		</View>
 		<AlertDialog id="dialogPIN" onClick="finalizarSetup" title="Bienvenido!"  message="Los numeros PIN son correctos! usa Éste numero para acceder a la applicación">
-            <!-- The ButtonNames tag sets the buttonNames property. -->
             <ButtonNames>
                 <ButtonName>Aceptar</ButtonName>
             </ButtonNames>
