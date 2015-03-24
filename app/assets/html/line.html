@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Highstock Example</title>
+		<script src="jquery-1.11.2.min.js"></script>
+		<script src="highcharts.js"></script>
+		<script src="exporting.js"></script>
+		<script type="text/javascript">				
+				function crearGrafica(arregloNivel, arregloFecha){
+				    new Highcharts.Chart({
+				        chart: {
+				        	renderTo: 'container',
+							backgroundColor: null,
+							plotBackgroundColor: null,
+				            type: 'line'
+				        },
+				        credits:{
+							enabled:false
+						},
+				        title: {
+				            text: 'Ansiedad en el tiempo'
+				        },
+				        xAxis: {
+				            title: {
+				                text: 'tiempo'
+				            }
+				        },
+				        yAxis: {
+				            title: {
+				                text: 'nivel de ansiedad'
+				            }
+				        },
+				        series: [{
+				            name: 'ansiedad contra tiempo',
+				            data: arregloNivel
+				        }],
+				    });
+			    }
+		</script>
+	</head>
+
+	<body>
+		<div id="container" style="height: 300px; width: 100%">Loading...</div>
+	</body>
+</html>

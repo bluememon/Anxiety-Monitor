@@ -2,7 +2,8 @@
 	<Tab id="tab1" title="Categorias">
 		<Window id="tempnomames">
 			<ScrollView id="scrollViewDASList" class="DASListWrapper" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="false" zIndex="1">
-				<TableView id="DASList"></TableView>
+				<WebView id='chartWebView' url='/html/PIE.html' touchEnabled="false" bubbleParent="false" cacheMode="Titanium.UI.Android.WEBVIEW_LOAD_NO_CACHE"></WebView>
+				<TableView id="DASCatego"></TableView>
 				<View class="buttonSpace" id="buttonSpace">
 					<Button id="expandButtons" class="roundedButton">+</Button>
 					<Button id="addDAS" class="roundedButton">+</Button>

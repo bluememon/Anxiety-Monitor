@@ -1,8 +1,19 @@
+"#scrollViewDASList": {
+	layout: 'vertical',
+	zIndex: 1
+}
+
+"#chartPIEWebView": {
+	height: Titanium.UI.SIZE,
+	width: Titanium.UI.FILL
+}
+
 "#buttonSpace": {
 	bottom: '20sp',
 	right: '20sp',
 	width: Titanium.UI.SIZE,
 	height: Titanium.UI.SIZE,
+	zIndex:2
 }
 
 '#expandButtons' : {
@@ -52,4 +63,10 @@
 
 "#noInfoView" : {
 	visible: false
+}
+
+
+"#DASList" : {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE
 }

@@ -1,8 +1,45 @@
 var args = arguments[0] || {};
 
 var idPaciente = arguments[0].idPatient;
+var dataArrayNivel = [];
+var dataArrayFecha = []; 
 
-getTodoList(idPaciente);          
+getTodoList(idPaciente);
+loadData();
+
+function loadData(){
+	var sendit = Ti.Network.createHTTPClient({ 
+	 onerror: function(e){ 
+	       Ti.API.debug(e.error); 
+	       alert('There was an error during the connection'); 
+	         }, 
+	      timeout:3000, 
+	  });                      
+          //Here you have to change it for your local ip 
+      sendit.open('POST', 'http://app.bluecoreservices.com/webservices/getLineChart.php');
+      var params = ({
+      	"idPaciente": idPaciente,
+      });
+      sendit.send(params); 
+          
+          //Function to be called upon a successful response 
+      sendit.onload = function(){ 
+             var json = JSON.parse(this.responseText); 
+             var json = json.lineData; 
+             //if the database is empty show an alert 
+             if(json.length == 0){ 
+             	$.noInfoView.show();       
+             }                      
+             //Emptying the data to refresh the view 
+             //Insert the JSON data to the table view
+             for( var i=0; i<json.length; i++){
+             	dataArrayNivel.push(json[i].total);
+             	dataArrayFecha.push(json[i].fechaEnvio);
+             }
+      };
+	
+};
+          
 
 var buttonToggle = false;
 
@@ -175,4 +212,8 @@ function agregarColor(resultado) {
                  };                      
                  $.DASList.setData(dataArray);                            
            }; 
-   };   
+   };
+      
+$.chartPIEWebView.addEventListener('load', function() {
+	$.chartPIEWebView.evalJS('crearGrafica(' + JSON.stringify(dataArrayNivel) + ', '  + JSON.stringify(dataArrayFecha) + ')');
+});

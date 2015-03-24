@@ -2,13 +2,14 @@
 	<Tab id="tab2" title="Diario">
 		<Window id="tempnomames">
 			<ScrollView id="scrollViewDASList" class="DASListWrapper" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="false" zIndex="1">
+				<WebView id='chartPIEWebView' url='/html/line.html' touchEnabled="false" bubbleParent="false" cacheMode="Titanium.UI.Android.WEBVIEW_LOAD_NO_CACHE"></WebView>
 				<TableView id="DASList"></TableView>
-				<View class="buttonSpace" id="buttonSpace">
-					<Button id="expandButtons" class="roundedButton">+</Button>
-					<Button id="addDAS" class="roundedButton">+</Button>
-					<Button id="addShort" class="roundedButton">+</Button>
-				</View>
 			</ScrollView>
+			<View class="buttonSpace" id="buttonSpace">
+				<Button id="expandButtons" class="roundedButton">+</Button>
+				<Button id="addDAS" class="roundedButton">+</Button>
+				<Button id="addShort" class="roundedButton">+</Button>
+			</View>
 			<View id="noInfoView">
 				<Label>No exsisten registros</Label>
 			</View>
