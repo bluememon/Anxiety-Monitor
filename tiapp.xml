@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-service-baseurl-Anxiety Monitor">http://localhost:42933</property>
     <id>am.bluecoreservices.com</id>
     <name>Anxiety Monitor</name>
     <version>1.0</version>

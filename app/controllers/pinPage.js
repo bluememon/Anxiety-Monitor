@@ -43,16 +43,56 @@ $.numeroDos.addEventListener("click", function(){
 	$.pin.value += 2;
 });
 
+$.numeroDos.addEventListener("touchstart", function(){
+	$.numeroDos.backgroundColor = "#000000";
+	$.numeroDos.opacity = 0.4;
+});
+
+$.numeroDos.addEventListener("touchend", function(){
+	$.numeroDos.backgroundColor = "transparent";
+	$.numeroDos.opacity = 1.0;
+});
+
 $.numeroTres.addEventListener("click", function(){
 	$.pin.value += 3;
+});
+
+$.numeroTres.addEventListener("touchstart", function(){
+	$.numeroTres.backgroundColor = "#000000";
+	$.numeroTres.opacity = 0.4;
+});
+
+$.numeroTres.addEventListener("touchend", function(){
+	$.numeroTres.backgroundColor = "transparent";
+	$.numeroTres.opacity = 1.0;
 });
 
 $.numeroCuatro.addEventListener("click", function(){
 	$.pin.value += 4;
 });
 
+$.numeroCuatro.addEventListener("touchstart", function(){
+	$.numeroCuatro.backgroundColor = "#000000";
+	$.numeroCuatro.opacity = 0.4;
+});
+
+$.numeroCuatro.addEventListener("touchend", function(){
+	$.numeroCuatro.backgroundColor = "transparent";
+	$.numeroCuatro.opacity = 1.0;
+});
+
 $.numeroCinco.addEventListener("click", function(){
 	$.pin.value += 5;
+});
+
+$.numeroCinco.addEventListener("touchstart", function(){
+	$.numeroCinco.backgroundColor = "#000000";
+	$.numeroCinco.opacity = 0.4;
+});
+
+$.numeroCinco.addEventListener("touchend", function(){
+	$.numeroCinco.backgroundColor = "transparent";
+	$.numeroCinco.opacity = 1.0;
 });
 
 $.numeroSeis.addEventListener("click", function(){
