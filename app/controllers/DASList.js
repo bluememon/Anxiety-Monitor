@@ -7,6 +7,8 @@ var dataArrayFecha = [];
 getTodoList(idPaciente);
 loadData();
 
+
+
 function loadData(){
 	var sendit = Ti.Network.createHTTPClient({ 
 	 onerror: function(e){ 
@@ -51,7 +53,7 @@ $.addShort.addEventListener("click", function(){
  	var temp = Alloy.createController('moodInstrument', { idPatient: idPaciente }).getView();
 });
 
- $.expandButtons.addEventListener("click", function(){
+$.expandButtons.addEventListener("click", function(){
 	
 	if (buttonToggle == false){	
 		var m = Ti.UI.create2DMatrix({ 
@@ -120,7 +122,7 @@ function agregarColor(resultado) {
 };
  
  
- function getTodoList (idPatient) { 
+function getTodoList (idPatient) { 
    //function to use HTTP to connect to a web server and transfer the data. 
           var sendit = Ti.Network.createHTTPClient({ 
                  onerror: function(e){ 
@@ -210,7 +212,7 @@ function agregarColor(resultado) {
                                
                      dataArray.push(row);                 
                  };                      
-                 $.DASList.setData(dataArray);                            
+                 $.DASListas.setData(dataArray);                            
            }; 
    };
       

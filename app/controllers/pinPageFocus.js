@@ -5,20 +5,8 @@ $.pinWrapper.open();
 
 $.entrarSistema.addEventListener("click", function(){
 		if ($.pin.value == Ti.App.Properties.getInt('pinNumber')){
-			switch (Ti.App.Properties.getInt('userType')){
-				//admin
-				case 1 :
-					Alloy.createController('terapistList').getView().open();
-				break;
-				//therapist
-				case 2 :
-					Alloy.createController('patientList').getView().open();
-				break;
-				//patient
-				case 3 :
-					Alloy.createController('listado').getView().open();
-				break;
-			}
+			Ti.App.Properties.setString('status', 'running');
+			$.pinWrapper.close();
 		}
 		else
 		{

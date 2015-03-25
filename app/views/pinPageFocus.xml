@@ -1,0 +1,68 @@
+<Alloy>
+	<Window class="container" id="pinWrapper">
+		<View id="wrapper">
+			<Label id="pinLabel">Teclee su PIN</Label>
+			<View class="pinWrapper">
+				<TextField id="pin"></TextField>
+				<View class="numberbuttons">
+					<View class="rowButtons">
+						<View class="firstButton" id="numeroUno">
+							<Label class="number" >1</Label>
+							<Label class="letters"></Label>
+						</View>
+						<View class="secondButton" id="numeroDos">
+							<Label class="number">2</Label>
+							<Label class="letters">ABC</Label>
+						</View>
+						<View class="thirdButton" id="numeroTres">
+							<Label class="number">3</Label>
+							<Label class="letters">DEF</Label>
+						</View>
+					</View>
+					<View class="rowButtons">
+						<View class="firstButton" id="numeroCuatro">
+							<Label class="number">4</Label>
+							<Label class="letters">GHI</Label>
+						</View>
+						<View class="secondButton" id="numeroCinco">
+							<Label class="number">5</Label>
+							<Label class="letters">JKL</Label>
+						</View>
+						<View class="thirdButton" id="numeroSeis">
+							<Label class="number">6</Label>
+							<Label class="letters">MNO</Label>
+						</View>
+					</View>
+					<View class="rowButtons">
+						<View class="firstButton" id="numeroSiete">
+							<Label class="number">7</Label>
+							<Label class="letters">PQRS</Label>
+						</View>
+						<View class="secondButton" id="numeroOcho">
+							<Label class="number">8</Label>
+							<Label class="letters">TUV</Label>
+						</View>
+						<View class="thirdButton" id="numeroNueve">
+							<Label class="number">9</Label>
+							<Label class="letters">WXYZ</Label>
+						</View>
+					</View>
+					<View class="rowButtons">
+						<View class="firstButton">
+							<Label class="number"></Label>
+							<Label class="letters"></Label>
+						</View>
+						<View class="secondButton" id="numeroCero">
+							<Label class="number">0</Label>
+							<Label class="letters"></Label>
+						</View>
+						<View class="thirdButton">
+							<Label class="number" id="entrarSistema">OK</Label>
+							<Label class="letters"></Label>
+						</View>
+					</View>
+				</View>
+			</View>
+		</View>
+	</Window>
+</Alloy>

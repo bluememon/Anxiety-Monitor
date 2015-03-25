@@ -3,7 +3,7 @@
 		<Window id="tempnomames">
 			<ScrollView id="scrollViewDASList" class="DASListWrapper" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="false" zIndex="1">
 				<WebView id='chartPIEWebView' url='/html/line.html' touchEnabled="false" bubbleParent="false" cacheMode="Titanium.UI.Android.WEBVIEW_LOAD_NO_CACHE"></WebView>
-				<TableView id="DASList"></TableView>
+				<TableView id="DASListas"></TableView>
 			</ScrollView>
 			<View class="buttonSpace" id="buttonSpace">
 				<Button id="expandButtons" class="roundedButton">+</Button>
