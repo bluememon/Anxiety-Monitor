@@ -7,12 +7,17 @@ $.addTherapist.addEventListener("click", function(){
 	Alloy.createController('addTherapist').getView();
 });
 
+$.reintentar.addEventListener("click", function(){
+	getTherapistList();	
+});
+
 function getTherapistList () { 
    //function to use HTTP to connect to a web server and transfer the data. 
           var sendit = Ti.Network.createHTTPClient({ 
                  onerror: function(e){ 
                        Ti.API.debug(e.error); 
                        alert('There was an error during the connection'); 
+                       $.connectionError.show();
                  }, 
               timeout:3000, 
           });                      
@@ -70,7 +75,8 @@ function getTherapistList () {
                      });                     
                                
                      dataArray.push(row);                 
-                 };                      
+                 };
+				 $.connectionError.hide();                                       
                  $.therapistList.setData(dataArray);                            
            }; 
    };

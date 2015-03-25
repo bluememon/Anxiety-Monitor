@@ -58,5 +58,35 @@
 				</View>
 			</View>
 		</ScrollableView>
+		<AlertDialog id="dialogError" title="Error Conexión"  cancel="1">
+            <!-- The ButtonNames tag sets the buttonNames property. -->
+            <AndroidView>
+            	<Label>Hubo un error en la conexión</Label>
+            </AndroidView>
+            <ButtonNames>
+                <ButtonName id="reintentar">Reintentar</ButtonName>
+                <ButtonName>Cancelar</ButtonName>
+            </ButtonNames>
+        </AlertDialog>
+        <AlertDialog id="dialogErrorCatalog" title="Error Conexión"  cancel="1">
+            <!-- The ButtonNames tag sets the buttonNames property. -->
+            <AndroidView>
+            	<Label>Hubo un error en la conexión</Label>
+            </AndroidView>
+            <ButtonNames>
+                <ButtonName id="reintentarCatalog">Reintentar</ButtonName>
+                <ButtonName>Cancelar</ButtonName>
+            </ButtonNames>
+        </AlertDialog>
+        <AlertDialog id="dialogErrorCatalogList" title="Error Conexión"  cancel="1">
+            <!-- The ButtonNames tag sets the buttonNames property. -->
+            <AndroidView>
+            	<Label>Hubo un error en la conexión</Label>
+            </AndroidView>
+            <ButtonNames>
+                <ButtonName id="reintentarCatalogList">Reintentar</ButtonName>
+                <ButtonName>Cancelar</ButtonName>
+            </ButtonNames>
+        </AlertDialog>
 	</Window>
 </Alloy>

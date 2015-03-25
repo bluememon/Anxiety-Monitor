@@ -19,11 +19,16 @@ $.addPatient.addEventListener("click", function(){
 	Alloy.createController('addPatient', {idTherapist: idTerapeuta}).getView();
 });
 
+$.reintentar.addEventListener("click", function(){
+	getPatientList(idTerapeuta);	
+});
+
 function getPatientList (idTherapist) { 
 		  //function to use HTTP to connect to a web server and transfer the data. 
           var sendit = Ti.Network.createHTTPClient({ 
                  onerror: function(e){ 
                        Ti.API.debug(e.error); 
+                       $.connectionError.show();
                        alert('There was an error during the connection'); 
                  }, 
               timeout:3000, 
@@ -86,7 +91,8 @@ function getPatientList (idTherapist) {
                      
                                
                      dataArray.push(row);                 
-                 };                      
+                 };   
+                 $.connectionError.hide();                   
                  $.patientstList.setData(dataArray);                            
            }; 
    };

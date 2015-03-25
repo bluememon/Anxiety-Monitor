@@ -18,10 +18,34 @@ $.openAddCat.addEventListener("click", function(){
 	$.dialogCategoria.show();
 });
 
+$.dialogError.addEventListener("click", function(ev){
+	if (ev.index == 0) { // clicked "Yes"
+      insertData();
+    } else if (ev.index == 1) { // clicked "No"
+      // do nothing
+    }
+});
+
+$.dialogErrorCatalog.addEventListener("click", function(ev){
+	if (ev.index == 0) { // clicked "Yes"
+      agregarCatego(categoriaActiva);
+    } else if (ev.index == 1) { // clicked "No"
+      // do nothing
+    }
+});
+
+$.dialogErrorCatalogList.addEventListener("click", function(ev){
+	if (ev.index == 0) { // clicked "Yes"
+      getCategorias();
+    } else if (ev.index == 1) { // clicked "No"
+      // do nothing
+    }
+});
 
 $.dialogCategoria.addEventListener("click", function(ev){
 	if (ev.index == 0) { // clicked "Yes"
-      agregarCatego(ev.source.androidView.children[0].value);
+		categoriaActiva = ev.source.androidView.children[0].value;
+      	agregarCatego(ev.source.androidView.children[0].value);
     } else if (ev.index == 1) { // clicked "No"
       // do nothing
     }
@@ -70,7 +94,7 @@ function getCategorias() {
           var sendit = Ti.Network.createHTTPClient({ 
                  onerror: function(e){ 
                        Ti.API.debug(e.error); 
-                       alert('There was an error during the connection'); 
+                       $.dialogErrorCatalogList.show(); 
                  }, 
               timeout:3000, 
           });                      
@@ -119,7 +143,7 @@ function insertData(){
           },
           onerror: function(e){ 
               Ti.API.debug(e.error); 
-              alert('There was an error during the conexion'); 
+              $.dialogError.show(); 
           }, 
           timeout:3000, 
              });    

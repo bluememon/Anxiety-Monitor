@@ -1,10 +1,16 @@
 <Alloy>
 	<Window id="TherapistList">
-			<ScrollView id="scrollViewTherapists" class="DASListWrapper" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="false" zIndex="1">
+			<ScrollView id="scrollViewTherapists">
 				<TableView id="therapistList"></TableView>
-				<View class="buttonSpace" id="buttonSpace">
-					<Button id="addTherapist" class="roundedButton">+</Button>
-				</View>
 			</ScrollView>
+			<View id="buttonSpace">
+				<Button id="addTherapist">+</Button>
+			</View>
+			<View id="connectionError">
+				<View class="container">
+					<Label>Hubo un error en la conección</Label>
+					<Button id="reintentar">Reintentar</Button>
+				</View>
+			</View>
 		</Window>
 </Alloy>

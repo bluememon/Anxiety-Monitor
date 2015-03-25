@@ -74,8 +74,18 @@
 	       		</View>
 	       </View>
 	       <View class="sendButton">
-	       	<Button id="sendDASA">Enviar</Button>
+	       		<Button id="sendDASA">Enviar</Button>
 	       </View>
 	    </ScrollView>
+	    <AlertDialog id="dialogError" title="Error Conexión"  cancel="1">
+            <!-- The ButtonNames tag sets the buttonNames property. -->
+            <AndroidView>
+            	<Label>Hubo un error en la conexión</Label>
+            </AndroidView>
+            <ButtonNames>
+                <ButtonName id="reintentar">Reintentar</ButtonName>
+                <ButtonName>Cancelar</ButtonName>
+            </ButtonNames>
+        </AlertDialog>
     </Window>
 </Alloy>

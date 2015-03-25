@@ -8,6 +8,14 @@ var idPaciente = arguments[0].idPatient;
         	insertData(idPaciente);
         });
         
+        $.dialogError.addEventListener("click", function(ev){
+			if (ev.index == 0) { // clicked "Yes"
+		      insertData(idPaciente);
+		    } else if (ev.index == 1) { // clicked "No"
+		      // do nothing
+		    }
+		});
+        
         $.question1.addEventListener('stop', function(e) {
 		    if(e.value < 1.5) {
 		        $.question1.value = 1;
@@ -283,7 +291,7 @@ var idPaciente = arguments[0].idPatient;
                   },
                   onerror: function(e){ 
                       Ti.API.debug(e.error); 
-                      alert('There was an error during the conexion'); 
+                      $.dialogError.show();
                   }, 
                   timeout:3000, 
                      });    
