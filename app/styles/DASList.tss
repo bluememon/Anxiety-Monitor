@@ -3,9 +3,16 @@
 	zIndex: 1
 }
 
-"#chartPIEWebView": {
-	height: Titanium.UI.SIZE,
+"#chartWrapper": {
+	height: "300dp",
 	width: Titanium.UI.FILL
+}
+
+"#chartLineWebView": {
+	height: Titanium.UI.SIZE,
+	width: Titanium.UI.FILL,
+	DisableBounce: true,
+	touchEnabled: false
 }
 
 "#buttonSpace": {
@@ -68,7 +75,8 @@
 
 "#DASListas" : {
 	width: Titanium.UI.FILL,
-	height: Titanium.UI.SIZE
+	height: Titanium.UI.SIZE,
+	layout: 'vertical'
 }
 
 "#connectionError": {
@@ -88,4 +96,17 @@
 "#reintentar": {
 	width: Titanium.UI.SIZE,
 	height: Titanium.UI.SIZE
+}
+
+"#loadingWrapper": {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.FILL,
+	layout: 'composite'
+}
+
+"#activityIndicator": {
+	left: '10px',
+  	message: 'Cargando...',
+  	height: Titanium.UI.FILL,
+  	width: Titanium.UI.FILL
 }

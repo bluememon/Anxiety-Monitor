@@ -1,6 +1,7 @@
 var args = arguments[0] || {};
 
 $.TherapistList.open();
+$.activityIndicator.show();
 getTherapistList();
 
 $.addTherapist.addEventListener("click", function(){
@@ -76,7 +77,8 @@ function getTherapistList () {
                                
                      dataArray.push(row);                 
                  };
-				 $.connectionError.hide();                                       
+				 $.connectionError.hide();          
+				 $.activityIndicator.hide();                             
                  $.therapistList.setData(dataArray);                            
            }; 
    };

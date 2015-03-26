@@ -51,3 +51,16 @@
 	width: Titanium.UI.SIZE,
 	height: Titanium.UI.SIZE
 }
+
+"#loadingWrapper": {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.FILL,
+	layout: 'composite'
+}
+
+"#activityIndicator": {
+	left: '10px',
+  	message: 'Cargando...',
+  	height: Titanium.UI.FILL,
+  	width: Titanium.UI.FILL
+}

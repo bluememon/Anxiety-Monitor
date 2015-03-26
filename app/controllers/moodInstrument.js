@@ -53,6 +53,7 @@ $.dialogCategoria.addEventListener("click", function(ev){
 
 $.picker.addEventListener('change', function(e) {
 	categoriaActiva = e.row.value;
+	alert(categoriaActiva);
 });
 
 function agregarCatego(nombreCatego){

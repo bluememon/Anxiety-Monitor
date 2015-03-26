@@ -7,6 +7,7 @@ var dataArrayFecha = [];
 
 var buttonToggle = false;
 
+$.activityIndicator.show();
 loadData();
 
 function loadData(){

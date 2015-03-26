@@ -5,6 +5,7 @@ var dataArrayNivel = [];
 var dataArrayFecha = []; 
 
 getTodoList(idPaciente);
+$.activityIndicator.show();
 loadData();
 
 
@@ -50,8 +51,7 @@ $.addDAS.addEventListener("click", function(){
 });
 
 $.addShort.addEventListener("click", function(){
- 	//var temp = Alloy.createController('moodInstrument', { idPatient: idPaciente }).getView();
- 	var temp = Alloy.createController('respirationGame', { idPatient: idPaciente }).getView();
+ 	var temp = Alloy.createController('moodInstrument', { idPatient: idPaciente }).getView();
 });
 
 $.reintentar.addEventListener("click", function(){
@@ -152,14 +152,25 @@ function getTodoList (idPatient) {
                  	$.noInfoView.show();       
                  }                      
                  //Emptying the data to refresh the view 
-                 dataArray = [];                      
+                 dataArray = []; 
+                 
+                 //we add the separator
+                 var separator = Ti.UI.createView({
+			        width: Titanium.UI.FILL,
+			        height:1,
+			        backgroundColor:'#999999',
+			        bottom:0,
+			 
+			    });
+			    //we add the first separator
+			    $.DASListas.add(separator);
+                                      
                  //Insert the JSON data to the table view 
                  for( var i=0; i<json.length; i++){ 
                  	
-                     var row = Ti.UI.createTableViewRow({
+                     var row = Titanium.UI.createView({
                      		className: 'elementRow',
                      		layout: 'horizontal',
-							horizontalWrap: false,
 							height: Titanium.UI.SIZE,
 							width: Titanium.UI.FILL
              		 });                                     		
@@ -168,9 +179,8 @@ function getTodoList (idPatient) {
                      	className: 'rowResult',
                      	height: Titanium.UI.SIZE,
 						width: Titanium.UI.SIZE,
-						left: '10sp',
-						right: '10sp',
-						bubbleParent: true
+						bubbleParent: true,
+						layout: 'composite'
                      });
                      
                      var viewResultColor = Titanium.UI.createView({
@@ -183,7 +193,8 @@ function getTodoList (idPatient) {
 						bottom: '10sp',
 						left: '10sp',
 						right: '10sp',
-						bubbleParent: true
+						bubbleParent: true,
+						layout: 'composite'
                      });
                      
                      var viewDate = Titanium.UI.createView({
@@ -195,11 +206,11 @@ function getTodoList (idPatient) {
                      });
                      
                      var resultLabel = Titanium.UI.createLabel({
-                     	text: json[i].total,
+                     	text: Math.round(json[i].total),
                      	font: {
                      		fontSize: '20sp'
                      	},
-                     	color: '#999999'
+                     	color: '#FFFFFF'
                      });
                      
                       var dateLabel = Titanium.UI.createLabel({
@@ -210,18 +221,31 @@ function getTodoList (idPatient) {
                      	color: '#000000'
                      });
                      
+                     var separator = Ti.UI.createView({
+				        width: Titanium.UI.FILL,
+				        height:1,
+				        backgroundColor:'#999999',
+				        bottom:0,
+				 
+				    });
+                     
                      viewResult.add(resultLabel);
                      viewDate.add(dateLabel);
+                     
+                     viewResultColor.add(viewResult);
                      
                      row.add(viewResultColor);
                      row.add(viewDate);                     
                                
-                     dataArray.push(row);                 
-                 };                      
-                 $.DASListas.setData(dataArray);                            
+                     //dataArray.push(row);
+                     $.DASListas.add(row);
+                     $.DASListas.add(separator);                 
+                 }; 
+                 $.activityIndicator.hide();                    
+                 //$.DASListas.add(dataArray);                            
            }; 
    };
       
-$.chartPIEWebView.addEventListener('load', function() {
-	$.chartPIEWebView.evalJS('crearGrafica(' + JSON.stringify(dataArrayNivel) + ', '  + JSON.stringify(dataArrayFecha) + ')');
+$.chartLineWebView.addEventListener('load', function() {
+	$.chartLineWebView.evalJS('crearGrafica(' + JSON.stringify(dataArrayNivel) + ', '  + JSON.stringify(dataArrayFecha) + ')');
 });

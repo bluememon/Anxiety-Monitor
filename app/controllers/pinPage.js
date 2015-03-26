@@ -26,6 +26,17 @@ $.entrarSistema.addEventListener("click", function(){
 		}
 });
 
+$.entrarSistema.addEventListener("touchstart", function(){
+	$.entrarSistema.backgroundColor = "#000000";
+	$.entrarSistema.opacity = 0.4;
+});
+
+$.entrarSistema.addEventListener("touchend", function(){
+	$.entrarSistema.backgroundColor = "transparent";
+	$.entrarSistema.opacity = 1.0;
+});
+
+
 $.numeroUno.addEventListener("click", function(){
 	$.pin.value += 1;
 });
@@ -100,18 +111,68 @@ $.numeroSeis.addEventListener("click", function(){
 	$.pin.value += 6;
 });
 
+$.numeroSeis.addEventListener("touchstart", function(){
+	$.numeroSeis.backgroundColor = "#000000";
+	$.numeroSeis.opacity = 0.4;
+});
+
+$.numeroSeis.addEventListener("touchend", function(){
+	$.numeroSeis.backgroundColor = "transparent";
+	$.numeroSeis.opacity = 1.0;
+});
+
 $.numeroSiete.addEventListener("click", function(){
 	$.pin.value += 7;
+});
+
+$.numeroSiete.addEventListener("touchstart", function(){
+	$.numeroSiete.backgroundColor = "#000000";
+	$.numeroSiete.opacity = 0.4;
+});
+
+$.numeroSiete.addEventListener("touchend", function(){
+	$.numeroSiete.backgroundColor = "transparent";
+	$.numeroSiete.opacity = 1.0;
 });
 
 $.numeroOcho.addEventListener("click", function(){
 	$.pin.value += 8;
 });
 
+$.numeroOcho.addEventListener("touchstart", function(){
+	$.numeroOcho.backgroundColor = "#000000";
+	$.numeroOcho.opacity = 0.4;
+});
+
+$.numeroOcho.addEventListener("touchend", function(){
+	$.numeroOcho.backgroundColor = "transparent";
+	$.numeroOcho.opacity = 1.0;
+});
+
 $.numeroNueve.addEventListener("click", function(){
 	$.pin.value += 9;
 });
 
+$.numeroNueve.addEventListener("touchstart", function(){
+	$.numeroNueve.backgroundColor = "#000000";
+	$.numeroNueve.opacity = 0.4;
+});
+
+$.numeroNueve.addEventListener("touchend", function(){
+	$.numeroNueve.backgroundColor = "transparent";
+	$.numeroNueve.opacity = 1.0;
+});
+
 $.numeroCero.addEventListener("click", function(){
 	$.pin.value += 0;
+});
+
+$.numeroCero.addEventListener("touchstart", function(){
+	$.numeroCero.backgroundColor = "#000000";
+	$.numeroCero.opacity = 0.4;
+});
+
+$.numeroCero.addEventListener("touchend", function(){
+	$.numeroCero.backgroundColor = "transparent";
+	$.numeroCero.opacity = 1.0;
 });

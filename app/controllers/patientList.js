@@ -13,6 +13,7 @@ else
 }
 
 $.patientList.open();
+$.activityIndicator.show();
 getPatientList(idTerapeuta);
 
 $.addPatient.addEventListener("click", function(){
@@ -92,7 +93,8 @@ function getPatientList (idTherapist) {
                                
                      dataArray.push(row);                 
                  };   
-                 $.connectionError.hide();                   
+                 $.connectionError.hide(); 
+                 $.activityIndicator.hide();                  
                  $.patientstList.setData(dataArray);                            
            }; 
    };

@@ -1,19 +1,22 @@
 <Alloy>
 	<Window id="patientList">
-			<ScrollView id="scrollViewTherapists">
-				<TableView id="patientstList"></TableView>
-				<View id="noPatientView">
-					<Label>No exsisten pacientes registrados</Label>
-				</View>
-			</ScrollView>
-			<View class="buttonSpace" id="buttonSpace">
-				<Button id="addPatient" class="roundedButton">+</Button>
+		<View id="loadingWrapper">
+			<ActivityIndicator id="activityIndicator" />
+		</View>
+		<ScrollView id="scrollViewTherapists">
+			<TableView id="patientstList"></TableView>
+			<View id="noPatientView">
+				<Label>No exsisten pacientes registrados</Label>
 			</View>
-			<View id="connectionError">
-				<View class="container">
-					<Label>Hubo un error en la conección</Label>
-					<Button id="reintentar">Reintentar</Button>
-				</View>
+		</ScrollView>
+		<View class="buttonSpace" id="buttonSpace">
+			<Button id="addPatient" class="roundedButton">+</Button>
+		</View>
+		<View id="connectionError">
+			<View class="container">
+				<Label>Hubo un error en la conección</Label>
+				<Button id="reintentar">Reintentar</Button>
 			</View>
-		</Window>
+		</View>
+	</Window>
 </Alloy>
