@@ -14,6 +14,7 @@ function loadData(){
 	 onerror: function(e){ 
 	       Ti.API.debug(e.error); 
 	       alert('There was an error during the connection'); 
+	       $.connectionError.show();
 	         }, 
 	      timeout:3000, 
 	  });                      
@@ -48,13 +49,19 @@ $.addDAS.addEventListener("click", function(){
 });
 
 $.addShort.addEventListener("click", function(){
- 	var temp = Alloy.createController('moodInstrument', { idPatient: idPaciente }).getView();
+ 	//var temp = Alloy.createController('moodInstrument', { idPatient: idPaciente }).getView();
+ 	var temp = Alloy.createController('respirationGame', { idPatient: idPaciente }).getView();
 });
 
 
 $.chartWebView.addEventListener('load', function() {
 	$.chartWebView.evalJS('crearGrafica(' + JSON.stringify(dataArrayNivel) + ', '  + JSON.stringify(dataArrayFecha) + ')');
 });
+
+$.reintentar.addEventListener("click", function(){
+	loadData();	
+});
+
 
  $.expandButtons.addEventListener("click", function(){
 	

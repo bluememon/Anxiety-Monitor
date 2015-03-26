@@ -1,0 +1,5 @@
+<Alloy>
+	<Window id="canvasVentana">
+		<View id="circulo" />
+	</Window>
+</Alloy>

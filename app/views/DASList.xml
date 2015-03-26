@@ -13,6 +13,12 @@
 			<View id="noInfoView">
 				<Label>No exsisten registros</Label>
 			</View>
+			<View id="connectionError">
+				<View class="container">
+					<Label>Hubo un error en la conección</Label>
+					<Button id="reintentar">Reintentar</Button>
+				</View>
+			</View>
 		</Window>
 	</Tab>
 </Alloy>

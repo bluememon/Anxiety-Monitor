@@ -1,0 +1,18 @@
+"#canvasVentana": {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.FILL,
+	layout: 'composite'
+}
+
+"#circulo": {
+	color: '#ffffff',
+	font: {
+		fontSize: '30sp'
+	},
+	backgroundColor: "#FF6600",
+	width: '60sp',
+	height: '60sp',
+	borderRadius: '30sp',
+	zIndex: 2,
+	bottom: '20dp',
+}

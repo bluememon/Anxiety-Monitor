@@ -53,3 +53,23 @@
 "#noInfoView" : {
 	visible: false
 }
+
+"#connectionError": {
+	visible: false,
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.FILL,
+	top: 0,
+	zIndex: 2
+}
+
+".container": {
+	layout: 'vertical',
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE
+}
+
+"#reintentar": {
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE
+}
+

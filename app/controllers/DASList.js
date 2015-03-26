@@ -50,7 +50,12 @@ $.addDAS.addEventListener("click", function(){
 });
 
 $.addShort.addEventListener("click", function(){
- 	var temp = Alloy.createController('moodInstrument', { idPatient: idPaciente }).getView();
+ 	//var temp = Alloy.createController('moodInstrument', { idPatient: idPaciente }).getView();
+ 	var temp = Alloy.createController('respirationGame', { idPatient: idPaciente }).getView();
+});
+
+$.reintentar.addEventListener("click", function(){
+	getTodoList(idPaciente);	
 });
 
 $.expandButtons.addEventListener("click", function(){
@@ -128,6 +133,7 @@ function getTodoList (idPatient) {
                  onerror: function(e){ 
                        Ti.API.debug(e.error); 
                        alert('There was an error during the connection'); 
+                       $.connectionError.show();
                  }, 
               timeout:3000, 
           });                      
