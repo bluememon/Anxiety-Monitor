@@ -3,7 +3,7 @@
 	zIndex: 1
 }
 
-"#chartWrapper": {
+'#chartWrapper': {
 	height: "300dp",
 	width: Titanium.UI.FILL
 }
@@ -15,12 +15,21 @@
 	touchEnabled: false
 }
 
-"#buttonSpace": {
+'#buttonSpace': {
 	bottom: '20sp',
 	right: '20sp',
 	width: Titanium.UI.SIZE,
 	height: Titanium.UI.SIZE,
 	zIndex:2
+}
+
+'.buttonWrapper' : {
+	width: '61sp',
+	height: '80sp',
+	borderRadius: '30sp',
+	backgroundImage: 'none',
+	zIndex: 3,
+	bottom: 0
 }
 
 '#expandButtons' : {
@@ -35,7 +44,21 @@
 	height: '60sp',
 	borderRadius: '30sp',
 	backgroundImage: 'none',
-	zIndex: 3,
+	zIndex: 2,
+	bottom: '2sp',
+	left: '1sp'
+}
+
+'.buttonShadow' : {
+	backgroundColor: "#333333",
+	borderWidth: 0,
+	borderColor: "#333333",
+	opacity: 0.3,
+	width: '60sp',
+	height: '60sp',
+	borderRadius: '30sp',
+	backgroundImage: 'none',
+	zIndex: 1,
 	bottom: 0
 }
 

@@ -9,7 +9,10 @@
 				<View id="DASListas"></View>
 			</ScrollView>
 			<View class="buttonSpace" id="buttonSpace">
-				<Button id="expandButtons" class="roundedButton">+</Button>
+				<View class="buttonWrapper">
+					<Button id="expandButtons" class="roundedButton">+</Button>
+					<View class="buttonShadow"></View>
+				</View>
 				<Button id="addDAS" class="roundedButton">+</Button>
 				<Button id="addShort" class="roundedButton">+</Button>
 			</View>
