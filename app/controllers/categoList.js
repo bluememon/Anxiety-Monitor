@@ -2,8 +2,7 @@ var args = arguments[0] || {};
 
 var idPaciente = arguments[0].idPatient;
 
-var dataArrayNivel = [];
-var dataArrayFecha = [];           
+var dataArrayCatego = [];           
 
 var buttonToggle = false;
 
@@ -20,7 +19,7 @@ function loadData(){
 	      timeout:3000, 
 	  });                      
           //Here you have to change it for your local ip 
-      sendit.open('POST', 'http://app.bluecoreservices.com/webservices/getLineChart.php');
+      sendit.open('POST', 'http://app.bluecoreservices.com/webservices/getMoodInfo.php');
       var params = ({
       	"idPaciente": idPaciente,
       });
@@ -37,8 +36,12 @@ function loadData(){
              //Emptying the data to refresh the view 
              //Insert the JSON data to the table view
              for( var i=0; i<json.length; i++){
-             	dataArrayNivel.push(json[i].total);
-             	dataArrayFecha.push(json[i].fechaEnvio);
+             	arrayTemp = [];
+             	arrayTemp.push(json[i].name);
+             	arrayTemp.push(json[i].y);
+             	
+             	dataArrayCatego.push(arrayTemp);
+             	/*dataArrayFecha.push(json[i].fechaEnvio);*/
              }
 			//$.chartWebView.evalJS('createalert()');             
       };
@@ -56,7 +59,7 @@ $.addShort.addEventListener("click", function(){
 
 
 $.chartWebView.addEventListener('load', function() {
-	$.chartWebView.evalJS('crearGrafica(' + JSON.stringify(dataArrayNivel) + ', '  + JSON.stringify(dataArrayFecha) + ')');
+	$.chartWebView.evalJS('crearGrafica(' + JSON.stringify(dataArrayCatego) + ')');
 });
 
 $.reintentar.addEventListener("click", function(){
