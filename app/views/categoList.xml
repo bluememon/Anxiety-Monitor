@@ -6,13 +6,16 @@
 			</View>
 			<ScrollView id="scrollViewDASList" class="DASListWrapper" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="false" zIndex="1">
 				<WebView id='chartWebView' url='/html/PIE.html' touchEnabled="false" bubbleParent="false" cacheMode="Titanium.UI.Android.WEBVIEW_LOAD_NO_CACHE"></WebView>
-				<TableView id="DASCatego"></TableView>
-				<View class="buttonSpace" id="buttonSpace">
-					<Button id="expandButtons" class="roundedButton">+</Button>
-					<Button id="addDAS" class="roundedButton">+</Button>
-					<Button id="addShort" class="roundedButton">+</Button>
-				</View>
+				<View id="DASCatego"></View>
 			</ScrollView>
+			<View class="buttonSpace" id="buttonSpace">
+				<View class="buttonWrapper">
+					<Button id="expandButtons" class="roundedButton">+</Button>
+					<View class="buttonShadow"></View>
+				</View>
+				<Button id="addDAS" class="roundedButton">+</Button>
+				<Button id="addShort" class="roundedButton">+</Button>
+			</View>
 			<View id="noInfoView">
 				<Label>No exsisten registros</Label>
 			</View>

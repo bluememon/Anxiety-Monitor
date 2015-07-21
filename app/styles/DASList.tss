@@ -3,11 +3,6 @@
 	zIndex: 1
 }
 
-'#chartWrapper': {
-	height: "300dp",
-	width: Titanium.UI.FILL
-}
-
 "#chartLineWebView": {
 	height: Titanium.UI.SIZE,
 	width: Titanium.UI.FILL,
