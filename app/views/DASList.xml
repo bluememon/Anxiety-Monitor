@@ -1,20 +1,29 @@
 <Alloy>
 	<Tab id="tab2" title="Diario">
-		<Window id="tempnomames">
+		<Window id="tempnomames" class="fondoGris">
 			<View id="loadingWrapper">
 				<ActivityIndicator id="activityIndicator" />
 			</View>
 			<ScrollView id="scrollViewDASList" class="DASListWrapper" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="false" zIndex="1">
-				<WebView id='chartLineWebView' url='/html/line.html' touchEnabled="false" bubbleParent="false" cacheMode="Titanium.UI.Android.WEBVIEW_LOAD_NO_CACHE"></WebView>
-				<View id="DASListas"></View>
-			</ScrollView>
-			<View class="buttonSpace" id="buttonSpace">
-				<View class="buttonWrapper">
-					<Button id="expandButtons" class="roundedButton">+</Button>
-					<View class="buttonShadow"></View>
+				<View class="windowWrapper">
+					<View class="cardWrapper">
+						<View class="cardUI">
+							<WebView id='chartLineWebView' url='/html/line.html' touchEnabled="false" bubbleParent="false" cacheMode="Titanium.UI.Android.WEBVIEW_LOAD_NO_CACHE"></WebView>
+						</View>
+					</View>
+					<View id="DASListas"></View>
 				</View>
-				<Button id="addDAS" class="roundedButton">+</Button>
-				<Button id="addShort" class="roundedButton">+</Button>
+			</ScrollView>
+			<View id="buttonswrapper">
+				<View id="buttonBackground"></View>
+				<View class="buttonSpace" id="buttonSpace">
+					<View class="buttonWrapper">
+						<Button id="expandButtons" class="roundedButton">+</Button>
+						<View class="buttonShadow"></View>
+					</View>
+					<Button id="addDAS" class="roundedButton">+</Button>
+					<Button id="addShort" class="roundedButton">+</Button>
+				</View>
 			</View>
 			<View id="noInfoView">
 				<Label>No exsisten registros</Label>

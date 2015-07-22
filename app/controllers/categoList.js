@@ -80,6 +80,14 @@ $.reintentar.addEventListener("click", function(){
   		a1.duration = 200;
 	  	
 	  	$.expandButtons.animate(a1);
+	  	
+		$.buttonBackground.setHeight(Titanium.UI.FILL);
+		$.buttonBackground.setWidth(Titanium.UI.FILL);
+		$.buttonBackground.show();
+		$.buttonBackground.animate({
+			opacity: '.5',
+			duration: 200
+		});
 		
 		$.addShort.animate({
 			bottom: '80sp',
@@ -92,7 +100,7 @@ $.reintentar.addEventListener("click", function(){
 			duration: 200
 		}, function () {
 			buttonToggle = true;
-		});	
+		});
 	}
 	
 	else{	
@@ -105,6 +113,15 @@ $.reintentar.addEventListener("click", function(){
   		a1.duration = 200;
 	  	
 	  	$.expandButtons.animate(a1);
+	  	
+	  	$.buttonBackground.animate({
+			opacity: '0',
+			duration: 200
+		}, function(){
+			$.buttonBackground.setHeight(0);
+			$.buttonBackground.setWidth(0);
+			$.buttonBackground.hide();
+		});
 			
 		$.addShort.animate({
 			bottom: '0',
@@ -162,26 +179,30 @@ function getTodoList (idPatient) {
              }                      
              //Emptying the data to refresh the view 
              dataArray = []; 
-             
-             //we add the separator
-             var separator = Ti.UI.createView({
-		        width: Titanium.UI.FILL,
-		        height:1,
-		        backgroundColor:'#999999',
-		        bottom:0,
-		 
-		    });
-		    //we add the first separator
-		    $.DASCatego.add(separator);
                                   
              //Insert the JSON data to the table view 
              for( var i=0; i<json.length; i++){ 
              	
+                 var wrapper = Titanium.UI.createView({
+                 		className: 'cardWrapper',
+                 		layout: 'vertical',
+						height: Titanium.UI.SIZE,
+						width: Titanium.UI.FILL,
+						backgroundColor: "#C4C4C4",
+						bottom: 0,
+						top: "10sp",
+						borderRadius: "5sp"
+         		 });         
+         		 
                  var row = Titanium.UI.createView({
                  		className: 'elementRow',
                  		layout: 'horizontal',
 						height: Titanium.UI.SIZE,
-						width: Titanium.UI.FILL
+						width: Titanium.UI.FILL,
+						backgroundColor: "#FFFFFF",
+						top: 0,
+						bottom: "2sp",
+						borderRadius: "5sp"
          		 });                                     		
                  
                  var viewResult = Titanium.UI.createView({
@@ -197,7 +218,7 @@ function getTodoList (idPatient) {
                  	height: '60sp',
 					width: '60sp',
 					borderRadius: '30sp',
-					backgroundColor: agregarColor(json[i].total),
+					backgroundColor: agregarColor(json[i].severidad),
 					top: '10sp',
 					bottom: '10sp',
 					left: '10sp',
@@ -230,25 +251,17 @@ function getTodoList (idPatient) {
                  	color: '#000000'
                  });
                  
-                 var separator = Ti.UI.createView({
-			        width: Titanium.UI.FILL,
-			        height:1,
-			        backgroundColor:'#999999',
-			        bottom:0,
-			 
-			    });
-                 
                  viewResult.add(resultLabel);
                  viewDate.add(dateLabel);
                  
                  viewResultColor.add(viewResult);
                  
+                 wrapper.add(row);
                  row.add(viewResultColor);
                  row.add(viewDate);                     
                            
                  //dataArray.push(row);
-                 $.DASCatego.add(row);
-                 $.DASCatego.add(separator);                 
+                 $.DASCatego.add(wrapper);
              }; 
              $.activityIndicator.hide();                    
              //$.DASListas.add(dataArray);                            

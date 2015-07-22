@@ -1,0 +1,97 @@
+".fondoGris": {
+	backgroundColor: "#eeeeee"
+}
+
+".windowWrapper": {
+	layout: 'vertical',
+	height: Titanium.UI.SIZE,
+	width: Titanium.UI.FILL,
+	left: '10sp',
+	right: '10sp',
+	top: '10sp',
+	bottom: '10sp'
+}
+
+".cardWrapper": {
+	layout: 'vertical',
+	height: Titanium.UI.SIZE,
+	width: Titanium.UI.FILL,
+	backgroundColor: "#C4C4C4",
+	bottom: 0,
+	borderRadius: "5sp"
+}
+
+".cardUI": {
+	layout: 'vertical',
+	height: Titanium.UI.SIZE,
+	width: Titanium.UI.FILL,
+	backgroundColor: "#FFFFFF",
+	bottom: "2sp",
+	borderRadius: "5sp"
+}
+
+
+// estilos e los botones
+"#buttonswrapper": {
+	zIndex:2,
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE,
+	bottom: 0,
+	right: 0
+}
+
+'#buttonSpace': {
+	bottom: '20sp',
+	right: '20sp',
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE,
+	zIndex:2
+}
+
+'.buttonWrapper' : {
+	width: '61sp',
+	height: '80sp',
+	borderRadius: '30sp',
+	backgroundImage: 'none',
+	zIndex: 3,
+	bottom: 0,
+}
+
+'#buttonBackground': {
+	layout: 'composite',
+	opacity: 0,
+	width: 0,
+	height: 0,
+	backgroundColor: "#000000",
+	visible: 'false'
+}
+
+'#expandButtons' : {
+	color: '#ffffff',
+	font: {
+		fontSize: '30sp'
+	},
+	backgroundColor: "#009933",
+	borderWidth: 0,
+	borderColor: "#009933",
+	width: '60sp',
+	height: '60sp',
+	borderRadius: '30sp',
+	backgroundImage: 'none',
+	zIndex: 2,
+	bottom: '2sp',
+	left: '1sp'
+}
+
+'.buttonShadow' : {
+	backgroundColor: "#333333",
+	borderWidth: 0,
+	borderColor: "#333333",
+	opacity: 0.3,
+	width: '60sp',
+	height: '60sp',
+	borderRadius: '30sp',
+	backgroundImage: 'none',
+	zIndex: 1,
+	bottom: 0
+}

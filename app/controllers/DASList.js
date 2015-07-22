@@ -70,6 +70,14 @@ $.expandButtons.addEventListener("click", function(){
   		a1.duration = 200;
 	  	
 	  	$.expandButtons.animate(a1);
+	  	
+	  	$.buttonBackground.setHeight(Titanium.UI.FILL);
+		$.buttonBackground.setWidth(Titanium.UI.FILL);
+		$.buttonBackground.show();
+		$.buttonBackground.animate({
+			opacity: '.5',
+			duration: 200
+		});
 		
 		$.addShort.animate({
 			bottom: '80sp',
@@ -95,6 +103,15 @@ $.expandButtons.addEventListener("click", function(){
   		a1.duration = 200;
 	  	
 	  	$.expandButtons.animate(a1);
+	  	
+	  	$.buttonBackground.animate({
+			opacity: '0',
+			duration: 200
+		}, function(){
+			$.buttonBackground.setHeight(0);
+			$.buttonBackground.setWidth(0);
+			$.buttonBackground.hide();
+		});
 			
 		$.addShort.animate({
 			bottom: '0',
@@ -153,26 +170,30 @@ function getTodoList (idPatient) {
                  }                      
                  //Emptying the data to refresh the view 
                  dataArray = []; 
-                 
-                 //we add the separator
-                 var separator = Ti.UI.createView({
-			        width: Titanium.UI.FILL,
-			        height:1,
-			        backgroundColor:'#999999',
-			        bottom:0,
-			 
-			    });
-			    //we add the first separator
-			    $.DASListas.add(separator);
                                       
                  //Insert the JSON data to the table view 
                  for( var i=0; i<json.length; i++){ 
                  	
+                     var wrapper = Titanium.UI.createView({
+	                 		className: 'cardWrapper',
+	                 		layout: 'vertical',
+							height: Titanium.UI.SIZE,
+							width: Titanium.UI.FILL,
+							backgroundColor: "#C4C4C4",
+							bottom: 0,
+							top: "10sp",
+							borderRadius: "5sp"
+	         		 });   
+                     
                      var row = Titanium.UI.createView({
                      		className: 'elementRow',
-                     		layout: 'horizontal',
+	                 		layout: 'horizontal',
 							height: Titanium.UI.SIZE,
-							width: Titanium.UI.FILL
+							width: Titanium.UI.FILL,
+							backgroundColor: "#FFFFFF",
+							top: 0,
+							bottom: "2sp",
+							borderRadius: "5sp"
              		 });                                     		
                      
                      var viewResult = Titanium.UI.createView({
@@ -221,25 +242,18 @@ function getTodoList (idPatient) {
                      	color: '#000000'
                      });
                      
-                     var separator = Ti.UI.createView({
-				        width: Titanium.UI.FILL,
-				        height:1,
-				        backgroundColor:'#999999',
-				        bottom:0,
-				 
-				    });
-                     
                      viewResult.add(resultLabel);
                      viewDate.add(dateLabel);
                      
                      viewResultColor.add(viewResult);
                      
+                     wrapper.add(row);
                      row.add(viewResultColor);
                      row.add(viewDate);                     
                                
                      //dataArray.push(row);
-                     $.DASListas.add(row);
-                     $.DASListas.add(separator);                 
+                     
+                     $.DASListas.add(wrapper);
                  }; 
                  $.activityIndicator.hide();                    
                  //$.DASListas.add(dataArray);                            
