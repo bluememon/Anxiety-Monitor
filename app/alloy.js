@@ -9,3 +9,24 @@
 // object. For example:
 //
 // Alloy.Globals.someGlobalFunction = function(){};
+
+var CloudPush = require('ti.cloudpush');
+CloudPush.retrieveDeviceToken({
+    success: function deviceTokenSuccess(e) {
+        Ti.API.info('Device Token: ' + e.deviceToken);
+    },
+    error: function deviceTokenError(e) {
+        alert('Failed to register for push! ' + e.error);
+    }
+});
+
+/*Cloud.Users.login({
+    login: 'bluememon',
+    password: 'uribeeg81'
+}, function (e) {
+    if (e.success) {
+        alert("login success");
+    } else {
+        alert('Error: ' + ((e.error && e.message) || JSON.stringify(e)));
+    }
+});*/  
