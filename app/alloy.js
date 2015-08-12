@@ -8,4 +8,36 @@
 // accessible globally by attaching them to the `Alloy.Globals`
 // object. For example:
 //
-// Alloy.Globals.someGlobalFunction = function(){};
+
+var CloudPush = require('ti.cloudpush');
+CloudPush.retrieveDeviceToken({
+    success: function deviceTokenSuccess(e) {
+        Ti.API.info('Device Token: ' + e.deviceToken);
+    },
+    error: function deviceTokenError(e) {
+        alert('Failed to register for push! ' + e.error);
+    }
+});
+
+Cloud.Users.login({
+    login: 'bluememon',
+    password: 'uribeeg'
+}, function (e) {
+    if (e.success) {
+        alert("login success");
+    } else {
+        alert('Error: ' + ((e.error && e.message) || JSON.stringify(e)));
+    }
+});  
+
+Cloud.PushNotifications.subscribe({
+    channel: 'alert', //'alert' is channel name
+    device_token: deviceToken,
+    type: 'gcm' //here i am using gcm, it is recommended one
+}, function (e) {
+    if (e.success) {
+        alert('Subscribed for Push Notification!');
+    } else {
+        alert('Subscribe error:' + ((e.error && e.message) || JSON.stringify(e)));
+    }
+});
