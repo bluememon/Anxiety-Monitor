@@ -40,10 +40,28 @@
         </plist>
     </ios>
     <android xmlns:android="http://schemas.android.com/apk/res/android">
-        <tool-api-level>14</tool-api-level>
+        <uses-sdk>19</uses-sdk>
         <manifest>
-            <application android:theme="@style/Theme.Monitor"/>
-            <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="19"/>
+            <application>
+                <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="19"/>
+                <receiver android:exported="true"
+                    android:name="com.google.android.gms.gcm.GcmReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+                    <intent-filter>
+                        <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                        <category android:name="com.example.gcm"/>
+                    </intent-filter>
+                </receiver>
+                <service android:exported="false" android:name="com.example.MyGcmListenerService">
+                    <intent-filter>
+                        <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                    </intent-filter>
+                </service>
+                <service android:exported="false" android:name="com.example.MyInstanceIDListenerService">
+                    <intent-filter>
+                        <action android:name="com.google.android.gms.iid.InstanceID"/>
+                    </intent-filter>
+                </service>
+            </application>
         </manifest>
     </android>
     <mobileweb>
@@ -64,10 +82,9 @@
         <target device="iphone">false</target>
         <target device="ipad">false</target>
         <target device="android">true</target>
-        <target device="blackberry">false</target>
         <target device="mobileweb">false</target>
     </deployment-targets>
-    <sdk-version>3.5.0.GA</sdk-version>
+    <sdk-version>4.1.0.GA</sdk-version>
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
     </plugins>
@@ -88,4 +105,7 @@
     <property name="acs-password-production" type="string">7BXGAaGh5PCF8qR42M</property>
     <property name="appc-org-id" type="string">100031916</property>
     <property name="appc-creator-user-id" type="string">a49cd8e3-0e92-4296-9d35-dde5cd612f5a</property>
+    <property name="acs-push-type-development" type="string">gcm</property>
+    <property name="acs-push-type-production" type="string">gcm</property>
+    <property name="acs-push-type" type="string">gcm</property>  
 </ti:app>

@@ -1,5 +1,5 @@
 <Alloy>
-	<Window id="TherapistList">
+	<Window id="TherapistList" class="container">
 		<View id="loadingWrapper">
 			<ActivityIndicator id="activityIndicator" />
 		</View>

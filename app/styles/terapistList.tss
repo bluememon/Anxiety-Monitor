@@ -1,7 +1,8 @@
 "#TherapistList": {
 	width: Titanium.UI.FILL,
 	height: Titanium.UI.FILL,
-	layout: 'composite'
+	layout: 'composite',
+	backgroundColor: '#ffffff'
 }
 
 "#scrollViewTherapists": {
