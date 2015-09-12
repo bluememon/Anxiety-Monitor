@@ -36,9 +36,48 @@ function userVerify(user, pswd) {
 				        Ti.App.Properties.setString('name', response.firstName);
 				        Ti.App.Properties.setInt('userType', response.type);
 				        Ti.App.Properties.setInt('id', response.id);
+				        Ti.App.Properties.setString('username', $.username.value);
+				        Ti.App.Properties.setString('password', $.password.value);
 				        
-				        Alloy.createController('enterPIN').getView();
+				        alert("username: " + username + " Password: " + password);
 				        
+				        alert('checando arrowdb');
+				        //now to check for arrowDB usename and password if exist												
+					    //Create a Default User in Cloud Console, and login
+					    Cloud.Users.login({
+					        login: $.username.value,
+					        password: $.password.value
+					    }, function (e) {
+				    	
+				    		alert('comenzando chequeo de usuario');
+				       		if (e.success) {
+				       			alert('si paso el login');
+				            	defaultSubscribe();
+				            	//now we go to the get pin page
+		        				Alloy.createController('enterPIN').getView();
+			        		} 
+				        	else {
+				        		alert('no existe el usuario');
+				            	alert('Error: ' +((e.error && e.message) || JSON.stringify(e)));
+				            	
+				            	Cloud.Users.create({
+								    username: $.username.value,
+								    password: $.password.value,
+								    password_confirmation: $.password.value
+								}, function (e) {
+								    if (e.success) {
+								    	alert('se creo el nuevo usuario');
+								        defaultSubscribe();
+								        //now we go to the get pin page
+			        					Alloy.createController('enterPIN').getView();
+								    } else {
+								    	alert('hubo un error creando el usuario');
+								        alert('Error:\n' +
+								            ((e.error && e.message) || JSON.stringify(e)));
+								    }
+								});
+			            	}
+				        });
 				    }
 				    else
 				    {

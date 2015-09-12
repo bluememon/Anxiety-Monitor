@@ -22,49 +22,36 @@ var deviceToken;
 var Cloud = require('ti.cloud');
 Cloud.debug = true;
 
+
+
 CloudPush.retrieveDeviceToken({
 	success: function deviceTokenSuccess(e) {
-		alert('Device Token: ' + e.deviceToken);
+		//alert('Device Token: ' + e.deviceToken);
 		deviceToken = e.deviceToken;
-		loginDefault();
+		//loginDefault();
 	},
 	error: function deviceTokenError(e) {
 		alert('Failed to register for push! ' + e.error);
 	}
 });
 
-function loginDefault(e){
-    //Create a Default User in Cloud Console, and login
-    Cloud.Users.login({
-        login: 'bluememon',
-        password: 'uribeeg81'
-    }, function (e) {
-        if (e.success) {
-         alert("login success");
-            defaultSubscribe();
-        } else {
-            alert('Error: ' +((e.error && e.message) || JSON.stringify(e)));
-            }
-        });
-    }
- 
-    function defaultSubscribe(){
-                Cloud.PushNotifications.subscribe({
-                    channel: 'alert',
-device_token: deviceToken,
-type: 'gcm'
-             }, function (e){
-if (e.success) {
-alert('Subscribed for Push Notification!');
-}else{
-alert('Error:' +((e.error && e.message) || JSON.stringify(e)));
+function defaultSubscribe(){
+	Cloud.PushNotifications.subscribe({
+    channel: 'alert',
+	device_token: deviceToken,
+	type: 'gcm'
+     }, function (e){
+		if (e.success) {
+			alert('Subscribed for Push Notification!');
+		}else{
+			alert('Error:' +((e.error && e.message) || JSON.stringify(e)));
+		}
+    });
 }
-                });
-    }
  
-CloudPush.addEventListener('callback', function (evt) {
+/*CloudPush.addEventListener('callback', function (evt) {
     //alert(evt);
-    //alert(evt.payload);
+    alert(evt.payload);
 });
  
 CloudPush.addEventListener('trayClickLaunchedApp', function (evt) {
@@ -75,15 +62,4 @@ CloudPush.addEventListener('trayClickLaunchedApp', function (evt) {
 CloudPush.addEventListener('trayClickFocusedApp', function (evt) {
     Ti.API.info('Tray Click Focused App (app was already running)');
     //alert('Tray Click Focused App (app was already running)');
-});
-
-/*Cloud.Users.login({
-    login: 'bluememon',
-    password: 'uribeeg81'
-}, function (e) {
-    if (e.success) {
-        alert("login success");
-    } else {
-        alert('Error: ' + ((e.error && e.message) || JSON.stringify(e)));
-    }
-});*/  
+});*/
