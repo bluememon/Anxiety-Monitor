@@ -1,0 +1,998 @@
+
+Fri Sep 11 2015 18:33:00 GMT-0500 (Central Daylight Time (Mexico))
+
+Operating System
+  Name                        = Microsoft Windows 7 Enterprise
+  Version                     = 6.1.7601
+  Architecture                = 32bit
+  # CPUs                      = 8
+  Memory                      = 12850446336
+
+Node.js
+  Node.js Version             = 0.10.13
+  npm Version                 = 1.3.2
+
+Titanium CLI
+  CLI Version                 = 4.0.1
+
+Titanium SDK
+  SDK Version                 = 4.1.0.GA
+  SDK Path                    = C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA
+  Target Platform             = android
+
+Command
+  C:\Program Files (x86)\nodejs\node.exe C:\Users\guillermo.uribe\.appcelerator\install\4.1.2\package\node_modules\appc-cli-titanium\node_modules\titanium\bin\titanium build --platform android --log-level trace --sdk 4.1.0.GA --project-dir C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor --target emulator --android-sdk C:\android-sdk-win --device-id Google Nexus 5 - 4.4.4 - API 19 - 1080x1920 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 51443 --username bluememon@gmail.com --password uribeeg81 --plugin-paths C:\Users\guillermo.uribe\.appcelerator\install\4.1.2\package\node_modules --config-file C:\Users\guillermo.uribe\AppData\Local\Temp\build-1442014375591.json --no-banner
+
+[DEBUG]  Detecting modules in C:\ProgramData\Application Data\Titanium\modules
+[DEBUG]  Detected android module: com.appcelerator.apm 1.1.1 @ C:\ProgramData\Application Data\Titanium\modules\android\com.appcelerator.apm\1.1.1
+[DEBUG]  Detected android module: facebook 3.0.3 @ C:\ProgramData\Application Data\Titanium\modules\android\facebook\3.0.3
+[DEBUG]  Detected android module: facebook 4.0.3 @ C:\ProgramData\Application Data\Titanium\modules\android\facebook\4.0.3
+[DEBUG]  Detected android module: facebook 4.0.5 @ C:\ProgramData\Application Data\Titanium\modules\android\facebook\4.0.5
+[DEBUG]  Detected android module: ti.cloudpush 3.3.7 @ C:\ProgramData\Application Data\Titanium\modules\android\ti.cloudpush\3.3.7
+[DEBUG]  Detected android module: ti.cloudpush 3.3.8 @ C:\ProgramData\Application Data\Titanium\modules\android\ti.cloudpush\3.3.8
+[DEBUG]  Detected android module: ti.map 2.2.3 @ C:\ProgramData\Application Data\Titanium\modules\android\ti.map\2.2.3
+[DEBUG]  Detected android module: ti.map 2.3.0 @ C:\ProgramData\Application Data\Titanium\modules\android\ti.map\2.3.0
+[DEBUG]  Detected android module: ti.map 2.3.1 @ C:\ProgramData\Application Data\Titanium\modules\android\ti.map\2.3.1
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.7 @ C:\ProgramData\Application Data\Titanium\modules\commonjs\ti.cloud\3.2.7
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.8 @ C:\ProgramData\Application Data\Titanium\modules\commonjs\ti.cloud\3.2.8
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.9 @ C:\ProgramData\Application Data\Titanium\modules\commonjs\ti.cloud\3.2.9
+[DEBUG]  Detected iphone module: com.appcelerator.apm 1.1.1 @ C:\ProgramData\Application Data\Titanium\modules\iphone\com.appcelerator.apm\1.1.1
+[DEBUG]  Detecting modules in C:\ProgramData\Titanium\modules
+[DEBUG]  Detected android module: com.appcelerator.apm 1.1.1 @ C:\ProgramData\Titanium\modules\android\com.appcelerator.apm\1.1.1
+[DEBUG]  Detected android module: facebook 3.0.3 @ C:\ProgramData\Titanium\modules\android\facebook\3.0.3
+[DEBUG]  Detected android module: facebook 4.0.3 @ C:\ProgramData\Titanium\modules\android\facebook\4.0.3
+[DEBUG]  Detected android module: facebook 4.0.5 @ C:\ProgramData\Titanium\modules\android\facebook\4.0.5
+[DEBUG]  Detected android module: ti.cloudpush 3.3.7 @ C:\ProgramData\Titanium\modules\android\ti.cloudpush\3.3.7
+[DEBUG]  Detected android module: ti.cloudpush 3.3.8 @ C:\ProgramData\Titanium\modules\android\ti.cloudpush\3.3.8
+[DEBUG]  Detected android module: ti.map 2.2.3 @ C:\ProgramData\Titanium\modules\android\ti.map\2.2.3
+[DEBUG]  Detected android module: ti.map 2.3.0 @ C:\ProgramData\Titanium\modules\android\ti.map\2.3.0
+[DEBUG]  Detected android module: ti.map 2.3.1 @ C:\ProgramData\Titanium\modules\android\ti.map\2.3.1
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.7 @ C:\ProgramData\Titanium\modules\commonjs\ti.cloud\3.2.7
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.8 @ C:\ProgramData\Titanium\modules\commonjs\ti.cloud\3.2.8
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.9 @ C:\ProgramData\Titanium\modules\commonjs\ti.cloud\3.2.9
+[DEBUG]  Detected iphone module: com.appcelerator.apm 1.1.1 @ C:\ProgramData\Titanium\modules\iphone\com.appcelerator.apm\1.1.1
+[DEBUG]  Looking for Titanium module id=ti.cloud version=latest platform=commonjs deploy-type=development
+[INFO]   Found Titanium module id=ti.cloud version=3.2.9 platform=commonjs deploy-type=development path=C:\ProgramData\Application Data\Titanium\modules\commonjs\ti.cloud\3.2.9
+[DEBUG]  Looking for Titanium module id=ti.cloudpush version=latest platform=android deploy-type=development
+[INFO]   Found Titanium module id=ti.cloudpush version=3.3.8 platform=android deploy-type=development path=C:\ProgramData\Application Data\Titanium\modules\android\ti.cloudpush\3.3.8
+[DEBUG]  Looking for Titanium module id=com.appcelerator.apm version=latest platform=android deploy-type=development
+[INFO]   Found Titanium module id=com.appcelerator.apm version=1.1.1 platform=android deploy-type=development path=C:\ProgramData\Application Data\Titanium\modules\android\com.appcelerator.apm\1.1.1
+[DEBUG]  Detecting plugins in C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\plugins
+[DEBUG]  Detected plugin: ti.alloy @ C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\plugins\ti.alloy
+[DEBUG]  Detecting plugins in C:\ProgramData\Titanium\plugins
+[DEBUG]  Detected plugin: com.appcelerator.test @ C:\ProgramData\Titanium\plugins\com.appcelerator.test
+[DEBUG]  Detecting plugins in C:\ProgramData\Application Data\Titanium\plugins
+[DEBUG]  Detected plugin: com.appcelerator.test @ C:\ProgramData\Application Data\Titanium\plugins\com.appcelerator.test
+[DEBUG]  Looking for Titanium plugin id=ti.alloy version=1.0
+[INFO]   Found Titanium plugin id=ti.alloy version=1.0 
+[DEBUG]  Titanium SDK Android directory: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android
+[INFO]   Deploy type: development
+[INFO]   Building for target: emulator
+[INFO]   Building for emulator: Google Nexus 5 - 4.4.4 - API 19 - 1080x1920
+[INFO]   Targeting Android SDK: 21
+[INFO]   Building for the following architectures: armeabi, armeabi-v7a, x86
+[INFO]   Signing with keystore: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\dev_keystore (tidev)
+[DEBUG]  App ID: am.bluecoreservices.com
+[DEBUG]  Classname: AnxietyMonitor
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Found Alloy app in C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\app
+[INFO]   Executing Alloy compile: cmd /s /c C:\Users\guillermo.uribe\.appcelerator\install\4.1.2\package\node_modules\appc-cli-titanium\node_modules\.bin\alloy compile C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\app --config platform=android,version=0,simtype=none,devicefamily=none,deploytype=development,target=emulator --no-colors
+[INFO]   Alloy compiler completed successfully
+[INFO]   Launching emulator: Google Nexus 5 - 4.4.4 - API 19 - 1080x1920
+[TRACE]  Starting emulator: Google Nexus 5 - 4.4.4 - API 19 - 1080x1920
+[TRACE]  Checking if emulator Google Nexus 5 - 4.4.4 - API 19 - 1080x1920 is running...
+[TRACE]  Detecting if Google Nexus 5 - 4.4.4 - API 19 - 1080x1920 exists...
+[TRACE]  Found 6 emulators
+[TRACE]  Emulator exists, detecting all running emulators and connected devices...
+[TRACE]  Detected 1 running emulators and connected devices
+[TRACE]  Checking 1 devices to see if it's the emulator we want
+[TRACE]  The emulator is running
+[INFO]   Emulator already running
+[TRACE]  Checking the boot state for the next 240000 ms
+[TRACE]  Waiting for emulator to register with ADB
+[TRACE]  Emulator process started
+[TRACE]  offline build file C:\Users\guillermo.uribe\AppData\Local\Temp\build-912c607d0c3e135c722735e67e6572281a531790.json
+[TRACE]  online 1
+[TRACE]  optimizing build, last build was 2225.456 sec ago
+[DEBUG]  Ignoring C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android
+[WARN]   Overwriting file C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\appicon.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\appicon.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\appicon.png
+[WARN]   Overwriting file C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\blackberry\appicon.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\blackberry\appicon.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\blackberry\appicon.png
+[TRACE]  Found 1 devices, checking if any of them are the emulator...
+[TRACE]  Emulator is running!
+[TRACE]  Checking if boot animation has finished...
+[WARN]   Overwriting file C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\blackberry\map\bubble.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\blackberry\map\bubble.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\blackberry\map\bubble.png
+[TRACE]  Emulator is booted, emitting booted event
+[INFO]   Emulator is booted
+[INFO]   SD card not required, skipping mount check
+[INFO]   Emulator ready!
+[WARN]   Overwriting file C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\blackberry\map\green_pin.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\blackberry\map\green_pin.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\blackberry\map\green_pin.png
+[WARN]   Overwriting file C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\blackberry\map\purple_pin.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\blackberry\map\purple_pin.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\blackberry\map\purple_pin.png
+[WARN]   Overwriting file C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\blackberry\map\red_pin.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\blackberry\map\red_pin.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\blackberry\map\red_pin.png
+[WARN]   Overwriting file C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\blackberry\splash-600x1024.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\blackberry\splash-600x1024.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\blackberry\splash-600x1024.png
+[WARN]   Overwriting file C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\blackberry\Ti.Manifest
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\blackberry\Ti.Manifest => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\blackberry\Ti.Manifest
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\default.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable\background.png
+[WARN]   Overwriting file C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\html\line.html
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\html\line.html => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\html\line.html
+[WARN]   Overwriting file C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\html\PIE.html
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\html\PIE.html => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\html\PIE.html
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\images\res-long-land-hdpi\default.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-long-land-hdpi\background.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\images\res-long-land-ldpi\default.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-long-land-ldpi\background.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\images\res-long-port-hdpi\default.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-long-port-hdpi\background.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\images\res-long-port-ldpi\default.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-long-port-ldpi\background.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\images\res-notlong-land-hdpi\default.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-notlong-land-hdpi\background.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\images\res-notlong-land-ldpi\default.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-notlong-land-ldpi\background.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\images\res-notlong-land-mdpi\default.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-notlong-land-mdpi\background.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\images\res-notlong-port-hdpi\default.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-notlong-port-hdpi\background.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\images\res-notlong-port-ldpi\default.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-notlong-port-ldpi\background.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\images\res-notlong-port-mdpi\default.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-notlong-port-mdpi\background.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable\ab_background_textured_monitor.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable\ab_background_textured_monitor.xml
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable\btn_cab_done_monitor.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable\btn_cab_done_monitor.xml
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable\progress_horizontal_monitor.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable\progress_horizontal_monitor.xml
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable\selectable_background_monitor.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable\selectable_background_monitor.xml
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable\spinner_background_ab_monitor.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable\spinner_background_ab_monitor.xml
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable\tab_indicator_ab_monitor.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable\tab_indicator_ab_monitor.xml
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-hdpi\ab_bottom_solid_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-hdpi\ab_bottom_solid_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-hdpi\ab_solid_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-hdpi\ab_solid_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-hdpi\ab_stacked_solid_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-hdpi\ab_stacked_solid_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-hdpi\ab_texture_tile_monitor.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-hdpi\ab_texture_tile_monitor.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-hdpi\ab_transparent_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-hdpi\ab_transparent_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-hdpi\appicon.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-hdpi\appicon.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-hdpi\btn_cab_done_default_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-hdpi\btn_cab_done_default_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-hdpi\btn_cab_done_focused_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-hdpi\btn_cab_done_focused_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-hdpi\btn_cab_done_pressed_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-hdpi\btn_cab_done_pressed_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-hdpi\cab_background_bottom_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-hdpi\cab_background_bottom_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-hdpi\cab_background_top_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-hdpi\cab_background_top_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-hdpi\ic_stat_content_backspace.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-hdpi\ic_stat_content_backspace.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-hdpi\ic_stat_navigation_check.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-hdpi\ic_stat_navigation_check.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-hdpi\list_focused_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-hdpi\list_focused_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-hdpi\list_pressed_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-hdpi\list_pressed_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-hdpi\menu_dropdown_panel_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-hdpi\menu_dropdown_panel_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-hdpi\progress_bg_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-hdpi\progress_bg_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-hdpi\progress_primary_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-hdpi\progress_primary_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-hdpi\progress_secondary_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-hdpi\progress_secondary_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-hdpi\spinner_ab_default_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-hdpi\spinner_ab_default_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-hdpi\spinner_ab_disabled_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-hdpi\spinner_ab_disabled_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-hdpi\spinner_ab_focused_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-hdpi\spinner_ab_focused_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-hdpi\spinner_ab_pressed_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-hdpi\spinner_ab_pressed_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-hdpi\tab_selected_focused_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-hdpi\tab_selected_focused_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-hdpi\tab_selected_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-hdpi\tab_selected_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-hdpi\tab_selected_pressed_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-hdpi\tab_selected_pressed_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-hdpi\tab_unselected_focused_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-hdpi\tab_unselected_focused_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-hdpi\tab_unselected_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-hdpi\tab_unselected_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-hdpi\tab_unselected_pressed_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-hdpi\tab_unselected_pressed_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-ldpi\appicon.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-ldpi\appicon.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-mdpi\ab_bottom_solid_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-mdpi\ab_bottom_solid_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-mdpi\ab_solid_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-mdpi\ab_solid_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-mdpi\ab_stacked_solid_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-mdpi\ab_stacked_solid_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-mdpi\ab_texture_tile_monitor.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-mdpi\ab_texture_tile_monitor.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-mdpi\ab_transparent_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-mdpi\ab_transparent_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-mdpi\appicon.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-mdpi\appicon.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-mdpi\btn_cab_done_default_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-mdpi\btn_cab_done_default_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-mdpi\btn_cab_done_focused_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-mdpi\btn_cab_done_focused_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-mdpi\btn_cab_done_pressed_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-mdpi\btn_cab_done_pressed_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-mdpi\cab_background_bottom_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-mdpi\cab_background_bottom_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-mdpi\cab_background_top_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-mdpi\cab_background_top_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-mdpi\ic_stat_content_backspace.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-mdpi\ic_stat_content_backspace.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-mdpi\ic_stat_navigation_check.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-mdpi\ic_stat_navigation_check.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-mdpi\list_focused_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-mdpi\list_focused_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-mdpi\list_pressed_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-mdpi\list_pressed_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-mdpi\menu_dropdown_panel_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-mdpi\menu_dropdown_panel_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-mdpi\progress_bg_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-mdpi\progress_bg_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-mdpi\progress_primary_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-mdpi\progress_primary_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-mdpi\progress_secondary_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-mdpi\progress_secondary_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-mdpi\spinner_ab_default_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-mdpi\spinner_ab_default_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-mdpi\spinner_ab_disabled_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-mdpi\spinner_ab_disabled_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-mdpi\spinner_ab_focused_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-mdpi\spinner_ab_focused_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-mdpi\spinner_ab_pressed_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-mdpi\spinner_ab_pressed_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-mdpi\tab_selected_focused_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-mdpi\tab_selected_focused_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-mdpi\tab_selected_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-mdpi\tab_selected_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-mdpi\tab_selected_pressed_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-mdpi\tab_selected_pressed_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-mdpi\tab_unselected_focused_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-mdpi\tab_unselected_focused_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-mdpi\tab_unselected_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-mdpi\tab_unselected_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-mdpi\tab_unselected_pressed_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-mdpi\tab_unselected_pressed_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xhdpi\ab_bottom_solid_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xhdpi\ab_bottom_solid_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xhdpi\ab_solid_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xhdpi\ab_solid_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xhdpi\ab_stacked_solid_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xhdpi\ab_stacked_solid_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xhdpi\ab_texture_tile_monitor.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xhdpi\ab_texture_tile_monitor.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xhdpi\ab_transparent_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xhdpi\ab_transparent_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xhdpi\appicon.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xhdpi\appicon.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xhdpi\btn_cab_done_default_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xhdpi\btn_cab_done_default_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xhdpi\btn_cab_done_focused_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xhdpi\btn_cab_done_focused_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xhdpi\btn_cab_done_pressed_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xhdpi\btn_cab_done_pressed_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xhdpi\cab_background_bottom_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xhdpi\cab_background_bottom_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xhdpi\cab_background_top_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xhdpi\cab_background_top_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xhdpi\ic_stat_content_backspace.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xhdpi\ic_stat_content_backspace.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xhdpi\ic_stat_navigation_check.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xhdpi\ic_stat_navigation_check.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xhdpi\list_focused_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xhdpi\list_focused_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xhdpi\list_pressed_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xhdpi\list_pressed_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xhdpi\menu_dropdown_panel_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xhdpi\menu_dropdown_panel_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xhdpi\progress_bg_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xhdpi\progress_bg_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xhdpi\progress_primary_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xhdpi\progress_primary_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xhdpi\progress_secondary_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xhdpi\progress_secondary_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xhdpi\spinner_ab_default_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xhdpi\spinner_ab_default_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xhdpi\spinner_ab_disabled_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xhdpi\spinner_ab_disabled_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xhdpi\spinner_ab_focused_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xhdpi\spinner_ab_focused_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xhdpi\spinner_ab_pressed_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xhdpi\spinner_ab_pressed_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xhdpi\tab_selected_focused_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xhdpi\tab_selected_focused_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xhdpi\tab_selected_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xhdpi\tab_selected_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xhdpi\tab_selected_pressed_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xhdpi\tab_selected_pressed_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xhdpi\tab_unselected_focused_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xhdpi\tab_unselected_focused_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xhdpi\tab_unselected_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xhdpi\tab_unselected_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xhdpi\tab_unselected_pressed_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xhdpi\tab_unselected_pressed_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxhdpi\ab_bottom_solid_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxhdpi\ab_bottom_solid_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxhdpi\ab_solid_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxhdpi\ab_solid_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxhdpi\ab_stacked_solid_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxhdpi\ab_stacked_solid_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxhdpi\ab_texture_tile_monitor.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxhdpi\ab_texture_tile_monitor.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxhdpi\ab_transparent_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxhdpi\ab_transparent_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxhdpi\appicon.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxhdpi\appicon.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxhdpi\btn_cab_done_default_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxhdpi\btn_cab_done_default_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxhdpi\btn_cab_done_focused_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxhdpi\btn_cab_done_focused_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxhdpi\btn_cab_done_pressed_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxhdpi\btn_cab_done_pressed_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxhdpi\cab_background_bottom_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxhdpi\cab_background_bottom_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxhdpi\cab_background_top_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxhdpi\cab_background_top_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxhdpi\ic_stat_content_backspace.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxhdpi\ic_stat_content_backspace.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxhdpi\ic_stat_navigation_check.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxhdpi\ic_stat_navigation_check.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxhdpi\list_focused_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxhdpi\list_focused_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxhdpi\list_pressed_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxhdpi\list_pressed_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxhdpi\menu_dropdown_panel_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxhdpi\menu_dropdown_panel_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxhdpi\progress_bg_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxhdpi\progress_bg_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxhdpi\progress_primary_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxhdpi\progress_primary_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxhdpi\progress_secondary_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxhdpi\progress_secondary_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxhdpi\spinner_ab_default_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxhdpi\spinner_ab_default_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxhdpi\spinner_ab_disabled_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxhdpi\spinner_ab_disabled_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxhdpi\spinner_ab_focused_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxhdpi\spinner_ab_focused_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxhdpi\spinner_ab_pressed_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxhdpi\spinner_ab_pressed_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxhdpi\tab_selected_focused_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxhdpi\tab_selected_focused_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxhdpi\tab_selected_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxhdpi\tab_selected_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxhdpi\tab_selected_pressed_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxhdpi\tab_selected_pressed_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxhdpi\tab_unselected_focused_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxhdpi\tab_unselected_focused_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxhdpi\tab_unselected_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxhdpi\tab_unselected_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxhdpi\tab_unselected_pressed_monitor.9.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxhdpi\tab_unselected_pressed_monitor.9.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\drawable-xxxhdpi\appicon.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable-xxxhdpi\appicon.png
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\values\styles_monitor.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\styles_monitor.xml
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\platform\android\res\values-v14\styles_monitor.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values-v14\styles_monitor.xml
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\appicon.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\drawable\appicon.png
+[INFO]   Processing JavaScript files
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\CFG.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\CFG.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\app.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\app.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\backbone.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\backbone.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\constants.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\constants.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\controllers\addPatient.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\controllers\addPatient.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\controllers\addTherapist.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\controllers\addTherapist.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\controllers\BaseController.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\controllers\BaseController.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\controllers\categoList.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\controllers\categoList.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\controllers\DASInstrument.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\controllers\DASInstrument.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\controllers\DASList.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\controllers\DASList.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\controllers\enterPIN.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\controllers\enterPIN.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\controllers\evalPaciente.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\controllers\evalPaciente.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\controllers\evalTerapeuta.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\controllers\evalTerapeuta.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\controllers\firstTime.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\controllers\firstTime.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\controllers\index.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\controllers\index.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\controllers\listado.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\controllers\listado.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\controllers\moodInstrument.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\controllers\moodInstrument.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\controllers\passvariable.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\controllers\passvariable.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\controllers\patientList.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\controllers\patientList.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\controllers\pinPage.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\controllers\pinPage.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\controllers\pinPageFocus.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\controllers\pinPageFocus.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\controllers\respirationGame.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\controllers\respirationGame.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\controllers\terapistList.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\controllers\terapistList.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\styles\addPatient.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\styles\addPatient.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\styles\addTherapist.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\styles\addTherapist.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\styles\categoList.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\styles\categoList.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\styles\DASInstrument.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\styles\DASInstrument.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\styles\DASList.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\styles\DASList.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\styles\enterPIN.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\styles\enterPIN.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\styles\evalPaciente.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\styles\evalPaciente.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\styles\evalTerapeuta.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\styles\evalTerapeuta.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\styles\firstTime.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\styles\firstTime.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\styles\index.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\styles\index.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\styles\listado.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\styles\listado.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\styles\moodInstrument.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\styles\moodInstrument.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\styles\passvariable.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\styles\passvariable.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\styles\patientList.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\styles\patientList.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\styles\pinPage.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\styles\pinPage.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\styles\pinPageFocus.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\styles\pinPageFocus.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\styles\respirationGame.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\styles\respirationGame.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\styles\terapistList.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\styles\terapistList.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\sync\localStorage.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\sync\localStorage.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\sync\properties.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\sync\properties.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\sync\sql.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\sync\sql.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\underscore.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\underscore.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy\widget.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy\widget.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\alloy.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\alloy.js
+[WARN]   Overwriting file C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\html\exporting.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\html\exporting.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\html\exporting.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\html\highcharts-custom.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\html\highcharts-custom.js
+[WARN]   Overwriting file C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\html\highcharts.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\html\highcharts.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\html\highcharts.js
+[WARN]   Overwriting file C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\html\jquery-1.11.2.min.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\html\jquery-1.11.2.min.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\html\jquery-1.11.2.min.js
+[DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\ti.cloud.nodesqldashboard.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\ti.cloud.nodesqldashboard.js
+[DEBUG]  Copying C:\ProgramData\Application Data\Titanium\modules\commonjs\ti.cloud\3.2.9\ti.cloud.js => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\ti.cloud.js
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\kroll-v8.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-analytics.jar
+[DEBUG]  Adding dependency library C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\aps-analytics.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-android.jar
+[DEBUG]  Adding dependency library C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\jaxen-1.1.1.jar
+[DEBUG]  Adding dependency library C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\ti-commons-codec-1.3.jar
+[DEBUG]  Adding dependency library C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\kroll-common.jar
+[DEBUG]  Adding dependency library C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\titanium.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-app.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-ui.jar
+[DEBUG]  Adding dependency library C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\nineoldandroids-appc-2.4.0.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-filesystem.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-media.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-appcompat.jar
+[DEBUG]  Adding dependency library C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\android-support-v4.jar
+[DEBUG]  Adding dependency library C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\android-support-v7-appcompat.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-locale.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-network.jar
+[DEBUG]  Adding dependency library C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\thirdparty.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-xml.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-utils.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-geolocation.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-accelerometer.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-contacts.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-map.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-calendar.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-gesture.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-platform.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-database.jar
+[DEBUG]  Unknown namespace api, skipping
+[DEBUG]  Unknown namespace platform.displaycaps, skipping
+[DEBUG]  Unknown namespace app.deploytype, skipping
+[DEBUG]  Unknown namespace ui.ios, skipping
+[INFO]   Writing C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\app.json
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-analytics.res.zip
+[DEBUG]  Copying C:\Users\guillermo.uribe\AppData\Local\Temp\115811-11728-vygexl\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-android.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115811-11728-g8ifln\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-app.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115811-11728-ew8q8t\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-filesystem.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115811-11728-160dfau\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-media.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115811-11728-a7by6s\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-locale.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115811-11728-1b6ac2l\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-network.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115811-11728-1p3zy4a\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-xml.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115811-11728-md6dgx\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-utils.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115811-11728-c6s4a2\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-geolocation.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115811-11728-yj862d\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-accelerometer.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115811-11728-1j7j2g0\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-contacts.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115811-11728-1ift869\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-map.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115811-11728-1vne6uh\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-calendar.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115811-11728-18jn63f\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-gesture.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115811-11728-vyt3w9\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-platform.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115811-11728-1084g5k\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-database.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115811-11728-92rzj6\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[DEBUG]  Removing old file: C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\.classpath
+[DEBUG]  Removing old file: C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\.gitignore
+[DEBUG]  Removing old file: C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\.project
+[DEBUG]  Removing old file: C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\AndroidManifest.xml
+[DEBUG]  Removing old file: C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\default.properties
+[DEBUG]  Removing old file: C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\gen\am\bluecoreservices\com\AnxietyMonitorActivity.java
+[DEBUG]  Removing old file: C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\gen\am\bluecoreservices\com\AnxietyMonitorAppInfo.java
+[DEBUG]  Removing old file: C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\gen\am\bluecoreservices\com\AnxietyMonitorApplication.java
+[DEBUG]  Removing old file: C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\gen\am\bluecoreservices\com\ApplicationStylesheet.java
+[DEBUG]  Removing old file: C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\gen\am\bluecoreservices\com\Manifest.java
+[DEBUG]  Removing old file: C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\gen\am\bluecoreservices\com\R.java
+[DEBUG]  Removing old file: C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\java-sources.txt
+[DEBUG]  Copying template C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\templates\build\AppInfo.java => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\gen\am\bluecoreservices\com\AnxietyMonitorAppInfo.java
+[DEBUG]  Copying template C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\templates\build\App.java => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\gen\am\bluecoreservices\com\AnxietyMonitorApplication.java
+[DEBUG]  Copying template C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\templates\build\Activity.java => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\gen\am\bluecoreservices\com\AnxietyMonitorActivity.java
+[DEBUG]  Copying template C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\templates\build\project => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\.project
+[DEBUG]  Copying template C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\templates\build\default.properties => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\default.properties
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\templates\build\gitignore => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\.gitignore
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\templates\build\classpath => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\.classpath
+[INFO]   No aidl files to compile, continuing
+[INFO]   Generating i18n files
+[DEBUG]  Merging en strings => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Generating C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\theme.xml
+[INFO]   Packaging application: C:\android-sdk-win\build-tools\23.0.0\aapt.exe "package" "-f" "-m" "-J" "C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\gen" "-M" "C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\AndroidManifest.xml" "-A" "C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets" "-S" "C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res" "-I" "C:\android-sdk-win\platforms\android-21\android.jar" "-F" "C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\app.ap_" "--auto-add-overlay" "--extra-packages" "ti.modules.titanium.ui:android.support.v7.appcompat" "-S" "C:\Users\guillermo.uribe\AppData\Local\Temp\115811-11728-cjsx4l/res" "-S" "C:\Users\guillermo.uribe\AppData\Local\Temp\115811-11728-8frjpa/res"
+[INFO]   Building Java source files: C:\Program Files\Java\jdk1.7.0_71\bin\javac.exe "-J-Xmx256M" "-encoding" "utf8" "-bootclasspath" "C:\android-sdk-win\platforms\android-21\android.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\kroll-v8.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-analytics.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\aps-analytics.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-android.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\jaxen-1.1.1.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\ti-commons-codec-1.3.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\kroll-common.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\titanium.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-app.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-ui.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\nineoldandroids-appc-2.4.0.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-filesystem.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-media.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-appcompat.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\android-support-v4.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\android-support-v7-appcompat.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-locale.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-network.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\thirdparty.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-xml.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-utils.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-geolocation.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-accelerometer.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-contacts.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-map.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-calendar.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-gesture.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-platform.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-database.jar;C:\ProgramData\Application Data\Titanium\modules\android\ti.cloudpush\3.3.8\cloudpush.jar;C:\ProgramData\Application Data\Titanium\modules\android\ti.cloudpush\3.3.8\lib\aps-cloudpush-1.1.4.jar;C:\ProgramData\Application Data\Titanium\modules\android\ti.cloudpush\3.3.8\lib\google-play-services.jar;C:\ProgramData\Application Data\Titanium\modules\android\com.appcelerator.apm\1.1.1\crittercism.jar;C:\ProgramData\Application Data\Titanium\modules\android\com.appcelerator.apm\1.1.1\lib\classes.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\kroll-apt.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\lib\titanium-verify.jar;AnxietyMonitorActivity.class;AnxietyMonitorAppInfo.class;AnxietyMonitorApplication.class;ApplicationStylesheet.class;Manifest.class;R.class" "-d" "C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\classes" "-proc:none" "-target" "1.6" "-source" "1.6" "@C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\java-sources.txt"
+[INFO]   Running dexer: C:\Program Files\Java\jdk1.7.0_71\bin\java.exe "-Xmx1024M" "-XX:-UseGCOverheadLimit" "-Djava.ext.dirs=C:\android-sdk-win\platform-tools" "-jar" "C:\android-sdk-win\build-tools\23.0.0\lib\dx.jar" "--dex" "--output=C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\classes.dex" "C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\classes" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\lib\titanium-verify.jar" "C:\ProgramData\Application Data\Titanium\modules\android\ti.cloudpush\3.3.8\cloudpush.jar" "C:\ProgramData\Application Data\Titanium\modules\android\ti.cloudpush\3.3.8\lib\aps-cloudpush-1.1.4.jar" "C:\ProgramData\Application Data\Titanium\modules\android\ti.cloudpush\3.3.8\lib\google-play-services.jar" "C:\ProgramData\Application Data\Titanium\modules\android\com.appcelerator.apm\1.1.1\crittercism.jar" "C:\ProgramData\Application Data\Titanium\modules\android\com.appcelerator.apm\1.1.1\lib\classes.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\kroll-v8.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-analytics.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\aps-analytics.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-android.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\jaxen-1.1.1.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\ti-commons-codec-1.3.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\kroll-common.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\titanium.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-app.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-ui.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\nineoldandroids-appc-2.4.0.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-filesystem.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-media.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-appcompat.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\android-support-v4.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\android-support-v7-appcompat.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-locale.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-network.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\thirdparty.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-xml.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-utils.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-geolocation.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-accelerometer.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-contacts.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-map.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-calendar.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-gesture.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-platform.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-database.jar"
+[INFO]   Creating unsigned apk
+[DEBUG]  Processing C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\app.ap_
+[DEBUG]  Deflating AndroidManifest.xml
+[DEBUG]  Deflating assets/Resources/_app_props_.json
+[DEBUG]  Deflating assets/Resources/alloy.js
+[DEBUG]  Deflating assets/Resources/alloy/CFG.js
+[DEBUG]  Deflating assets/Resources/alloy/backbone.js
+[DEBUG]  Deflating assets/Resources/alloy/constants.js
+[DEBUG]  Deflating assets/Resources/alloy/controllers/BaseController.js
+[DEBUG]  Deflating assets/Resources/alloy/controllers/DASInstrument.js
+[DEBUG]  Deflating assets/Resources/alloy/controllers/DASList.js
+[DEBUG]  Deflating assets/Resources/alloy/controllers/addPatient.js
+[DEBUG]  Deflating assets/Resources/alloy/controllers/addTherapist.js
+[DEBUG]  Deflating assets/Resources/alloy/controllers/categoList.js
+[DEBUG]  Deflating assets/Resources/alloy/controllers/enterPIN.js
+[DEBUG]  Deflating assets/Resources/alloy/controllers/evalPaciente.js
+[DEBUG]  Deflating assets/Resources/alloy/controllers/evalTerapeuta.js
+[DEBUG]  Deflating assets/Resources/alloy/controllers/firstTime.js
+[DEBUG]  Deflating assets/Resources/alloy/controllers/index.js
+[DEBUG]  Deflating assets/Resources/alloy/controllers/listado.js
+[DEBUG]  Deflating assets/Resources/alloy/controllers/moodInstrument.js
+[DEBUG]  Deflating assets/Resources/alloy/controllers/passvariable.js
+[DEBUG]  Deflating assets/Resources/alloy/controllers/patientList.js
+[DEBUG]  Deflating assets/Resources/alloy/controllers/pinPage.js
+[DEBUG]  Deflating assets/Resources/alloy/controllers/pinPageFocus.js
+[DEBUG]  Deflating assets/Resources/alloy/controllers/respirationGame.js
+[DEBUG]  Deflating assets/Resources/alloy/controllers/terapistList.js
+[DEBUG]  Deflating assets/Resources/alloy/styles/DASInstrument.js
+[DEBUG]  Deflating assets/Resources/alloy/styles/DASList.js
+[DEBUG]  Deflating assets/Resources/alloy/styles/addPatient.js
+[DEBUG]  Deflating assets/Resources/alloy/styles/addTherapist.js
+[DEBUG]  Deflating assets/Resources/alloy/styles/categoList.js
+[DEBUG]  Deflating assets/Resources/alloy/styles/enterPIN.js
+[DEBUG]  Deflating assets/Resources/alloy/styles/evalPaciente.js
+[DEBUG]  Deflating assets/Resources/alloy/styles/evalTerapeuta.js
+[DEBUG]  Deflating assets/Resources/alloy/styles/firstTime.js
+[DEBUG]  Deflating assets/Resources/alloy/styles/index.js
+[DEBUG]  Deflating assets/Resources/alloy/styles/listado.js
+[DEBUG]  Deflating assets/Resources/alloy/styles/moodInstrument.js
+[DEBUG]  Deflating assets/Resources/alloy/styles/passvariable.js
+[DEBUG]  Deflating assets/Resources/alloy/styles/patientList.js
+[DEBUG]  Deflating assets/Resources/alloy/styles/pinPage.js
+[DEBUG]  Deflating assets/Resources/alloy/styles/pinPageFocus.js
+[DEBUG]  Deflating assets/Resources/alloy/styles/respirationGame.js
+[DEBUG]  Deflating assets/Resources/alloy/styles/terapistList.js
+[DEBUG]  Deflating assets/Resources/alloy/sync/localStorage.js
+[DEBUG]  Deflating assets/Resources/alloy/sync/properties.js
+[DEBUG]  Deflating assets/Resources/alloy/sync/sql.js
+[DEBUG]  Deflating assets/Resources/alloy/underscore.js
+[DEBUG]  Deflating assets/Resources/alloy/widget.js
+[DEBUG]  Deflating assets/Resources/app.js
+[DEBUG]  Adding assets/Resources/appicon.png
+[DEBUG]  Deflating assets/Resources/blackberry/Ti.Manifest
+[DEBUG]  Adding assets/Resources/blackberry/appicon.png
+[DEBUG]  Adding assets/Resources/blackberry/map/bubble.png
+[DEBUG]  Adding assets/Resources/blackberry/map/green_pin.png
+[DEBUG]  Adding assets/Resources/blackberry/map/purple_pin.png
+[DEBUG]  Adding assets/Resources/blackberry/map/red_pin.png
+[DEBUG]  Adding assets/Resources/blackberry/splash-600x1024.png
+[DEBUG]  Deflating assets/Resources/html/PIE.html
+[DEBUG]  Deflating assets/Resources/html/exporting.js
+[DEBUG]  Deflating assets/Resources/html/highcharts-custom.js
+[DEBUG]  Deflating assets/Resources/html/highcharts.js
+[DEBUG]  Deflating assets/Resources/html/jquery-1.11.2.min.js
+[DEBUG]  Deflating assets/Resources/html/line.html
+[DEBUG]  Deflating assets/Resources/ti.cloud.js
+[DEBUG]  Deflating assets/Resources/ti.cloud.nodesqldashboard.js
+[DEBUG]  Deflating assets/app.json
+[DEBUG]  Deflating assets/index.json
+[DEBUG]  Deflating res/anim/abc_fade_in.xml
+[DEBUG]  Deflating res/anim/abc_fade_out.xml
+[DEBUG]  Deflating res/anim/abc_grow_fade_in_from_bottom.xml
+[DEBUG]  Deflating res/anim/abc_popup_enter.xml
+[DEBUG]  Deflating res/anim/abc_popup_exit.xml
+[DEBUG]  Deflating res/anim/abc_shrink_fade_out_from_bottom.xml
+[DEBUG]  Deflating res/anim/abc_slide_in_bottom.xml
+[DEBUG]  Deflating res/anim/abc_slide_in_top.xml
+[DEBUG]  Deflating res/anim/abc_slide_out_bottom.xml
+[DEBUG]  Deflating res/anim/abc_slide_out_top.xml
+[DEBUG]  Deflating res/color-v11/abc_background_cache_hint_selector_material_dark.xml
+[DEBUG]  Deflating res/color-v11/abc_background_cache_hint_selector_material_light.xml
+[DEBUG]  Deflating res/color/abc_background_cache_hint_selector_material_dark.xml
+[DEBUG]  Deflating res/color/abc_background_cache_hint_selector_material_light.xml
+[DEBUG]  Deflating res/color/abc_primary_text_disable_only_material_dark.xml
+[DEBUG]  Deflating res/color/abc_primary_text_disable_only_material_light.xml
+[DEBUG]  Deflating res/color/abc_primary_text_material_dark.xml
+[DEBUG]  Deflating res/color/abc_primary_text_material_light.xml
+[DEBUG]  Deflating res/color/abc_search_url_text.xml
+[DEBUG]  Deflating res/color/abc_secondary_text_material_dark.xml
+[DEBUG]  Deflating res/color/abc_secondary_text_material_light.xml
+[DEBUG]  Deflating res/color/switch_thumb_material_dark.xml
+[DEBUG]  Deflating res/color/switch_thumb_material_light.xml
+[DEBUG]  Adding res/drawable-hdpi-v4/ab_bottom_solid_monitor.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/ab_solid_monitor.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/ab_stacked_solid_monitor.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/ab_texture_tile_monitor.png
+[DEBUG]  Adding res/drawable-hdpi-v4/ab_transparent_monitor.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_text_cursor_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/appicon.png
+[DEBUG]  Adding res/drawable-hdpi-v4/btn_cab_done_default_monitor.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/btn_cab_done_focused_monitor.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/btn_cab_done_pressed_monitor.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/cab_background_bottom_monitor.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/cab_background_top_monitor.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/ic_stat_content_backspace.png
+[DEBUG]  Adding res/drawable-hdpi-v4/ic_stat_navigation_check.png
+[DEBUG]  Adding res/drawable-hdpi-v4/list_focused_monitor.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/list_pressed_monitor.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/menu_dropdown_panel_monitor.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/progress_bg_monitor.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/progress_primary_monitor.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/progress_secondary_monitor.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/spinner_ab_default_monitor.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/spinner_ab_disabled_monitor.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/spinner_ab_focused_monitor.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/spinner_ab_pressed_monitor.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/tab_selected_focused_monitor.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/tab_selected_monitor.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/tab_selected_pressed_monitor.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/tab_unselected_focused_monitor.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/tab_unselected_monitor.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/tab_unselected_pressed_monitor.9.png
+[DEBUG]  Adding res/drawable-ldpi-v4/appicon.png
+[DEBUG]  Adding res/drawable-ldrtl-hdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-ldrtl-mdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-ldrtl-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-ldrtl-xxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-ldrtl-xxxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-long-land-hdpi-v4/background.png
+[DEBUG]  Adding res/drawable-long-land-ldpi-v4/background.png
+[DEBUG]  Adding res/drawable-long-port-hdpi-v4/background.png
+[DEBUG]  Adding res/drawable-long-port-ldpi-v4/background.png
+[DEBUG]  Adding res/drawable-mdpi-v4/ab_bottom_solid_monitor.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/ab_solid_monitor.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/ab_stacked_solid_monitor.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/ab_texture_tile_monitor.png
+[DEBUG]  Adding res/drawable-mdpi-v4/ab_transparent_monitor.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_text_cursor_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/appicon.png
+[DEBUG]  Adding res/drawable-mdpi-v4/btn_cab_done_default_monitor.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/btn_cab_done_focused_monitor.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/btn_cab_done_pressed_monitor.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/cab_background_bottom_monitor.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/cab_background_top_monitor.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/ic_stat_content_backspace.png
+[DEBUG]  Adding res/drawable-mdpi-v4/ic_stat_navigation_check.png
+[DEBUG]  Adding res/drawable-mdpi-v4/list_focused_monitor.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/list_pressed_monitor.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/menu_dropdown_panel_monitor.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/progress_bg_monitor.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/progress_primary_monitor.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/progress_secondary_monitor.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/spinner_ab_default_monitor.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/spinner_ab_disabled_monitor.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/spinner_ab_focused_monitor.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/spinner_ab_pressed_monitor.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/tab_selected_focused_monitor.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/tab_selected_monitor.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/tab_selected_pressed_monitor.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/tab_unselected_focused_monitor.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/tab_unselected_monitor.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/tab_unselected_pressed_monitor.9.png
+[DEBUG]  Adding res/drawable-notlong-land-hdpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-land-ldpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-land-mdpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-port-hdpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-port-ldpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-port-mdpi-v4/background.png
+[DEBUG]  Adding res/drawable-tvdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-tvdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/ab_bottom_solid_monitor.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/ab_solid_monitor.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/ab_stacked_solid_monitor.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/ab_texture_tile_monitor.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/ab_transparent_monitor.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_text_cursor_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/appicon.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/btn_cab_done_default_monitor.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/btn_cab_done_focused_monitor.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/btn_cab_done_pressed_monitor.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/cab_background_bottom_monitor.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/cab_background_top_monitor.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/ic_stat_content_backspace.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/ic_stat_navigation_check.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/list_focused_monitor.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/list_pressed_monitor.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/menu_dropdown_panel_monitor.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/progress_bg_monitor.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/progress_primary_monitor.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/progress_secondary_monitor.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/spinner_ab_default_monitor.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/spinner_ab_disabled_monitor.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/spinner_ab_focused_monitor.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/spinner_ab_pressed_monitor.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/tab_selected_focused_monitor.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/tab_selected_monitor.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/tab_selected_pressed_monitor.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/tab_unselected_focused_monitor.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/tab_unselected_monitor.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/tab_unselected_pressed_monitor.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/ab_bottom_solid_monitor.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/ab_solid_monitor.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/ab_stacked_solid_monitor.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/ab_texture_tile_monitor.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/ab_transparent_monitor.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_text_cursor_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/appicon.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/btn_cab_done_default_monitor.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/btn_cab_done_focused_monitor.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/btn_cab_done_pressed_monitor.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/cab_background_bottom_monitor.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/cab_background_top_monitor.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/ic_stat_content_backspace.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/ic_stat_navigation_check.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/list_focused_monitor.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/list_pressed_monitor.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/menu_dropdown_panel_monitor.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/progress_bg_monitor.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/progress_primary_monitor.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/progress_secondary_monitor.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/spinner_ab_default_monitor.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/spinner_ab_disabled_monitor.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/spinner_ab_focused_monitor.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/spinner_ab_pressed_monitor.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/tab_selected_focused_monitor.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/tab_selected_monitor.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/tab_selected_pressed_monitor.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/tab_unselected_focused_monitor.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/tab_unselected_monitor.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/tab_unselected_pressed_monitor.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/appicon.png
+[DEBUG]  Deflating res/drawable/ab_background_textured_monitor.xml
+[DEBUG]  Deflating res/drawable/abc_btn_borderless_material.xml
+[DEBUG]  Deflating res/drawable/abc_btn_check_material.xml
+[DEBUG]  Deflating res/drawable/abc_btn_default_mtrl_shape.xml
+[DEBUG]  Deflating res/drawable/abc_btn_radio_material.xml
+[DEBUG]  Deflating res/drawable/abc_cab_background_internal_bg.xml
+[DEBUG]  Deflating res/drawable/abc_cab_background_top_material.xml
+[DEBUG]  Deflating res/drawable/abc_dialog_material_background_dark.xml
+[DEBUG]  Deflating res/drawable/abc_dialog_material_background_light.xml
+[DEBUG]  Deflating res/drawable/abc_edit_text_material.xml
+[DEBUG]  Deflating res/drawable/abc_item_background_holo_dark.xml
+[DEBUG]  Deflating res/drawable/abc_item_background_holo_light.xml
+[DEBUG]  Deflating res/drawable/abc_list_selector_background_transition_holo_dark.xml
+[DEBUG]  Deflating res/drawable/abc_list_selector_background_transition_holo_light.xml
+[DEBUG]  Deflating res/drawable/abc_list_selector_holo_dark.xml
+[DEBUG]  Deflating res/drawable/abc_list_selector_holo_light.xml
+[DEBUG]  Deflating res/drawable/abc_ratingbar_full_material.xml
+[DEBUG]  Deflating res/drawable/abc_spinner_textfield_background_material.xml
+[DEBUG]  Deflating res/drawable/abc_switch_thumb_material.xml
+[DEBUG]  Deflating res/drawable/abc_tab_indicator_material.xml
+[DEBUG]  Deflating res/drawable/abc_textfield_search_material.xml
+[DEBUG]  Adding res/drawable/appicon.png
+[DEBUG]  Adding res/drawable/background.png
+[DEBUG]  Deflating res/drawable/btn_cab_done_monitor.xml
+[DEBUG]  Adding res/drawable/btn_check_buttonless_on_64.png
+[DEBUG]  Adding res/drawable/btn_more_64.png
+[DEBUG]  Adding res/drawable/disclosure_64.png
+[DEBUG]  Deflating res/drawable/progress_horizontal_monitor.xml
+[DEBUG]  Deflating res/drawable/selectable_background_monitor.xml
+[DEBUG]  Deflating res/drawable/spinner_background_ab_monitor.xml
+[DEBUG]  Deflating res/drawable/tab_indicator_ab_monitor.xml
+[DEBUG]  Deflating res/layout-v11/abc_screen_content_include.xml
+[DEBUG]  Deflating res/layout-v17/abc_alert_dialog_material.xml
+[DEBUG]  Deflating res/layout-v17/abc_dialog_title_material.xml
+[DEBUG]  Deflating res/layout-v17/abc_search_view.xml
+[DEBUG]  Deflating res/layout-v21/abc_screen_toolbar.xml
+[DEBUG]  Deflating res/layout/abc_action_bar_title_item.xml
+[DEBUG]  Deflating res/layout/abc_action_bar_up_container.xml
+[DEBUG]  Deflating res/layout/abc_action_bar_view_list_nav_layout.xml
+[DEBUG]  Deflating res/layout/abc_action_menu_item_layout.xml
+[DEBUG]  Deflating res/layout/abc_action_menu_layout.xml
+[DEBUG]  Deflating res/layout/abc_action_mode_bar.xml
+[DEBUG]  Deflating res/layout/abc_action_mode_close_item_material.xml
+[DEBUG]  Deflating res/layout/abc_activity_chooser_view.xml
+[DEBUG]  Deflating res/layout/abc_activity_chooser_view_list_item.xml
+[DEBUG]  Deflating res/layout/abc_alert_dialog_material.xml
+[DEBUG]  Deflating res/layout/abc_dialog_title_material.xml
+[DEBUG]  Deflating res/layout/abc_expanded_menu_layout.xml
+[DEBUG]  Deflating res/layout/abc_list_menu_item_checkbox.xml
+[DEBUG]  Deflating res/layout/abc_list_menu_item_icon.xml
+[DEBUG]  Deflating res/layout/abc_list_menu_item_layout.xml
+[DEBUG]  Deflating res/layout/abc_list_menu_item_radio.xml
+[DEBUG]  Deflating res/layout/abc_popup_menu_item_layout.xml
+[DEBUG]  Deflating res/layout/abc_screen_content_include.xml
+[DEBUG]  Deflating res/layout/abc_screen_simple.xml
+[DEBUG]  Deflating res/layout/abc_screen_simple_overlay_action_mode.xml
+[DEBUG]  Deflating res/layout/abc_screen_toolbar.xml
+[DEBUG]  Deflating res/layout/abc_search_dropdown_item_icons_2line.xml
+[DEBUG]  Deflating res/layout/abc_search_view.xml
+[DEBUG]  Deflating res/layout/abc_select_dialog_material.xml
+[DEBUG]  Deflating res/layout/abc_simple_dropdown_hint.xml
+[DEBUG]  Deflating res/layout/select_dialog_item_material.xml
+[DEBUG]  Deflating res/layout/select_dialog_multichoice_material.xml
+[DEBUG]  Deflating res/layout/select_dialog_singlechoice_material.xml
+[DEBUG]  Deflating res/layout/support_simple_spinner_dropdown_item.xml
+[DEBUG]  Deflating res/layout/titanium_tabgroup.xml
+[DEBUG]  Deflating res/layout/titanium_ui_checkbox.xml
+[DEBUG]  Deflating res/layout/titanium_ui_edittext.xml
+[DEBUG]  Deflating res/layout/titanium_ui_list_header_or_footer.xml
+[DEBUG]  Deflating res/layout/titanium_ui_list_item.xml
+[DEBUG]  Deflating res/layout/titanium_ui_spinner.xml
+[DEBUG]  Deflating res/layout/titanium_ui_switchcompat.xml
+[DEBUG]  Deflating resources.arsc
+[DEBUG]  Processing C:\ProgramData\Application Data\Titanium\modules\android\ti.cloudpush\3.3.8\cloudpush.jar
+[DEBUG]  Processing C:\ProgramData\Application Data\Titanium\modules\android\ti.cloudpush\3.3.8\lib\aps-cloudpush-1.1.4.jar
+[DEBUG]  Processing C:\ProgramData\Application Data\Titanium\modules\android\ti.cloudpush\3.3.8\lib\google-play-services.jar
+[DEBUG]  Processing C:\ProgramData\Application Data\Titanium\modules\android\com.appcelerator.apm\1.1.1\crittercism.jar
+[DEBUG]  Processing C:\ProgramData\Application Data\Titanium\modules\android\com.appcelerator.apm\1.1.1\lib\classes.jar
+[DEBUG]  Deflating README
+[DEBUG]  Deflating assets/armeabi-v7a/libcrittercism-ndk.so
+[DEBUG]  Deflating assets/armeabi/libcrittercism-ndk.so
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\kroll-v8.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-analytics.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\aps-analytics.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-android.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\jaxen-1.1.1.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\ti-commons-codec-1.3.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\kroll-common.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\titanium.jar
+[DEBUG]  Deflating org/appcelerator/titanium/build.properties
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/background.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_100.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_18.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_48.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_64.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more_100.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more_18.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more_48.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more_64.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_picker_normal.9.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_picker_pressed.9.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_picker_selected.9.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/default_icon.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/photoDefault.png
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-app.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-ui.jar
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/binding.js
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/binding.min.js
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/json2.js
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/polling.js
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/polling.min.js
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\nineoldandroids-appc-2.4.0.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-filesystem.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-media.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-appcompat.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\android-support-v4.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\android-support-v7-appcompat.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-locale.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-network.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\thirdparty.jar
+[DEBUG]  Deflating org/apache/Commons-NOTICE.txt
+[DEBUG]  Deflating org/apache/HttpComponents-NOTICE.txt
+[DEBUG]  Deflating org/apache/mime4j-NOTICE.txt
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-xml.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-utils.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-geolocation.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-accelerometer.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-contacts.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-map.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-calendar.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-gesture.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-platform.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-database.jar
+[DEBUG]  Adding classes.dex
+[INFO]   Processing C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\src
+[DEBUG]  Adding lib/armeabi/libkroll-v8.so
+[DEBUG]  Adding lib/armeabi/libstlport_shared.so
+[DEBUG]  Adding lib/armeabi/libtiverify.so
+[DEBUG]  Adding lib/armeabi-v7a/libkroll-v8.so
+[DEBUG]  Adding lib/armeabi-v7a/libstlport_shared.so
+[DEBUG]  Adding lib/armeabi-v7a/libtiverify.so
+[DEBUG]  Adding lib/x86/libkroll-v8.so
+[DEBUG]  Adding lib/x86/libstlport_shared.so
+[DEBUG]  Adding lib/x86/libtiverify.so
+[DEBUG]  Adding lib/armeabi/libti.cloudpush.so
+[DEBUG]  Adding lib/armeabi-v7a/libti.cloudpush.so
+[DEBUG]  Adding lib/x86/libti.cloudpush.so
+[DEBUG]  Adding lib/armeabi/libcom.appcelerator.apm.so
+[DEBUG]  Adding lib/armeabi-v7a/libcom.appcelerator.apm.so
+[DEBUG]  Adding lib/x86/libcom.appcelerator.apm.so
+[INFO]   Writing unsigned apk: C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\app-unsigned.apk
+[INFO]   Using MD5withRSA signature algorithm
+[INFO]   Signing apk: C:\Program Files\Java\jdk1.7.0_71\bin\jarsigner.exe "-sigalg" "MD5withRSA" "-digestalg" "SHA1" "-keystore" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\dev_keystore" "-storepass" "*******" "-signedjar" "C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\Anxiety Monitor.apk" "C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\app-unsigned.apk" "tidev"
+[INFO]   Aligning zip file: C:\android-sdk-win\build-tools\23.0.0\zipalign.exe "-v" "4" "C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\Anxiety Monitor.apk" "C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\Anxiety Monitor.apkz"
+[INFO]   Writing build manifest: C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\build-manifest.json
+[INFO]   Making sure the adb server is running
+[INFO]   Installing apk: C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\Anxiety Monitor.apk
+[TRACE]  Checking if package manager service is started
+[TRACE]  Package manager has started
+[TRACE]  Executing: C:\android-sdk-win\platform-tools\adb.exe -s 192.168.56.101:5555 install -r C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\Anxiety Monitor.apk
+[INFO]   App successfully installed
+[INFO]   Starting app: am.bluecoreservices.com/.AnxietyMonitorActivity
+[DEBUG]  Trying to start the app...
+[INFO]   Application pid: 10613
+[INFO]   Project built successfully in 1m 3s 910ms
