@@ -33,9 +33,13 @@ function Controller() {
     $.index.open();
     var pinNumber = Ti.App.Properties.getInt("pinNumber", null);
     var startingPage = null;
+<<<<<<< HEAD
     Ti.App.Properties.getInt("username", null);
     Ti.App.Properties.getInt("password", null);
     null != pinNumber || (startingPage = Alloy.createController("firstTime").getView());
+=======
+    startingPage = null != pinNumber ? Alloy.createController("pinPage").getView() : Alloy.createController("firstTime").getView();
+>>>>>>> 7954a42f5293cb8ea2f707b2b5ca2d27b1193878
     _.extend($, exports);
 }
 

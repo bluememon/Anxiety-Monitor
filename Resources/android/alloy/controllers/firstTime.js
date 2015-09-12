@@ -30,6 +30,7 @@ function Controller() {
                     Ti.App.Properties.setString("name", response.firstName);
                     Ti.App.Properties.setInt("userType", response.type);
                     Ti.App.Properties.setInt("id", response.id);
+<<<<<<< HEAD
                     Ti.App.Properties.setString("username", $.username.value);
                     Ti.App.Properties.setString("password", $.password.value);
                     alert("username: " + username + " Password: " + password);
@@ -62,6 +63,9 @@ function Controller() {
                             });
                         }
                     });
+=======
+                    Alloy.createController("enterPIN").getView();
+>>>>>>> 7954a42f5293cb8ea2f707b2b5ca2d27b1193878
                 } else alert(response.message);
             };
         } else alert("El nombre de usuario y la contraseña son requeridos");

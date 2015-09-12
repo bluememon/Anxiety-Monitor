@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 Fri Sep 11 2015 18:33:00 GMT-0500 (Central Daylight Time (Mexico))
+=======
+Thu Aug 20 2015 17:27:08 GMT-0500 (Central Daylight Time (Mexico))
+>>>>>>> 7954a42f5293cb8ea2f707b2b5ca2d27b1193878
 
 Operating System
   Name                        = Microsoft Windows 7 Enterprise
@@ -21,7 +25,11 @@ Titanium SDK
   Target Platform             = android
 
 Command
+<<<<<<< HEAD
   C:\Program Files (x86)\nodejs\node.exe C:\Users\guillermo.uribe\.appcelerator\install\4.1.2\package\node_modules\appc-cli-titanium\node_modules\titanium\bin\titanium build --platform android --log-level trace --sdk 4.1.0.GA --project-dir C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor --target emulator --android-sdk C:\android-sdk-win --device-id Google Nexus 5 - 4.4.4 - API 19 - 1080x1920 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 51443 --username bluememon@gmail.com --password uribeeg81 --plugin-paths C:\Users\guillermo.uribe\.appcelerator\install\4.1.2\package\node_modules --config-file C:\Users\guillermo.uribe\AppData\Local\Temp\build-1442014375591.json --no-banner
+=======
+  C:\Program Files (x86)\nodejs\node.exe C:\Users\guillermo.uribe\.appcelerator\install\4.1.2\package\node_modules\appc-cli-titanium\node_modules\titanium\bin\titanium build --platform android --log-level trace --sdk 4.1.0.GA --project-dir C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor --target emulator --android-sdk C:\android-sdk-win --device-id Samsung Galaxy S3 - 4.2.2 - API 17 - 720x1280 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 55761 --plugin-paths C:\Users\guillermo.uribe\.appcelerator\install\4.1.2\package\node_modules --config-file C:\Users\guillermo.uribe\AppData\Local\Temp\build-1440109622964.json --no-banner
+>>>>>>> 7954a42f5293cb8ea2f707b2b5ca2d27b1193878
 
 [DEBUG]  Detecting modules in C:\ProgramData\Application Data\Titanium\modules
 [DEBUG]  Detected android module: com.appcelerator.apm 1.1.1 @ C:\ProgramData\Application Data\Titanium\modules\android\com.appcelerator.apm\1.1.1
@@ -68,7 +76,11 @@ Command
 [DEBUG]  Titanium SDK Android directory: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android
 [INFO]   Deploy type: development
 [INFO]   Building for target: emulator
+<<<<<<< HEAD
 [INFO]   Building for emulator: Google Nexus 5 - 4.4.4 - API 19 - 1080x1920
+=======
+[INFO]   Building for emulator: Samsung Galaxy S3 - 4.2.2 - API 17 - 720x1280
+>>>>>>> 7954a42f5293cb8ea2f707b2b5ca2d27b1193878
 [INFO]   Targeting Android SDK: 21
 [INFO]   Building for the following architectures: armeabi, armeabi-v7a, x86
 [INFO]   Signing with keystore: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\dev_keystore (tidev)
@@ -79,11 +91,19 @@ Command
 [INFO]   Found Alloy app in C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\app
 [INFO]   Executing Alloy compile: cmd /s /c C:\Users\guillermo.uribe\.appcelerator\install\4.1.2\package\node_modules\appc-cli-titanium\node_modules\.bin\alloy compile C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\app --config platform=android,version=0,simtype=none,devicefamily=none,deploytype=development,target=emulator --no-colors
 [INFO]   Alloy compiler completed successfully
+<<<<<<< HEAD
 [INFO]   Launching emulator: Google Nexus 5 - 4.4.4 - API 19 - 1080x1920
 [TRACE]  Starting emulator: Google Nexus 5 - 4.4.4 - API 19 - 1080x1920
 [TRACE]  Checking if emulator Google Nexus 5 - 4.4.4 - API 19 - 1080x1920 is running...
 [TRACE]  Detecting if Google Nexus 5 - 4.4.4 - API 19 - 1080x1920 exists...
 [TRACE]  Found 6 emulators
+=======
+[INFO]   Launching emulator: Samsung Galaxy S3 - 4.2.2 - API 17 - 720x1280
+[TRACE]  Starting emulator: Samsung Galaxy S3 - 4.2.2 - API 17 - 720x1280
+[TRACE]  Checking if emulator Samsung Galaxy S3 - 4.2.2 - API 17 - 720x1280 is running...
+[TRACE]  Detecting if Samsung Galaxy S3 - 4.2.2 - API 17 - 720x1280 exists...
+[TRACE]  Found 4 emulators
+>>>>>>> 7954a42f5293cb8ea2f707b2b5ca2d27b1193878
 [TRACE]  Emulator exists, detecting all running emulators and connected devices...
 [TRACE]  Detected 1 running emulators and connected devices
 [TRACE]  Checking 1 devices to see if it's the emulator we want
@@ -92,9 +112,15 @@ Command
 [TRACE]  Checking the boot state for the next 240000 ms
 [TRACE]  Waiting for emulator to register with ADB
 [TRACE]  Emulator process started
+<<<<<<< HEAD
 [TRACE]  offline build file C:\Users\guillermo.uribe\AppData\Local\Temp\build-912c607d0c3e135c722735e67e6572281a531790.json
 [TRACE]  online 1
 [TRACE]  optimizing build, last build was 2225.456 sec ago
+=======
+[TRACE]  offline build file C:\Users\guillermo.uribe\AppData\Local\Temp\build-b7ce0082805cf61a7bac549b801ab3cc9c05ad1c.json
+[TRACE]  online 1
+[TRACE]  optimizing build, last build was 2951.935 sec ago
+>>>>>>> 7954a42f5293cb8ea2f707b2b5ca2d27b1193878
 [DEBUG]  Ignoring C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android
 [WARN]   Overwriting file C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\appicon.png
 [DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\appicon.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\appicon.png
@@ -105,14 +131,24 @@ Command
 [TRACE]  Checking if boot animation has finished...
 [WARN]   Overwriting file C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\blackberry\map\bubble.png
 [DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\blackberry\map\bubble.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\blackberry\map\bubble.png
+<<<<<<< HEAD
 [TRACE]  Emulator is booted, emitting booted event
 [INFO]   Emulator is booted
 [INFO]   SD card not required, skipping mount check
 [INFO]   Emulator ready!
+=======
+>>>>>>> 7954a42f5293cb8ea2f707b2b5ca2d27b1193878
 [WARN]   Overwriting file C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\blackberry\map\green_pin.png
 [DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\blackberry\map\green_pin.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\blackberry\map\green_pin.png
 [WARN]   Overwriting file C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\blackberry\map\purple_pin.png
 [DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\blackberry\map\purple_pin.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\blackberry\map\purple_pin.png
+<<<<<<< HEAD
+=======
+[TRACE]  Emulator is booted, emitting booted event
+[INFO]   Emulator is booted
+[INFO]   SD card not required, skipping mount check
+[INFO]   Emulator ready!
+>>>>>>> 7954a42f5293cb8ea2f707b2b5ca2d27b1193878
 [WARN]   Overwriting file C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\blackberry\map\red_pin.png
 [DEBUG]  Copying C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\Resources\android\blackberry\map\red_pin.png => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\blackberry\map\red_pin.png
 [WARN]   Overwriting file C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\Resources\blackberry\splash-600x1024.png
@@ -353,6 +389,7 @@ Command
 [DEBUG]  Unknown namespace ui.ios, skipping
 [INFO]   Writing C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets\app.json
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-analytics.res.zip
+<<<<<<< HEAD
 [DEBUG]  Copying C:\Users\guillermo.uribe\AppData\Local\Temp\115811-11728-vygexl\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-android.res.zip
 [DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115811-11728-g8ifln\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
@@ -386,6 +423,41 @@ Command
 [DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115811-11728-1084g5k\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-database.res.zip
 [DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115811-11728-92rzj6\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+=======
+[DEBUG]  Copying C:\Users\guillermo.uribe\AppData\Local\Temp\115720-8168-84htat\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-android.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115720-8168-u0o3hn\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-app.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115720-8168-1bj0q6c\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-filesystem.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115720-8168-oml147\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-media.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115720-8168-1ohorr\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-locale.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115720-8168-g76ehm\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-network.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115720-8168-bytrae\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-xml.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115720-8168-tprchv\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-utils.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115720-8168-1rdromg\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-geolocation.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115720-8168-khql9p\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-accelerometer.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115720-8168-6ojkuy\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-contacts.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115720-8168-3t7nfx\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-map.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115720-8168-x0enbg\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-calendar.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115720-8168-jkxive\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-gesture.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115720-8168-2yf7hi\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-platform.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115720-8168-1pxjgz4\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-database.res.zip
+[DEBUG]  Merging C:\Users\guillermo.uribe\AppData\Local\Temp\115720-8168-1ilelxq\res\values\strings.xml => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
+>>>>>>> 7954a42f5293cb8ea2f707b2b5ca2d27b1193878
 [DEBUG]  Removing old file: C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\.classpath
 [DEBUG]  Removing old file: C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\.gitignore
 [DEBUG]  Removing old file: C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\.project
@@ -409,7 +481,11 @@ Command
 [INFO]   Generating i18n files
 [DEBUG]  Merging en strings => C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\strings.xml
 [INFO]   Generating C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res\values\theme.xml
+<<<<<<< HEAD
 [INFO]   Packaging application: C:\android-sdk-win\build-tools\23.0.0\aapt.exe "package" "-f" "-m" "-J" "C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\gen" "-M" "C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\AndroidManifest.xml" "-A" "C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets" "-S" "C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res" "-I" "C:\android-sdk-win\platforms\android-21\android.jar" "-F" "C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\app.ap_" "--auto-add-overlay" "--extra-packages" "ti.modules.titanium.ui:android.support.v7.appcompat" "-S" "C:\Users\guillermo.uribe\AppData\Local\Temp\115811-11728-cjsx4l/res" "-S" "C:\Users\guillermo.uribe\AppData\Local\Temp\115811-11728-8frjpa/res"
+=======
+[INFO]   Packaging application: C:\android-sdk-win\build-tools\23.0.0\aapt.exe "package" "-f" "-m" "-J" "C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\gen" "-M" "C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\AndroidManifest.xml" "-A" "C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\assets" "-S" "C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\res" "-I" "C:\android-sdk-win\platforms\android-21\android.jar" "-F" "C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\app.ap_" "--auto-add-overlay" "--extra-packages" "ti.modules.titanium.ui:android.support.v7.appcompat" "-S" "C:\Users\guillermo.uribe\AppData\Local\Temp\115720-8168-19k8hyv/res" "-S" "C:\Users\guillermo.uribe\AppData\Local\Temp\115720-8168-p4n2t7/res"
+>>>>>>> 7954a42f5293cb8ea2f707b2b5ca2d27b1193878
 [INFO]   Building Java source files: C:\Program Files\Java\jdk1.7.0_71\bin\javac.exe "-J-Xmx256M" "-encoding" "utf8" "-bootclasspath" "C:\android-sdk-win\platforms\android-21\android.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\kroll-v8.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-analytics.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\aps-analytics.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-android.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\jaxen-1.1.1.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\ti-commons-codec-1.3.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\kroll-common.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\titanium.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-app.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-ui.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\nineoldandroids-appc-2.4.0.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-filesystem.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-media.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-appcompat.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\android-support-v4.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\android-support-v7-appcompat.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-locale.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-network.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\thirdparty.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-xml.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-utils.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-geolocation.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-accelerometer.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-contacts.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-map.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-calendar.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-gesture.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-platform.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-database.jar;C:\ProgramData\Application Data\Titanium\modules\android\ti.cloudpush\3.3.8\cloudpush.jar;C:\ProgramData\Application Data\Titanium\modules\android\ti.cloudpush\3.3.8\lib\aps-cloudpush-1.1.4.jar;C:\ProgramData\Application Data\Titanium\modules\android\ti.cloudpush\3.3.8\lib\google-play-services.jar;C:\ProgramData\Application Data\Titanium\modules\android\com.appcelerator.apm\1.1.1\crittercism.jar;C:\ProgramData\Application Data\Titanium\modules\android\com.appcelerator.apm\1.1.1\lib\classes.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\kroll-apt.jar;C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\lib\titanium-verify.jar;AnxietyMonitorActivity.class;AnxietyMonitorAppInfo.class;AnxietyMonitorApplication.class;ApplicationStylesheet.class;Manifest.class;R.class" "-d" "C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\classes" "-proc:none" "-target" "1.6" "-source" "1.6" "@C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\java-sources.txt"
 [INFO]   Running dexer: C:\Program Files\Java\jdk1.7.0_71\bin\java.exe "-Xmx1024M" "-XX:-UseGCOverheadLimit" "-Djava.ext.dirs=C:\android-sdk-win\platform-tools" "-jar" "C:\android-sdk-win\build-tools\23.0.0\lib\dx.jar" "--dex" "--output=C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\classes.dex" "C:\Users\guillermo.uribe\Documents\Titanium_Studio_Workspace\Anxiety-Monitor\build\android\bin\classes" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\lib\titanium-verify.jar" "C:\ProgramData\Application Data\Titanium\modules\android\ti.cloudpush\3.3.8\cloudpush.jar" "C:\ProgramData\Application Data\Titanium\modules\android\ti.cloudpush\3.3.8\lib\aps-cloudpush-1.1.4.jar" "C:\ProgramData\Application Data\Titanium\modules\android\ti.cloudpush\3.3.8\lib\google-play-services.jar" "C:\ProgramData\Application Data\Titanium\modules\android\com.appcelerator.apm\1.1.1\crittercism.jar" "C:\ProgramData\Application Data\Titanium\modules\android\com.appcelerator.apm\1.1.1\lib\classes.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\kroll-v8.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-analytics.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\aps-analytics.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-android.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\jaxen-1.1.1.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\ti-commons-codec-1.3.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\kroll-common.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\titanium.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-app.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-ui.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\nineoldandroids-appc-2.4.0.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-filesystem.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-media.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-appcompat.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\android-support-v4.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\android-support-v7-appcompat.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-locale.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-network.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\thirdparty.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-xml.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-utils.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-geolocation.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-accelerometer.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-contacts.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-map.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-calendar.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-gesture.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-platform.jar" "C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA\android\modules\titanium-database.jar"
 [INFO]   Creating unsigned apk
@@ -994,5 +1070,10 @@ Command
 [INFO]   App successfully installed
 [INFO]   Starting app: am.bluecoreservices.com/.AnxietyMonitorActivity
 [DEBUG]  Trying to start the app...
+<<<<<<< HEAD
 [INFO]   Application pid: 10613
 [INFO]   Project built successfully in 1m 3s 910ms
+=======
+[INFO]   Application pid: 3216
+[INFO]   Project built successfully in 1m 1s 271ms
+>>>>>>> 7954a42f5293cb8ea2f707b2b5ca2d27b1193878
