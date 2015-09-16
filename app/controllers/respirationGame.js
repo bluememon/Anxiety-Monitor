@@ -12,7 +12,7 @@ $.circulo.addEventListener('touchstart', function(){
 $.circulo.addEventListener('touchend', function(){
 	
 	$.circulo.animate(a2, function(){
-		durationAnimation += 500;
+		//durationAnimation += 500;
 		a.setDuration(durationAnimation);
 		a2.setDuration(durationAnimation);
 	});

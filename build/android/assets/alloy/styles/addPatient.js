@@ -1,0 +1,5 @@
+XSym
+0114
+2af43eec708204550995274178b1a8df
+/Users/bluememon1/Documents/Titanium_Studio_Workspace/Anxiety-Monitor/Resources/android/alloy/styles/addPatient.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             

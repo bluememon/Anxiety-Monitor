@@ -1,0 +1,5 @@
+XSym
+0112
+6e1ad1527f8accf440a63b79b3262309
+/Users/bluememon1/Documents/Titanium_Studio_Workspace/Anxiety-Monitor/Resources/android/alloy/sync/properties.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               

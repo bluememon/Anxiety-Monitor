@@ -6,7 +6,7 @@
     <version>1.0</version>
     <publisher>Guillermo Uribe</publisher>
     <url>http://www.bluecoreservices.com</url>
-    <description/>
+    <description>undefined</description>
     <copyright>2015 by Guillermo Uribe</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
@@ -40,23 +40,23 @@
         </plist>
     </ios>
     <android xmlns:android="http://schemas.android.com/apk/res/android">
-        <uses-sdk>19</uses-sdk>
+        <uses-sdk>21</uses-sdk>
         <manifest>
             <application>
-                <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="19"/>
-                <receiver android:exported="true"
+                <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="21"/>
+                <!--<receiver android:exported="true"
                     android:name="com.google.android.gms.gcm.GcmReceiver" android:permission="com.google.android.c2dm.permission.SEND">
                     <intent-filter>
                         <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
-                        <category android:name="com.example.gcm"/>
+                        <category android:name="am.bluecoreservices.com.gcm"/>
                     </intent-filter>
-                </receiver>
-                <service android:exported="false" android:name="com.example.MyGcmListenerService">
+             </receiver>-->
+                <service android:exported="false" android:name="am.bluecoreservices.com.MyGcmListenerService">
                     <intent-filter>
                         <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
                     </intent-filter>
                 </service>
-                <service android:exported="false" android:name="com.example.MyInstanceIDListenerService">
+                <service android:exported="false" android:name="am.bluecoreservices.com.MyInstanceIDListenerService">
                     <intent-filter>
                         <action android:name="com.google.android.gms.iid.InstanceID"/>
                     </intent-filter>
@@ -107,5 +107,5 @@
     <property name="appc-creator-user-id" type="string">a49cd8e3-0e92-4296-9d35-dde5cd612f5a</property>
     <property name="acs-push-type-development" type="string">gcm</property>
     <property name="acs-push-type-production" type="string">gcm</property>
-    <property name="acs-push-type" type="string">gcm</property>  
+    <property name="acs-push-type" type="string">gcm</property>
 </ti:app>
